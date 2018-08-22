@@ -1,0 +1,97 @@
+Iniciado el proceso 2 del componente web a las 27/05/2018  1:49:24.03  
+Iniciado el proceso 2 del componente web a las 27/05/2018  1:52:21.76  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+Si encontro saldo diferente por lo que va actualizar el cliente, '71200200' CON DOUBLE saldo local: 51, saldo web:309.00
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,05,27,01,39,41) WHERE NUM_VIP = '71200200'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 25 clientes
+La respuesta es:Se sincronizaron 25 clientes
+Iniciado el proceso 2 del componente web a las 27/05/2018 22:53:34.07  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+INSERT INTO CLI_VIP VALUES('71200861','Moises Ulloa Cualquiera','5541402754','shookpa17@yahoo.com', DATE(2018,05,27),0.00,{//},0.00,{//},0.00,0,0.00,0.00,0.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,05,27,22,44,00) WHERE NUM_VIP = '71200861'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 26 clientes
+La respuesta es:Se sincronizaron 26 clientes
+Iniciado el proceso 2 del componente web a las 27/05/2018 23:43:39.14  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+Si encontro saldo diferente por lo que va actualizar el cliente, '71200861' CON DOUBLE saldo local: 0, saldo web:50.00
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,05,27,23,34,06) WHERE NUM_VIP = '71200861'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 26 clientes
+La respuesta es:Se sincronizaron 26 clientes
+Iniciado el proceso 2 del componente web a las 30/05/2018  8:10:16.42  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+INSERT INTO CLI_VIP VALUES('71200862','Ana Laura Quijano Ramos','55 5402 4175','analauraq@idisanet.com', DATE(2018,05,29),0.00,{//},0.00,{//},0.00,0,0.00,0.00,50.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,05,30,08,00,51) WHERE NUM_VIP = '71200862'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 1 clientes
+La respuesta es:Se sincronizaron 1 clientes
+Iniciado el proceso 2 del componente web a las 30/05/2018 20:14:35.36  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+INSERT INTO CLI_VIP VALUES('71200863','Silvia Ulloa Quijano','?(55) 1959 3823','Mhectar@gmail.com', DATE(2018,05,30),0.00,{//},0.00,{//},0.00,0,0.00,0.00,50.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,05,30,20,05,22) WHERE NUM_VIP = '71200863'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 2 clientes
+La respuesta es:Se sincronizaron 2 clientes
+Iniciado el proceso 2 del componente web a las 31/05/2018 20:21:59.29  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+INSERT INTO CLI_VIP VALUES('71200864','Maria Ulloa Q','5518490117','mhectar@gmail.com', DATE(2018,05,31),0.00,{//},0.00,{//},0.00,0,0.00,0.00,50.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,05,31,20,13,02) WHERE NUM_VIP = '71200864'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 3 clientes
+La respuesta es:Se sincronizaron 3 clientes
+Iniciado el proceso 2 del componente web a las 31/05/2018 23:55:05.56  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 3 clientes
+La respuesta es:Se sincronizaron 3 clientes
+Iniciado el proceso 2 del componente web a las 04/06/2018 18:37:25.44  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+INSERT INTO CLI_VIP VALUES('71200868','Gabriela Mendoza Vilchis','5518490117','mhectar@gmail.com', DATE(2018,06,03),0.00,{//},0.00,{//},0.00,0,0.00,0.00,50.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,06,04,18,27,25) WHERE NUM_VIP = '71200868'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 1 clientes
+La respuesta es:Se sincronizaron 1 clientes
+Iniciado el proceso 2 del componente web a las 04/06/2018 18:54:38.61  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+INSERT INTO CLI_VIP VALUES('71200869','Susana M Vilchis','5518490117','mhectar@gmail.com', DATE(2018,06,04),0.00,{//},0.00,{//},0.00,0,0.00,0.00,50.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,06,04,18,44,53) WHERE NUM_VIP = '71200869'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 2 clientes
+La respuesta es:Se sincronizaron 2 clientes
+Iniciado el proceso 2 del componente web a las 21/06/2018  3:35:00.08  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 18 clientes
+La respuesta es:Se sincronizaron 18 clientes
+Iniciado el proceso 2 del componente web a las 22/06/2018  3:05:00.17  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+Si encontro saldo diferente por lo que va actualizar el cliente, '71200357' CON DOUBLE saldo local: 161, saldo web:130.00
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,06,20,23,48,45) WHERE NUM_VIP = '71200357'
+Si encontro saldo diferente por lo que va actualizar el cliente, '71200807' CON DOUBLE saldo local: 194, saldo web:75.00
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,06,20,23,48,47) WHERE NUM_VIP = '71200807'
+Si encontro saldo diferente por lo que va actualizar el cliente, '71200836' CON DOUBLE saldo local: 310, saldo web:269.00
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,06,20,23,48,47) WHERE NUM_VIP = '71200836'
+INSERT INTO CLI_VIP VALUES('71200875','Moi Ulloa V','5518490117','mhectar@gmail.com', DATE(2018,06,21),0.00,{//},0.00,{//},0.00,0,0.00,0.00,50.00,10.00);
+Actualiza la fecha y hora de la tabla local conforme al web: UPDATE CLI_VIP_BIT SET last_updated_time = DATETIME(2018,06,21,20,02,57) WHERE NUM_VIP = '71200875'
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 6 clientes
+La respuesta es:Se sincronizaron 6 clientes
+Iniciado el proceso 2 del componente web a las 22/06/2018  3:35:00.11  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)
+A punto de enviar 6 clientes
+La respuesta es:Se sincronizaron 6 clientes

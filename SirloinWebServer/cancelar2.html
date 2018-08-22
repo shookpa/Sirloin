@@ -1,0 +1,711 @@
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" /><title>
+	Cancelar por Robo o Extrav�o
+</title><link rel="shortcut icon" href="images/favicon.png" />
+    <!-- Estilos -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.css" /><link rel="stylesheet" href="css/font-awesome.css" /><link rel="stylesheet" href="css/estilos_misc.css" /><link rel="stylesheet" href="css/estilos_style.css" /><link rel="stylesheet" href="css/main.css" /><link rel="stylesheet" href="css/promo.css" /><link rel="stylesheet" href="css/carousel.css" /><link rel="stylesheet" href="css/animate.css" media="all" /><link rel="stylesheet" href="css/hover.css" media="all" /><link href="css/nivo-lightbox.css" rel="stylesheet" /><link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" />
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js" type="text/javascript"></script>
+    <script src="js/DataTable.js" type="text/javascript"></script>
+</head>
+<body data-spy="scroll">
+    <form method="post" action="./Home.aspx?content=cancelby" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjA1MzQyNTc5OA9kFgJmD2QWAgIDD2QWDAIBD2QWBmYPFgIeB1Zpc2libGVoFgQCAQ9kFgICAQ8PFgIeCEltYWdlVXJsBRl+L2ltYWdlcy9wcm9maWxlL3VzZXIucG5nZGQCAw8WAh4JaW5uZXJodG1sBY4RPGRpdiBpZD0nbWFpbi1zbGlkZXInIGNsYXNzPSdjYXJvdXNlbCBzbGlkZScgZGF0YS1yaWRlPSdjYXJvdXNlbCc+PG9sIGNsYXNzPSdjYXJvdXNlbC1pbmRpY2F0b3JzIGhpZGRlbi14cyc+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzAnIGNsYXNzPSdhY3RpdmUnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzEnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzInPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzMnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzQnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzUnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzYnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzcnPjwvbGk+PC9vbD48ZGl2IGNsYXNzPSdjYXJvdXNlbC1pbm5lcicgb25kcmFnc3RhcnQ9J3JldHVybiBmYWxzZTsnIG9uY29udGV4dG1lbnU9J3JldHVybiBmYWxzZTsnPjxkaXYgY2xhc3M9J2l0ZW0gYWN0aXZlJz48YSBocmVmPSdodHRwOi8vd3d3LmNpZWxpdG9xdWVyaWRvLmNvbS5teCcgdGFyZ2V0PSdfYmxhbmsnPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUxNC5qcGcnIGFsdD0nc2xpZGVyJz48L2E+PC9kaXY+PGRpdiBjbGFzcz0naXRlbSc+PGEgaHJlZj0naHR0cDovL3d3dy5jaWVsaXRvcXVlcmlkby5jb20ubXgvJyB0YXJnZXQ9J19ibGFuayc+PGltZyBjbGFzcz0naW1nLXJlc3BvbnNpdmUnIHNyYz0naW1hZ2VzL3NsaWRlci9zbGlkZTExLnBuZycgYWx0PSdzbGlkZXInPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSdpdGVtJz48YSBocmVmPSdodHRwOi8vd3d3LmNpZWxpdG9xdWVyaWRvLmNvbS5teC8nIHRhcmdldD0nX2JsYW5rJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdpbWFnZXMvc2xpZGVyL3NsaWRlMTAuanBnJyBhbHQ9J3NsaWRlcic+PC9hPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUxLmpwZycgYWx0PSdzbGlkZXInPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUyLmpwZycgYWx0PSdzbGlkZXInPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUzLmpwZycgYWx0PSdzbGlkZXInPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxhIGhyZWY9J2h0dHA6Ly93d3cuY2llbGl0b3F1ZXJpZG8uY29tLm14LycgdGFyZ2V0PSdfYmxhbmsnPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGU0LmpwZycgYWx0PSdzbGlkZXInPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSdpdGVtJz48YSBocmVmPSdodHRwOi8vd3d3LmNpZWxpdG9xdWVyaWRvLmNvbS5teC8nIHRhcmdldD0nX2JsYW5rJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdpbWFnZXMvc2xpZGVyL3NsaWRlNS5qcGcnIGFsdD0nc2xpZGVyJz48L2E+PC9kaXY+PC9kaXY+PGEgaHJlZj0nI21haW4tc2xpZGVyJyBjbGFzcz0nbGVmdCBjYXJvdXNlbC1jb250cm9sJyByb2xlPSdidXR0b24nIGRhdGEtc2xpZGU9J3ByZXYnPiA8c3BhbiBjbGFzcz0nZ2x5cGhpY29uIGdseXBoaWNvbi1jaGV2cm9uLWxlZnQnIGFyaWEtaGlkZGVuPSd0cnVlJz48L3NwYW4+IDxzcGFuIGNsYXNzPSdzci1vbmx5Jz5BbnRlcmlvcjwvc3Bhbj48L2E+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPScjbWFpbi1zbGlkZXInIGNsYXNzPSdyaWdodCBjYXJvdXNlbC1jb250cm9sJyByb2xlPSdidXR0b24nIGRhdGEtc2xpZGU9J25leHQnPjxzcGFuIGNsYXNzPSdnbHlwaGljb24gZ2x5cGhpY29uLWNoZXZyb24tcmlnaHQnIGFyaWEtaGlkZGVuPSd0cnVlJz48L3NwYW4+PHNwYW4gY2xhc3M9J3NyLW9ubHknPlNpZ3VpZW50ZTwvc3Bhbj48L2E+PC9kaXY+ZAIBD2QWCgIDDw8WAh8BBRl+L2ltYWdlcy9wcm9maWxlL3VzZXIucG5nZGQCBQ8WAh8CBQpCaWVudmVuaWRvZAIHDxYCHwIFLTxzcGFuIGNsYXNzPSd1c2VybmFtZS1mbCc+TTwvc3Bhbj5pZ3VlbCBBbmdlbGQCCw8WBB8CBY4RPGRpdiBpZD0nbWFpbi1zbGlkZXInIGNsYXNzPSdjYXJvdXNlbCBzbGlkZScgZGF0YS1yaWRlPSdjYXJvdXNlbCc+PG9sIGNsYXNzPSdjYXJvdXNlbC1pbmRpY2F0b3JzIGhpZGRlbi14cyc+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzAnIGNsYXNzPSdhY3RpdmUnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzEnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzInPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzMnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzQnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzUnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzYnPjwvbGk+PGxpIGRhdGEtdGFyZ2V0PScjbWFpbi1zbGlkZXInIGRhdGEtc2xpZGUtdG89JzcnPjwvbGk+PC9vbD48ZGl2IGNsYXNzPSdjYXJvdXNlbC1pbm5lcicgb25kcmFnc3RhcnQ9J3JldHVybiBmYWxzZTsnIG9uY29udGV4dG1lbnU9J3JldHVybiBmYWxzZTsnPjxkaXYgY2xhc3M9J2l0ZW0gYWN0aXZlJz48YSBocmVmPSdodHRwOi8vd3d3LmNpZWxpdG9xdWVyaWRvLmNvbS5teCcgdGFyZ2V0PSdfYmxhbmsnPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUxNC5qcGcnIGFsdD0nc2xpZGVyJz48L2E+PC9kaXY+PGRpdiBjbGFzcz0naXRlbSc+PGEgaHJlZj0naHR0cDovL3d3dy5jaWVsaXRvcXVlcmlkby5jb20ubXgvJyB0YXJnZXQ9J19ibGFuayc+PGltZyBjbGFzcz0naW1nLXJlc3BvbnNpdmUnIHNyYz0naW1hZ2VzL3NsaWRlci9zbGlkZTExLnBuZycgYWx0PSdzbGlkZXInPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSdpdGVtJz48YSBocmVmPSdodHRwOi8vd3d3LmNpZWxpdG9xdWVyaWRvLmNvbS5teC8nIHRhcmdldD0nX2JsYW5rJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdpbWFnZXMvc2xpZGVyL3NsaWRlMTAuanBnJyBhbHQ9J3NsaWRlcic+PC9hPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUxLmpwZycgYWx0PSdzbGlkZXInPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUyLmpwZycgYWx0PSdzbGlkZXInPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGUzLmpwZycgYWx0PSdzbGlkZXInPjwvZGl2PjxkaXYgY2xhc3M9J2l0ZW0nPjxhIGhyZWY9J2h0dHA6Ly93d3cuY2llbGl0b3F1ZXJpZG8uY29tLm14LycgdGFyZ2V0PSdfYmxhbmsnPjxpbWcgY2xhc3M9J2ltZy1yZXNwb25zaXZlJyBzcmM9J2ltYWdlcy9zbGlkZXIvc2xpZGU0LmpwZycgYWx0PSdzbGlkZXInPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSdpdGVtJz48YSBocmVmPSdodHRwOi8vd3d3LmNpZWxpdG9xdWVyaWRvLmNvbS5teC8nIHRhcmdldD0nX2JsYW5rJz48aW1nIGNsYXNzPSdpbWctcmVzcG9uc2l2ZScgc3JjPSdpbWFnZXMvc2xpZGVyL3NsaWRlNS5qcGcnIGFsdD0nc2xpZGVyJz48L2E+PC9kaXY+PC9kaXY+PGEgaHJlZj0nI21haW4tc2xpZGVyJyBjbGFzcz0nbGVmdCBjYXJvdXNlbC1jb250cm9sJyByb2xlPSdidXR0b24nIGRhdGEtc2xpZGU9J3ByZXYnPiA8c3BhbiBjbGFzcz0nZ2x5cGhpY29uIGdseXBoaWNvbi1jaGV2cm9uLWxlZnQnIGFyaWEtaGlkZGVuPSd0cnVlJz48L3NwYW4+IDxzcGFuIGNsYXNzPSdzci1vbmx5Jz5BbnRlcmlvcjwvc3Bhbj48L2E+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YSBocmVmPScjbWFpbi1zbGlkZXInIGNsYXNzPSdyaWdodCBjYXJvdXNlbC1jb250cm9sJyByb2xlPSdidXR0b24nIGRhdGEtc2xpZGU9J25leHQnPjxzcGFuIGNsYXNzPSdnbHlwaGljb24gZ2x5cGhpY29uLWNoZXZyb24tcmlnaHQnIGFyaWEtaGlkZGVuPSd0cnVlJz48L3NwYW4+PHNwYW4gY2xhc3M9J3NyLW9ubHknPlNpZ3VpZW50ZTwvc3Bhbj48L2E+PC9kaXY+HwBoZAIRD2QWCAIBD2QWAgIBDw8WAh8BBSZ+L2ltYWdlcy9pY29ub3MvZGF0b3MtcGVyc29uYWxlcy0yLnBuZ2RkAgMPZBYCAgEPDxYCHwEFI34vaW1hZ2VzL2ljb25vcy9lc3RhZG8tY3VlbnRhLTIucG5nZGQCBQ9kFgICAQ8PFgIfAQUifi9pbWFnZXMvaWNvbm9zL2RhdG9zLWFjY2Vzby0yLnBuZ2RkAgcPZBYCAgEPDxYCHwEFIX4vaW1hZ2VzL2ljb25vcy9jYW5jZWxhci1yb2JvLnBuZ2RkAgIPFgIfAmVkAgMPDxYCHwBoZBYCAgEPFgQfAmUfAGhkAgUPDxYCHwBoZGQCBw8PFgIfAGhkFgJmD2QWDAIXDxBkZBYAZAIbDxBkEBUgClNlbGVjY2lvbmUBMQEyATMBNAE1ATYBNwE4ATkCMTACMTECMTICMTMCMTQCMTUCMTYCMTcCMTgCMTkCMjACMjECMjICMjMCMjQCMjUCMjYCMjcCMjgCMjkCMzACMzEVIAItMQExATIBMwE0ATUBNgE3ATgBOQIxMAIxMQIxMgIxMwIxNAIxNQIxNgIxNwIxOAIxOQIyMAIyMQIyMgIyMwIyNAIyNQIyNgIyNwIyOAIyOQIzMAIzMRQrAyBnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZxYBZmQCHw8QZGQWAWZkAiMPEGQQFVoKU2VsZWNjaW9uZQQyMDA2BDIwMDUEMjAwNAQyMDAzBDIwMDIEMjAwMQQyMDAwBDE5OTkEMTk5OAQxOTk3BDE5OTYEMTk5NQQxOTk0BDE5OTMEMTk5MgQxOTkxBDE5OTAEMTk4OQQxOTg4BDE5ODcEMTk4NgQxOTg1BDE5ODQEMTk4MwQxOTgyBDE5ODEEMTk4MAQxOTc5BDE5NzgEMTk3NwQxOTc2BDE5NzUEMTk3NAQxOTczBDE5NzIEMTk3MQQxOTcwBDE5NjkEMTk2OAQxOTY3BDE5NjYEMTk2NQQxOTY0BDE5NjMEMTk2MgQxOTYxBDE5NjAEMTk1OQQxOTU4BDE5NTcEMTk1NgQxOTU1BDE5NTQEMTk1MwQxOTUyBDE5NTEEMTk1MAQxOTQ5BDE5NDgEMTk0NwQxOTQ2BDE5NDUEMTk0NAQxOTQzBDE5NDIEMTk0MQQxOTQwBDE5MzkEMTkzOAQxOTM3BDE5MzYEMTkzNQQxOTM0BDE5MzMEMTkzMgQxOTMxBDE5MzAEMTkyOQQxOTI4BDE5MjcEMTkyNgQxOTI1BDE5MjQEMTkyMwQxOTIyBDE5MjEEMTkyMAQxOTE5BDE5MTgVWgItMQQyMDA2BDIwMDUEMjAwNAQyMDAzBDIwMDIEMjAwMQQyMDAwBDE5OTkEMTk5OAQxOTk3BDE5OTYEMTk5NQQxOTk0BDE5OTMEMTk5MgQxOTkxBDE5OTAEMTk4OQQxOTg4BDE5ODcEMTk4NgQxOTg1BDE5ODQEMTk4MwQxOTgyBDE5ODEEMTk4MAQxOTc5BDE5NzgEMTk3NwQxOTc2BDE5NzUEMTk3NAQxOTczBDE5NzIEMTk3MQQxOTcwBDE5NjkEMTk2OAQxOTY3BDE5NjYEMTk2NQQxOTY0BDE5NjMEMTk2MgQxOTYxBDE5NjAEMTk1OQQxOTU4BDE5NTcEMTk1NgQxOTU1BDE5NTQEMTk1MwQxOTUyBDE5NTEEMTk1MAQxOTQ5BDE5NDgEMTk0NwQxOTQ2BDE5NDUEMTk0NAQxOTQzBDE5NDIEMTk0MQQxOTQwBDE5MzkEMTkzOAQxOTM3BDE5MzYEMTkzNQQxOTM0BDE5MzMEMTkzMgQxOTMxBDE5MzAEMTkyOQQxOTI4BDE5MjcEMTkyNgQxOTI1BDE5MjQEMTkyMwQxOTIyBDE5MjEEMTkyMAQxOTE5BDE5MTgUKwNaZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnZ2dnFgFmZAJBDxYCHwBoFgICAQ8QZGQWAGQCWQ8WAh8AaGQCCQ8PFgIfAGhkFgpmDxYCHwIF5gs8ZGl2IGNsYXNzPSdjb2wtc20tNic+PGEgaHJlZj0naW1hZ2VzL3Byb21vdGlvbnMvcHJvbW8xMS5qcGcnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nZ2FsbGVyeTEnPjxpbWcgc3JjPSdpbWFnZXMvcHJvbW90aW9ucy9wcm9tbzExLmpwZycgYWx0PScnIGNsYXNzPSdpbWctcmVzcG9uc2l2ZSBodnItZ3Jvdy1zaGFkb3cnPjwvYT48ZGl2IGNsYXNzPSdjb250X3Byb21vX2J0bic+PGRpdiBpZD0nc2VlUHJvbW8xMycgY2xhc3M9J2J0bi1zZWUtcHJvbW8gaHZyLXNpbmsnPlZlciBQcm9tb2Npw7NuPC9kaXY+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0nY29sLXNtLTYnPjxhIGhyZWY9J2ltYWdlcy9wcm9tb3Rpb25zL3Byb21vOC5qcGcnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nZ2FsbGVyeTEnPjxpbWcgc3JjPSdpbWFnZXMvcHJvbW90aW9ucy9wcm9tbzguanBnJyBhbHQ9JycgY2xhc3M9J2ltZy1yZXNwb25zaXZlIGh2ci1ncm93LXNoYWRvdyc+PC9hPjwvZGl2PjxkaXYgY2xhc3M9J2JyLTUnPjwvZGl2PjxkaXYgY2xhc3M9J2NvbC1zbS02Jz48YSBocmVmPSdpbWFnZXMvcHJvbW90aW9ucy9wcm9tbzcuanBnJyBkYXRhLWxpZ2h0Ym94LWdhbGxlcnk9J2dhbGxlcnkxJz48aW1nIHNyYz0naW1hZ2VzL3Byb21vdGlvbnMvcHJvbW83LmpwZycgYWx0PScnIGNsYXNzPSdpbWctcmVzcG9uc2l2ZSBodnItZ3Jvdy1zaGFkb3cnPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSdjb2wtc20tNic+PGEgaHJlZj0naW1hZ2VzL3Byb21vdGlvbnMvcHJvbW8xLmpwZycgZGF0YS1saWdodGJveC1nYWxsZXJ5PSdnYWxsZXJ5MSc+PGltZyBzcmM9J2ltYWdlcy9wcm9tb3Rpb25zL3Byb21vMS5qcGcnIGFsdD0nJyBjbGFzcz0naW1nLXJlc3BvbnNpdmUgaHZyLWdyb3ctc2hhZG93Jz48L2E+PC9kaXY+PGRpdiBjbGFzcz0nYnItNSc+PC9kaXY+PGRpdiBjbGFzcz0nY29sLXNtLTYnPjxhIGhyZWY9J2ltYWdlcy9wcm9tb3Rpb25zL3Byb21vMy5qcGcnIGRhdGEtbGlnaHRib3gtZ2FsbGVyeT0nZ2FsbGVyeTEnPjxpbWcgc3JjPSdpbWFnZXMvcHJvbW90aW9ucy9wcm9tbzMuanBnJyBhbHQ9JycgY2xhc3M9J2ltZy1yZXNwb25zaXZlIGh2ci1ncm93LXNoYWRvdyc+PC9hPjwvZGl2PjxkaXYgY2xhc3M9J2NvbC1zbS02Jz48YSBocmVmPSdpbWFnZXMvcHJvbW90aW9ucy9wcm9tbzQuanBnJyBkYXRhLWxpZ2h0Ym94LWdhbGxlcnk9J2dhbGxlcnkxJz48aW1nIHNyYz0naW1hZ2VzL3Byb21vdGlvbnMvcHJvbW80LmpwZycgYWx0PScnIGNsYXNzPSdpbWctcmVzcG9uc2l2ZSBodnItZ3Jvdy1zaGFkb3cnPjwvYT48L2Rpdj48ZGl2IGNsYXNzPSdici01Jz48L2Rpdj48ZGl2IGNsYXNzPSdjb2wtc20tNic+PGEgaHJlZj0naW1hZ2VzL3Byb21vdGlvbnMvcHJvbW8yLmpwZycgZGF0YS1saWdodGJveC1nYWxsZXJ5PSdnYWxsZXJ5MSc+PGltZyBzcmM9J2ltYWdlcy9wcm9tb3Rpb25zL3Byb21vMi5qcGcnIGFsdD0nJyBjbGFzcz0naW1nLXJlc3BvbnNpdmUgaHZyLWdyb3ctc2hhZG93Jz48L2E+PC9kaXY+ZAIBDxYCHwJlZAICDxYCHwIFjQE8c2NyaXB0IHR5cGU9J3RleHQvamF2YXNjcmlwdCc+JChmdW5jdGlvbigpeyQoJyNzZWVQcm9tbzEzJykuY2xpY2soZnVuY3Rpb24oKXt3aW5kb3cub3BlbignaHR0cDovL3d3dy5jaWVsaXRvcXVlcmlkby5jb20ubXgnKTt9KTt9KTs8L3NjcmlwdD5kAgMPZBYIAgEPDxYCHgRUZXh0BQxNaWd1ZWwgQW5nZWxkZAIFDw8WAh8DBRthbmdlbC5qYWltZUBpdHByb3RlYy5jb20ubXhkZAILDw8WAh8DBQo1NTU4NjU4NTczZGQCDw8PFgIfAwUgQnVlbmFzIHRhcmRlcyEsIG1lIGd1c3RhcsOtYSAuLi5kZAIEDxYEHwJlHwBoZAILD2QWAgIBD2QWAmYPZBYGAgEPFgIfAgVxPGxhYmVsIGZvcj0nJyBjbGFzcz0nY29udHJvbC1sYWJlbCBjb2wtbWQtNSB0ZXh0LWNhcmQgaGlkZGVuLXhzJz5Ow7ptZXJvIGRlIFRhcmpldGEgQ2llbGl0byBkZSBDb3JhesOzbjogPC9sYWJlbD5kAgMPFgIfAgUZMjU4MyAtIDIzMzIgLSAwMTQ5IC0gNzA4MGQCBw8WBB8CZR8AaGRkFzFX+ZAUqvImNf/57ukcW1uuX6A=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=yUjNtRqpnJ4HYVVWxwa7gnReMzKMzyjvUkofEy89ZamU0mtxg-Vj1SKpa7PYomLf2yIKQolOfq-xAAuohY95wjgXpD41&amp;t=636403298294818574" type="text/javascript"></script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8D0E13E6" />
+	<input type="hidden" name="__SCROLLPOSITIONX" id="__SCROLLPOSITIONX" value="0" />
+	<input type="hidden" name="__SCROLLPOSITIONY" id="__SCROLLPOSITIONY" value="0" />
+</div>
+
+        <!-- Men� -->
+        
+
+<!--Men� Principal An�nimo-->
+
+<!--Termina Men� Principal An�nimo-->
+
+<!--Men� Principal del Cliente Logueado-->
+<div id="Menu_cont_menu_user">
+    <div class="site-header" ondragstart="return false;" oncontextmenu="return false;">
+            <div class="main-headerfix" id="main-header">
+                <div class="container-fluid">
+                    <div id="menu-wrapper">
+                        <div class="row">
+                            <div class="logo-movil hidden-md hidden-lg">
+                                <div class="logo_cielito_corazon"><a href="Home.aspx"><img src="images/logo/logo_header_movil.png" ></a></div>
+                            </div>
+                            <div class="logoindex hidden-sm hidden-xs">
+                                <div class="logo_cielito_corazon"><a href="Home.aspx"><img src="images/logo/logo_header.png" alt="" /></a></div>
+                            </div>
+                            <!-- /.logo -->
+                            <div class="col-md-12 col-sm-12 main-menu menu-cielito">
+                               <center><img src="images/logo/logo_cielitoquerido.png" id="logo_index_3" class="img-responsive hidden-xs"></center>
+                                <center><ul class="menu-first hidden-sm hidden-xs">
+                                    <li><a href="#quees" id="whatis">�Qu� es?</a>
+                                    </li>
+                                    <li class="menu-bullet">�</li>
+                                    <li><a href="#como" id="howitwork">�C�mo funciona?</a>
+                                    </li>
+                                    <li class="menu-bullet">�</li>
+                                    <li><a href="#promociones" id="promotions">Promociones</a>
+                                    </li>
+                                    <li class="menu-bullet">�</li>
+                                    <li><a href="#contact" id="contacto">Contacto</a>
+                                    </li>
+                                    <li class="menu-bullet">�</li>
+                                    <li id="li_active"><a href="#account" id="myaccount">Mi cuenta</a></li>
+                                    <li class="menu-bullet">�</li>
+                                    <li><input type="submit" name="ctl00$Menu$CloseSession" value="Cerrar sesi�n" id="Menu_CloseSession" class="btn_close_session" /></li>
+                                    </li>
+                                </ul></center>
+                                <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+                            </div><!-- /.main-menu -->
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="cont-welcome-profile">
+                                    <img id="Menu_img_profile" class="img-profile" ondragstart="return false" oncontextmenu="return false" src="images/profile/user.png" />
+                                </div>
+                                <div class="text-welcome-cont"><span id="Menu_welcome">Bienvenido</span> <span class="menu-bullet-2">�</span> <div id="Menu_welcomeName" class="username"><span class='username-fl'>M</span>iguel Angel</div></div>
+                            </div>
+                        </div><!-- /.row -->
+                    </div><!-- /#menu-wrapper -->
+                    
+                    <div class="menu-responsive hidden-md hidden-lg">
+                        <ul>
+                            <li><a href="#quees" id="mobilewhatis">�Qu� es?</a>
+                            </li>
+                            <li><a href="#como" id="mobilehowitwork">�C�mo funciona?</a>
+                            </li>
+                            <li><a href="#promociones" id="mobilepromotions">Promociones</a>
+                            </li>
+                            <li><a href="#contact" id="mobilecontact">Contacto</a>
+                            </li>
+                            <li><a id="downloadAppMobile" class="cursor">Desc�rga la App</a>
+                            </li>
+                            <li id="li_activemobile"><a href="#account" id="mobilemyaccount">Mi cuenta</a></li>
+                            <li><input type="submit" name="ctl00$Menu$CloseSessionMobile" value="Cerrar sesi�n" id="Menu_CloseSessionMobile" class="btn_close_session" /></li>
+                        </ul>
+                    </div><!-- /.menu-responsive -->
+                </div><!-- /.container -->
+            </div><!-- /.main-header -->
+        </div><!-- /.site-header -->
+    
+    <!--Contenedor del Slider Principal-->
+    
+    <!--Termina contenedor de Slider Principal-->
+    
+    <!--HiddenField para validar con JQuery c�mo se muestra el men�-->
+    <input type="hidden" name="ctl00$Menu$HfIsInAccount" id="Menu_HfIsInAccount" value="1" />
+    <input type="hidden" name="ctl00$Menu$HfIsAnonymous" id="Menu_HfIsAnonymous" value="0" />
+
+    <!--Men� de la cuenta-->
+    <div id="Menu_cont_menu_account" ondragstart="return false;" oncontextmenu="return false;">
+        <div class="vaciotop" id="account"></div>
+        <div class="br-4 hidden-xs"></div>
+        <!--New Menu-->
+        <div class="col-sm-12 cont-main-menu">
+            <div class="row">
+                <div id="Menu_section_personal_data" class="col-sm-3 col-xs-12 item-1 cursor hvr-pop">
+                    <div class="boton-section">
+                        <center><img id="Menu_ImgPersonalData" src="images/iconos/datos-personales-2.png" style="width:200px;" /></center>
+                    </div>
+                </div>
+                <div id="Menu_section_account_status" class="col-sm-3 col-xs-12 item-2 cursor hvr-pop">
+                    <div class="boton-section">
+                        <center><img id="Menu_ImgAccountState" src="images/iconos/estado-cuenta-2.png" style="width:200px;" /></center>
+                    </div>
+                </div>
+                <div id="Menu_section_access_data" class="col-sm-3 col-xs-12 item-3 cursor hvr-pop">
+                    <div class="boton-section">
+                        <center><img id="Menu_ImgAccessData" src="images/iconos/datos-acceso-2.png" style="width:200px;" /></center>
+                    </div>
+                </div>
+                <div id="Menu_section_cancel_by" class="col-sm-3 col-xs-12 item-4 cursor hvr-pop">
+                    <div class="boton-section">
+                        <center><img id="Menu_ImgCancelBy" src="images/iconos/cancelar-robo.png" style="width:200px;" /></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--Termina Men� Principal del Cliente Logueado-->
+
+<!--Modal Container-->
+<div id="Menu_cont_modals"></div>
+
+
+
+<script type="text/javascript" src="js/menu_logueado.js"></script>
+        <!-- Login -->
+        
+
+        <!--Layout (�Qu� es?)-->
+        
+
+        <!--Registro-->
+        
+
+        <!--Layout �C�mo funciona?-->
+        
+
+        <!--Content-->
+        
+    <div id="ContentPlaceHolder1_PnlContent">
+	
+
+<script type="text/javascript">
+
+$(function() {
+    $('#ConfirmCancel')['click'](function() {
+        $('#ModalConfirmCancel')['modal']('show')
+    })
+})
+
+</script>
+<!-- contenido -->
+<section class="content-section" id="registro" ondragstart="return false;" oncontextmenu="return false;">
+    <center><img src="images/home/line-dotted-strong.png" class="img-responsive img-opacity"></center>
+    <div class="container animate fadeIn" style="animation-duration:1s">
+        <div class="heading-section col-md-12 text-center">
+            <h2 class="text-uppercase text-red">Cancelar por Robo o Extrav�o</h2>
+        </div>
+        <div class="col-sm-12">
+            <div class="cont_text_info">
+                <span class="text-info">En caso de que tu Tarjeta Cielito de Coraz�n haya sido robada o extraviada debes realizar los siguientes pasos:</span>
+                <div class="br-3"></div>
+                <strong>1.</strong>	Cancela tu Tarjeta Cielito de Coraz�n en esta secci�n indicado el motivo de la cancelaci�n <b>(robo o extrav�o)</b> para que nadie pueda hacer uso de tus <b>Puntos Cielito</b>.<br />
+                <strong>2.</strong>	Acude a una sucursal de Cielito Querido Caf� e indica al cajero que quieres realizar la reposici�n de una Tarjeta de Cielito de Coraz�n.<br />
+                <strong>3.</strong>	Ind�cale al cajero el n�mero de Tarjeta Cielito de Coraz�n que cancelaste para que transfiera tu saldo en <b>Puntos Cielito</b> a la Tarjeta de reemplazo.<br /> <b>�Podr�s continuar gozando de los beneficios de Cielito de Coraz�n!</b>.
+            </div>
+        </div>
+        <div class="form-horizontal">
+            <!----Tarjeta-->
+            <div class="form">
+                <div class="form-group">
+                    <div id="ContentPlaceHolder1_ctl00_cont_text_card"><label for='' class='control-label col-md-5 text-card hidden-xs'>N�mero de Tarjeta Cielito de Coraz�n: </label></div>
+                    <div class="col-md-5">
+                        <div id="ContentPlaceHolder1_ctl00_Card" class="card-edit">2583 - 2332 - 0149 - 7080</div>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!----Tipo de cancelaci�n-->
+            <div class="form">
+                <div class="form-group">
+                    <label for="" class="control-label col-md-5 hidden-xs">Motivo de cancelaci�n:</label>
+                    <div class="col-md-5">
+                        <select name="ctl00$ContentPlaceHolder1$ctl00$ddlCardStatus" id="ContentPlaceHolder1_ctl00_ddlCardStatus" class="form-control">
+		<option value="6">Robo</option>
+		<option value="4">Extrav&#237;o</option>
+
+	</select>
+                    </div>
+                </div>
+            </div>
+            <!---->
+            <!--Funciones-->
+            <div class="form-group text-center">
+                <div id="ConfirmCancel" class="btn-cancel-card">Proceder a cancelaci�n</div>
+            </div>
+            
+            <input type="hidden" name="ctl00$ContentPlaceHolder1$ctl00$HfPuntosRecompensas" id="ContentPlaceHolder1_ctl00_HfPuntosRecompensas" value="2583233201497080" />
+            <!---->
+        </div>
+    </div>
+</section>
+<div class="vacio"></div>
+
+<!--Cancelar-->
+<div class="modal face" id="ModalConfirmCancel">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <br />
+                <center><img src="images/logo/logo_header_2.png" width="200" alt=""></center>
+                <br/>
+                <div class="text-center popcancelar">�Est�s seguro de cancelar tu tarjeta?</div>
+                <!--en la clase de popcancelar -estilos_style.css pueden modificar el espacio del pop-->
+                <div class="form-group text-center">
+                    <button type="button" class="boton" data-dismiss="modal">Regresar</button>
+                    <input type="submit" name="ctl00$ContentPlaceHolder1$ctl00$BtnCancelCard" value="Aceptar" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$ctl00$BtnCancelCard&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_ctl00_BtnCancelCard" class="btn-accept-cancel" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---->
+</div>
+
+
+        <!-- Footer -->
+        <div class="br-5 bg-grey"></div>
+        <div class="bg-grey">
+            <div class="container bg-grey" ondragstart="return false;" oncontextmenu="return false;">
+                <a href="http://www.bluepureloyalty.com/" target="_blank"><img src="images/PoweredByBlue.png" alt="" class="pull-right powered" /></a>
+            </div>
+        </div>
+
+        <div class="container-fluid footermodal">
+            <div class="">
+                <ul>
+                    <li><a href="#terminos" data-toggle="modal">T�rminos y Condiciones</a></li>
+                    <li>|</li>
+                    <li><a href="#preguntas" data-toggle="modal">Preguntas Frecuentes</a></li>
+                    <li>|</li>
+                    <li><a href="#privacidad" data-toggle="modal">Aviso de Privacidad</a></li>
+                    <li>|</li>
+                    <li><a href="mailto:info@cielitodecorazon.mx">info@cielitodecorazon.mx</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footerb container-fluid" ondragstart="return false;" oncontextmenu="return false;">
+            <div class="text-center">
+            <center><a href="http://www.bluepureloyalty.com/" target="_blank"><img src="images/icono_blue.png" alt="" />blue.mx</a></center></div>
+            <div class="text-center">
+                <a href="http://www.bluepureloyalty.com/" class="bluemx" target="_blank"></a>
+            </div>
+        </div>
+
+        <!--T�RMINOS Y CONDICIONES-->
+        <div class="modal face" id="terminos">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button style="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h2 class="modal-title page-header text-center"><strong>T�RMINOS Y CONDICIONES DE<br /> CIELITO DE CORAZ�N</strong></h2>
+                        <br />                      
+                        <p class="text-justify">
+                            <strong>Definiciones</strong>
+                            <br />
+                            Para el programa Cielito de Coraz�n los t�rminos establecidos a continuaci�n tendr�n los siguientes significados:
+                        </p>
+                        <p class="text-justify">
+                            <strong>a) Cielito de Coraz�n:</strong>
+                            <br />
+                            Es el Programa Comercial de Lealtad de RC OPERADORA DE CAFETERIAS S.A. DE C.V. (CIELITO QUERIDO CAF�) operado y administrado por OPERADORA ROFERI S.A. DE C.V. (Blue Pure Loyalty) para favorecer a los clientes de los Cielito Querido Caf� participantes, mediante el cual las personas inscritas al mismo participan en promociones y/o acumulan cr�ditos en Puntos Cielito en su Cuenta de socio por la adquisici�n de determinados productos, mismos que podr�n variar de tiempo en tiempo sin previo aviso. Tal acumulaci�n se realiza de acuerdo a los T�rminos y Condiciones del programa por los Beneficios establecidos para tal efecto. Los Socios del programa Cielito de Coraz�n gozar�n de elegibilidad para recibir dichos Beneficios. Al programa Cielito de Coraz�n en lo sucesivo y para efectos del presente documento se le denominar� indistintamente como programa Cielito de Coraz�n o como el programa.
+                        </p>
+                        <p class="text-justify">
+                            <strong>b) Puntos Cielito:</strong>
+                            <br />
+                            Es la denominaci�n que se da a los cr�ditos que, conforme a los T�rminos y Condiciones del programa, se otorgan a los Socios y se acumulan en su Cuenta por la adquisici�n de determinados bienes ofrecidos. A los Puntos Cielito en lo sucesivo y para efectos de este documento se les denominar� indistintamente como Puntos Cielito o como Puntos.
+                        </p>
+                        <p class="text-justify">
+                            <strong>c) T�rminos y Condiciones del programa Cielito de Coraz�n:</strong>
+                            <br />
+                            Son las normas, reglas y pol�ticas conforme a las cuales se opera y administra el programa, siendo susceptibles de ser modificadas sin previo aviso de tiempo. En dichos T�rminos y Condiciones contenidas en el presente documento o en las versiones subsecuentes de los mismos, estando vigentes la �ltima versi�n de los mismos y a los cuales los Socios del programa en tal car�cter se sujetan y obligan a cumplir, en virtud del acto de tramitar su inscripci�n al programa Cielito de Coraz�n.
+                        </p>
+                        <p class="text-justify">
+                            <strong>d) Acuerdo de confidencialidad:</strong>
+                            <br />
+                            La informaci�n de cada Socio se manejar� con car�cter de confidencial exclusivamente para que reciba informaci�n y beneficios del programa Cielito de Coraz�n.
+                        </p>
+                        <p class="text-justify">
+                            <strong>e) Acumulaci�n de Puntos Cielito:</strong>
+                            <br />
+                            Es el procedimiento mediante el cual el socio se hace acreedor a obtener Puntos Cielito por la compra de productos autorizados por Cielito Querido Caf� conforme a los T�rminos y Condiciones vigentes de El Programa.
+                        </p>
+                        <p class="text-justify">
+                            <strong>f) Beneficios Cielito de Coraz�n:</strong>
+                            <br />
+                            Son las prestaciones en productos y/o servicios que tienen derecho de elegibilidad los Socios, en canje o redenci�n de los Puntos o cualquier otra mec�nica que decida Cielito Querido Caf�. Mismos que podr�n variar de tiempo en tiempo sin previo aviso por parte de Cielito Querido Caf�. A los Beneficios Cielito de Coraz�n en lo sucesivo y para efectos del presente documento se le denominar� indistintamente como Beneficios Cielito de Coraz�n o como Beneficios.
+                        </p>
+                        <p class="text-justify">
+                            <strong>g) Bono Adicional de Acumulaci�n:</strong>
+                            <br />
+                            Son los Puntos adicionales que se acumulan en la Cuenta del Socio por la adquisici�n y/o utilizaci�n llevada a cabo por los Socios, de determinados productos y/o servicios. Dicho Bono Adicional se podr� establecer por tipo de producto, periodo de tiempo y/o cualquier otro criterio que determine Cielito Querido Caf�.
+                        </p>
+                        <p class="text-justify">
+                            <strong>h) Canales de venta v�lidos para la acumulaci�n de Puntos Cielito:</strong>
+                            <br />
+                            Son los canales de venta autorizados para la acumulaci�n de Puntos Cielito. Por el momento, ser�n tales canales las sucursales de Cielito Querido Caf� autorizadas ubicadas en toda la Rep�blica Mexicana. Cielito Querido Caf� se reserva el derecho de modificar los canales de venta elegibles de tiempo en tiempo y sin previo aviso.
+                        </p>
+                        <p class="text-justify">
+                            <strong>i) Bono de bienvenida:</strong>
+                            <br />
+                            Es el bono adicional en Puntos Cielito que el socio recibe al completar el registro de sus datos a trav�s del sitio de internet del programa, app m�vil o del Centro de Atenci�n Telef�nica.
+                        </p>
+                        <p class="text-justify">
+                            <strong>j) Canales de venta v�lidos para el canje o redenci�n de Puntos Cielito:</strong>
+                            <br />
+                            Son los canales de venta autorizados para el canje o la redenci�n de Puntos Cielito. Por el momento, ser�n tales canales los Cielito Querido Caf� autorizados ubicados en toda la Rep�blica Mexicana. Cielito Querido Caf� tiene el derecho de modificar los canales de venta elegibles de tiempo en tiempo y sin previo aviso.
+                        </p>
+                        <p class="text-justify">
+                            <strong>k) Canje o Redenci�n de Puntos Cielito:</strong>
+                            <br />
+                            Es el procedimiento mediante el cual el Socio paga en canje o redenci�n los Puntos acumulados en su Cuenta para la obtenci�n del Beneficio requerido.
+                        </p>
+                        <p class="text-justify">
+                            <strong>l) Cuenta del Socio:</strong>
+                            <br />
+                            Es la cuenta individual que se asigna a cada Socio en la cual se acumular�n los Puntos Cielito a que tiene derecho el Socio.
+                        </p>
+                        <p class="text-justify">
+                            <strong>m) Formas de Pago V�lidas para la Acumulaci�n de Puntos:</strong>
+                            <br />
+                            Son las formas de pago autorizadas por Cielito Querido Caf� para la acumulaci�n de Puntos siendo al momento el dinero en efectivo, las Tarjetas bancarias de cr�dito y d�bito. Cielito Querido Caf� tiene el derecho de modificar las Formas de Pago V�lidas de tiempo en tiempo y sin previo aviso.
+                        </p>
+                        <p class="text-justify">
+                            <strong>n) Miembro o Socio Cielito de Coraz�n:</strong>
+                            <br />
+                            Es la Persona inscrita al programa, conforme a cualquiera de los mecanismos establecidos para tal efecto. Al Miembro o Socio Cielito de Coraz�n en lo sucesivo y para efectos del presente documento se le denominar� indistintamente como Miembro o Socio.
+                        </p>
+                        <p class="text-justify">
+                            <strong>o) Pesos:</strong>
+                            <br />
+                            Para efectos del presente documento, se considerar� como la referencia a la moneda de uso legal dentro de la Rep�blica Mexicana.
+                        </p>
+                        <p class="text-justify">
+                            <strong>p) Tarjeta Cielito de  Coraz�n:</strong>
+                            <br />
+                            Es la tarjeta expedida por Cielito Querido Caf� a favor de cada Socio, mediante la cual se le acredita como Socio del programa conforme a los T�rminos y Condiciones del mismo. Cada tarjeta contiene un N�mero de Cuenta �nico, dicha Tarjeta es intransferible y deber� de presentarse necesariamente por el Socio para la realizaci�n de cualquier tr�mite respecto al programa. Las tarjetas Cielito de Coraz�n podr�n ser retiradas en cualquier momento. Asimismo, Cielito Querido Caf� se reserva el derecho de cancelar o modificar parcial o totalmente el programa sin previo aviso. A la tarjeta Cielito de Coraz�n en lo sucesivo y para efectos de este documento se le denominar� indistintamente como tarjeta Cielito de Coraz�n o como la tarjeta.
+                        </p>
+                        <p class="text-justify">
+                            <strong>q) Transacci�n Autorizada:</strong>
+                            <br />
+                            Es la compra llevada a cabo por los Socios, de los productos determinados por Cielito Querido Caf� con una forma de Pago V�lida para la Acumulaci�n de Puntos conforme a los T�rminos y Condiciones vigentes de El Programa.
+                        </p>
+                        <p class="text-justify">
+                            <strong>r) Vencimiento de Puntos:</strong>
+                            <br />
+                            Es el procedimiento mediante el cual se realiza la revisi�n de la cuenta del socio para determinar la cantidad de Puntos que ya no son vigentes y que son descontados de su cuenta.
+                        </p>
+                        <p class="text-justify">
+                            <strong>s) Vigencia de la tarjeta Cielito de Coraz�n:</strong>
+                            <br />
+                            Es el periodo de tiempo en el cual la tarjeta Cielito de Coraz�n es v�lida para la acumulaci�n y canje de Puntos Cielito.
+                        </p>
+                        <p>
+                            <strong>t) Vigencia de los Puntos:</strong>
+                            <br />
+                            Es el periodo de tiempo en el cual los Puntos Cielito son v�lidos para ser utilizados como canje. Los Puntos Cielito son v�lidos por un periodo de 12 meses a partir del mes de acumulaci�n. Una vez transcurrido este periodo y en caso de no ser utilizados, ser�n descontados de la cuenta del socio por medio de un proceso de vencimiento de Puntos.
+                        </p>
+                        <h2 class="modal-title page-header text-center"><strong>T�RMINOS Y CONDICIONES DEL<br /> PROGRAMA CIELITO DE CORAZ�N PARA SOCIOS</strong></h2>
+                        <br /> 
+                        <p class="text-justify">
+                            <strong>De la compra de la Tarjeta Cielito de Coraz�n:</strong>
+                            <br />
+                            El cliente podr� obtener su tarjeta del programa de lealtad Cielito de Coraz�n comprando su tarjeta pl�stica o virtual en cualquier sucursal de Cielito Querido Caf� de la siguiente manera:<br />
+                            <i class="fa fa-check"></i> Adquiriendo una Tarjeta pl�stica o virtual Cielito de Coraz�n en cualquier sucursal de Cielito Querido Caf�.<br />
+                            <i class="fa fa-check"></i> Una vez que el cliente haya comprado su Tarjeta pl�stica el cliente podr� adquirir su Tarjeta virtual descargando descargar la APP m�vil del programa de lealtad Cielito de Coraz�n. En caso de que el cliente haya comprado su Tarjeta virtual el cliente deber� descargar la App M�vil, escanear el c�digo de la Tarjeta Virtual y registrar sus datos para tener disponible su Tarjeta virtual en la App M�vil.<br />
+                            2. Para poder hacer uso de la tarjeta Cielito de Coraz�n y el socio comience a acumular Puntos Cielito desde su primera compra, es necesario que adquiera la Tarjeta Cielito de Coraz�n pl�stica o virtual.<br />
+                            3. El precio de venta de la Tarjeta pl�stica Cielito de Coraz�n ser� de $10.00 (diez pesos) IVA incluido y el precio de venta de la Tarjeta virtual Cielito de Coraz�n ser� de $5.00 (diez pesos) IVA incluido.<br />
+                            4. Tanto la Tarjeta pl�stica como la Tarjeta virtual Cielito de Coraz�n solo se activa al momento de comprarla en el Punto de Venta.
+                        </p>
+                        <p class="text-justify">
+                            <strong>Del registro de datos de la Tarjeta Cielito de Coraz�n:</strong>
+                            <br />
+                            5. El socio podr� realizar el registro de sus datos y crear su cuenta de socio a trav�s de los 3 canales disponibles para tal fin:<br />
+                            <i class="fa fa-check"></i> Sitio de internet del programa de Lealtad Cielito de Coraz�n wwww.cielitodecorazon.mx ingresando a la secci�n REGISTRA TUS DATOS y colocando el n�mero de 16 d�gitos de su tarjeta Cielito de Coraz�n sin espacios y posteriormente completando los campos de datos personales.<br />
+                            <i class="fa fa-check"></i> Centro de Atenci�n Telef�nica del programa de Lealtad operado por Blue Pure Loyalty llamando al tel�fono (55) 5812-9448 en un horario de 9:00 a 18:00 hrs, hora del Centro de M�xico, de lunes a viernes excepto d�as festivos.<br />
+                            <i class="fa fa-check"></i> App Cielito de Coraz�n registrando sus datos completos escaneando el c�digo de barras de su Tarjeta pl�stica o virtual Cielito de Coraz�n y posteriormente completando los campos de datos personales.<br />
+                            6. Durante el proceso de registro se le solicitar� al socio ingresar su correo electr�nico y la creaci�n de una contrase�a personal. Estos datos servir�n para ingresar a su informaci�n en el sitio de internet del programa o en la App M�vil. Ni CIELITO QUERIDO CAF� ni BLUE ser�n responsables por el mal uso o uso de un tercero de la informaci�n de acceso a la cuenta del socio ya que dicha informaci�n es personal e intransferible.<br />
+                            7. Una vez concluido el proceso de registro de datos de su tarjeta pl�stica el socio recibir� un Bono de Bienvenida de 10 Puntos Cielito y a partir de ese momento el cliente podr� usar sus Puntos Cielito como forma de pago. Y en el caso de haber adquirido su tarjeta virtual al completar el registro de datos el Bono de Bienvenida ser� de 5 puntos.
+                        </p>
+                        <p class="text-justify">
+                            <strong>De la Acumulaci�n de Puntos Cielito:</strong>
+                            <br />
+                            8. La acumulaci�n de Puntos Cielito �nicamente aplicar� en las compras de productos de alimentos y bebidas autorizados por Cielito Querido Caf� a trav�s de los Cielito Querido Caf� participantes en el programa.<br />
+                            9. La acumulaci�n de puntos es �nicamente por alimentos y bebidas autorizados por Cielito Querido Caf�.<br />
+                            10. La compra de la tarjeta Cielito de Coraz�n no genera Puntos.<br />
+                            11. El socio acumular� el 10% en Puntos Cielito del total de su compra �nicamente en productos y bebidas autorizadas por Cielito Querido Caf�.<br />
+                            12. La solicitud de acumulaci�n de Puntos se debe realizar al momento de la compra, para lo cual el socio tendr� las siguientes opciones:<br />
+                            <i class="fa fa-check"></i> Presentar la Tarjeta pl�stica Cielito de Coraz�n, o presentar Tarjeta virtual Cielito de Coraz�n.<br />
+                            <i class="fa fa-check"></i> Si el Socio no lleva su Tarjeta pl�stica al momento de la compra, podr� acumular Puntos Cielito proporcionando su Nombre, Apellido Paterno y los �ltimos 4 d�gitos de su tel�fono registrado, o bien presentar su tarjeta virtual.<br />
+                            13. La acumulaci�n de Puntos Cielito a la cuenta del socio por la compra realizada se har� en un lapso de 24 a 48 horas.<br />
+                            14. No es posible realizar acumulaciones una vez que la compra ha sido finalizada.<br />
+                            15. Tope de Acumulaci�n: Se colocar� un tope de 4 transacciones de acumulaci�n por horario establecido por d�a:<br />
+                            <i class="fa fa-check"></i> 5:00 AM a 11:59 AM<br />
+                            <i class="fa fa-check"></i> 12:00 PM a 5:59 PM<br />
+                            <i class="fa fa-check"></i> 6:00 PM a 11:00 PM<br />
+                            <i class="fa fa-check"></i> De 11:01 PM a 4:59 AM NO SE PERMITIR�N TRANSACCIONES DE BONIFICACION.<br />
+                            16. Tope de Canje: Se colocar� un tope de 4 transacciones de canje por horario establecido por d�a:<br />
+                            <i class="fa fa-check"></i> 5:00 AM a 11:59 AM<br />
+                            <i class="fa fa-check"></i> 12:00 PM a 5:59 PM<br />
+                            <i class="fa fa-check"></i> 6:00 PM a 11:00 PM<br />
+                            <i class="fa fa-check"></i> De 11:01 PM a 4:59 AM NO SE PERMITEN TRANSACCIONES DE CANJE.
+                        </p>    
+                        <p class="text-justify">
+                            <strong>Del canje de Puntos Cielito como forma de pago:</strong>
+                            <br />
+                            17. Los Puntos Cielito podr�n ser utilizados como forma de pago parcial o total en los Cielito Querido Caf� participantes �nicamente para la compra de productos de alimentos y bebidas autorizados por Cielito Querido Caf�.<br />
+                            18. Para poder realizar el canje de Puntos Cielito es necesario que el socio haya registrado previamente sus datos a trav�s del sitio de Internet del programa, App M�vil o llamando al Centro de Atenci�n Telef�nica.<br />
+                            19. Para realizar el canje de Puntos Cielito es indispensable que el socio presente f�sicamente su Tarjeta pl�stica o virtual.<br />
+                            20. El valor de cada Puntos Cielito acumulado en la cuenta del socio al utilizarse como forma de pago ser� de $1.00 peso, por ejemplo: 1 Punto = $1 peso.<br />
+                            21. Por ning�n motivo el socio podr� canjear sus Puntos Cielito acumulados por dinero en efectivo.<br />
+                            22. El monto de la compra pagada con Puntos Cielito no es facturable; la expedici�n de facturas se realizar� �nicamente sobre el monto pagado en Efectivo y/o Tarjetas de cr�dito y/o d�bito.<br />
+                            23. La compra de Puntos Cielito no es Facturable.
+                        </p>
+                        <p class="text-justify">
+                            <strong>De la Vigencia de la tarjeta Cielito de Coraz�n y de los Puntos Cielito:</strong>
+                            <br />
+                            24. La vigencia de los Puntos Cielito acumulados en la cuenta del socio ser� de 12 meses a partir del mes de acumulaci�n, por ejemplo; los Puntos acumulados en el mes de agosto del a�o en curso vencer�n 1 a�o despu�s en el primer minuto del primer d�a de septiembre en caso de no utilizarlos.<br />
+                            25. La Tarjeta Cielito de Coraz�n no tendr� vigencia ni costo de renovaci�n.
+                        </p>
+                        <p class="text-justify">
+                            <strong>De la Cancelaci�n y Reposici�n de la Tarjeta Cielito de Coraz�n:</strong>
+                            <br />
+                            26. En caso de Robo o Extrav�o de la Tarjeta Cielito de Coraz�n, el socio deber� realizar el proceso de cancelaci�n por medio del sitio web del Programa utilizando su Usuario y Contrase�a o por medio del Centro de Atenci�n Telef�nica del Programa operado por Blue. En ese entendido, ni CIELITO QUERIDO CAF� ni BLUE ser�n responsables por los movimientos indebidos y mal uso que se haga de la tarjeta Cielito de Coraz�n.<br />
+                            27. Para la reposici�n de la tarjeta, el socio deber� acudir a cualquier Cielito Querido Caf� participante y adquirir una nueva tarjeta de pl�stico cuyo costo es $10.00 pesos IVA incluido. En ese momento el socio con su nueva Tarjeta de pl�stico deber� ingresar al Sitio Web del Programa y se le solicitar� el n�mero de 16 d�gitos de la nueva tarjeta para que se realice el traspaso de informaci�n y Puntos.<br />
+                            28. Solicitar el traspaso de informaci�n y Puntos Cielito de la tarjeta cancelada por Robo o Extravi� a la nueva tarjeta, para ello el socio deber� proporcionar el n�mero de 16 d�gitos de la tarjeta cancelada.<br />
+                            29. Para poder realizar la reposici�n y traspaso de informaci�n y Puntos Cielito es indispensable que la tarjeta anterior se encuentre cancelada.<br />
+                            30. CIELITO QUERIDO CAF� se reserva el derecho de agregar o quitar establecimientos, productos y servicios participantes sin previo aviso; as� mismo se reserva el derecho de suspender o modificar este programa en cualquier momento, previo aviso v�a correo electr�nico a los socios para que estos puedan hacer efectivos sus Puntos acumulados.<br />
+                            31. El uso de la tarjeta Cielito de Coraz�n por parte del cliente significa una aceptaci�n de las reglas, T�rminos y Condiciones del programa Cielito de Coraz�n, las cuales podr�n ser modificadas peri�dicamente sin previo aviso.<br />
+                            32. CIELITO QUERIDO CAF� y BLUE se reservan el derecho de suspender temporal o definitivamente a cualquier persona participante si considera que su comportamiento o desempe�o en el programa es inadecuado.
+                        </p>
+                        <p class="text-justify">
+                            <strong>CERTIFICADO DE REGALOS</strong>
+                            <br />
+                            33. Se emitir�n Certificados de Regalo para que los clientes puedan regalarlos a quienes deseen; para adquirirlos no es necesario que el cliente est� registrado en el Programa de Lealtad.<br />
+                            34. Los Certificados de Regalo estar�n disponibles a la venta �nicamente en las sucursales Cielito Querido Caf� participantes.<br />
+                            35. Los montos de compra para los certificados son:<br />
+                            <i class="fa fa-check"></i> Monto: $100 pesos.<br />
+                            <i class="fa fa-check"></i> Monto: $200 pesos.<br />
+                            <i class="fa fa-check"></i> Monto: $300 pesos<br />
+                            36. Es necesario activar el certificado al momento de la compra en la sucursal Cielito.<br />
+                            37. El certificado es una forma de pago para todos los productos.<br />
+                            38. Utilizar el Certificado como forma de Pago no bonifica puntos cielito en el programa de lealtad.<br /> 
+                            39. Se puede utilizar las veces que sea necesario hasta agotarse el monto precargado seg�n sea el caso ($100 pesos, $200 pesos, $300 pesos).<br />
+                            40. Una vez terminado el saldo, la tarjeta pierde validez como forma de pago.<br />
+                            41. Los certificados de regalo no acumulan puntos o beneficios del programa de lealtad.<br />
+                            42.La compra de Certificado de regalo es facturable.<br />
+                            43.Las compras de productos con Certificado de regalo no son facturables.
+                        </p>
+                        <p class="text-justify">
+                            <strong>COMPRA DE PUNTOS</strong>
+                            <br />
+                            44. Es necesario ser usuario registrado del programa de lealtad para realizar esta acci�n. <br />
+			                45. Se podr� comprar puntos Cielito de Coraz�n con cualquier forma de pago, excepto puntos. <br />
+			                46. Se otorgara una bonificaci�n del 10% del monto total comprado en puntos. <br />
+			                47. El valor de $1 peso es igual a 1 punto. <br />
+			                48. La compra de puntos ser� v�lida �nicamente en los Cielito Querido Caf� autorizados en la Rep�blica Mexicana.<br />
+			                49. La compra de puntos aplica en todas las sucursales Cielito Querido Caf�. <br />
+			                50. La compra de puntos NO es facturable. <br />
+			                51. La compra de productos en Cielito Querido Caf� con puntos no da bonificaciones. <br />
+			                52. Los montos de compra son:<br />
+			                <i class='fa fa-check'></i> Monto M�nimo: $50 pesos.<br />
+			                <i class='fa fa-check'></i> Monto M�ximo: $500 pesos.
+                        </p>
+                        <br />
+                        <center><button type="button" class="btn-close" data-dismiss='modal'>Cerrar</button></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /T�RMINOS Y CONDICIONES-->
+
+        <!-- PREGUNTAS FRECUENTES -->
+        <div class="modal face" id="preguntas">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button style="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h2 class="modal-title page-header text-center"><strong>PREGUNTAS FRECUENTES</strong></h2>
+                        <br />                     
+                        <p class="text-justify">
+                            <strong>1. �Qu� es el programa Cielito de Coraz�n?</strong>
+                            <br />
+                            Cielito de Coraz�n es un programa de lealtad dise�ado para agradecer tu preferencia con el objetivo de brindarte beneficios por la compra de nuestros productos en nuestras sucursales Cielito Querido Caf�.<br /> 
+                            Al inscribirte en el programa Cielito de Coraz�n podr�s acumular Puntos Cielito que podr�s utilizar como forma de pago en los Cielito Querido Caf�  participantes y participar en promociones especiales.
+                        </p>
+                        <p class="text-justify">
+                            <strong>2. �En d�nde puedo adquirir la Tarjeta pl�stica Cielito de Coraz�n?</strong>
+                            <br />
+                            Podr�s adquirir tu tarjeta Cielito de Coraz�n en cualquPodr�s adquirir tu tarjeta Cielito de Coraz�n en cualquiera de las sucursales de Cielito Querido Caf�  participantes por s�lo $10.00 pesos. (IVA INLCUIDO), una vez activada tu tarjeta en el Punto de Venta podr�s comenzar a acumular Puntos Cielito en tu cuenta por tus compras realizadas.<br />
+                            Tambi�n podr�s obtener los mismos beneficios descargando la app en Google Play o Apple Store. 
+                        </p>
+                        <p class="text-justify">
+                            <strong>3. �En d�nde puedo adquirir la tarjeta Virtual Cielito de Coraz�n?</strong>
+                            <br />
+                            Podr�s adquirir tu tarjeta virtual Cielito de Coraz�n en cualquiera de las sucursales de Cielito Querido Caf� participantes por s�lo $5.00 pesos. (IVA INLCUIDO), una vez activada tu tarjeta en el Punto de Venta podr�s comenzar a acumular Puntos Cielito en tu cuenta por tus compras realizadas. 
+                        </p>
+                        <p class="text-justify">
+                            <strong>4. �C�mo puedo acumular Puntos Cielito en mi cuenta?</strong>
+                            <br />
+                            Podr�s acumular Puntos Cielito en cada compra de productos que realices en los Cielito Querido Caf� participantes. Por cada $10.00 de compra se te bonificara 1 punto.
+                        </p>
+                        <p class="text-justify">
+                            <strong>5. Para acumular Puntos Cielito �es necesario presentar mi tarjeta al momento de realizar la compra?</strong>
+                            <br />
+                             No es necesario presentar tu tarjeta Cielito de Coraz�n al momento de realizar tu compra, mencionando tu Nombre, Apellido Paterno y los �ltimos 4 d�gitos de tu celular, podr�s acumular tus Puntos Cielito de tu compra, pero no podr�s pagar con ellos. 
+                        </p>
+                        <p class="text-justify">
+                            <strong>6. �C�mo obtengo el Bono de Bienvenida?</strong>
+                            <br />
+                            Para obtener el Bono de Bienvenida en Puntos Cielito es indispensable que realices el registro de tus datos, ya sea a trav�s del sitio de Internet, app m�vil o llamando al Centro de Atenci�n Telef�nica del programa. Una vez concluido el proceso de registro de recibir�s el Bono de Bienvenida de 10 Puntos Cielito de tu tarjeta pl�stica y un Bono de Bienvenida de 5 Puntos Cielito en tu tarjeta virtual.<br />
+                            Adem�s, a partir de que completes tu registro ya podr�s utilizar tus Puntos Cielito como forma de pago en tus compras de productos en los Cielito Querido Caf� participantes.
+                        </p>
+                        <p class="text-justify">
+                            <strong>7. �Para qu� utilizo mis Puntos Cielito?</strong>
+                            <br />
+                            Los Puntos Cielito que tengas acumulados en tu cuenta podr�s utilizarlos como forma de pago parcial o total en las compras de productos de Cielito Querido Caf� que realices en los Cielito Querido Caf� participantes. <br />
+                            Recuerda que para poder utilizar tus Puntos Cielito como forma de pago es indispensable que presentes tu tarjeta f�sica o tu tarjeta virtual que tienes disponible en la app m�vil y que hayas registrado previamente tus datos en el sitio de Internet del programa, app m�vil o a trav�s del Centro de Atenci�n Telef�nica.
+                        </p>
+                        <p class="text-justify">
+                            <strong>8. �Cu�nto valen mis Puntos Cielito?</strong>
+                            <br />
+                            Cada Punto Cielito que tengas en tu cuenta equivale a $1.00 (un) peso.<br />
+                            <b>Por ejemplo</b>: 10 Puntos = $10 (diez) pesos.
+                        </p>
+                        <p class="text-justify">
+                            <strong>9. �Puedo cambiar mis Puntos Cielito por dinero?</strong>
+                            <br />
+                            No, los Puntos Cielito �nicamente pueden ser utilizados como forma de pago en Cielito Querido Caf� participantes y no podr�n ser cambiados por dinero.
+                        </p>
+                        <p class="text-justify">
+                            <strong>10. �Qu� vigencia tiene mi Tarjeta Cielito de Coraz�n?</strong>
+                            <br />
+                            Tu tarjeta Cielito de Coraz�n no tiene vigencia ni costo de anualidad.
+                        </p>
+                        <p class="text-justify">
+                            <strong>11. �Qu� debo hacer en caso de Robo o Extrav�o de mi tarjeta?</strong>
+                            <br />
+                            Si perdiste o te robaron tu tarjeta Cielito de  Coraz�n deber�s realizar la cancelaci�n de la misma iniciando sesi�n en el sitio de Internet utilizando tu Usuario y Contrase�a o llamando a nuestro Centro de Atenci�n Telef�nica.<br />
+                            Una vez que tu tarjeta haya sido cancelada nadie podr� hacer uso de tus puntos.
+                        </p>
+                        <p class="text-justify">
+                            <strong>12.	�C�mo puedo solicitar una Reposici�n de mi tarjeta?</strong>
+                            <br />
+                            Una vez que tu tarjeta haya sido cancelada por robo o extrav�o deber�s acudir a cualquiera Cielito Querido Caf� participante y adquirir una nueva tarjeta. En ese momento se te solicitar� el n�mero de 16 d�gitos de la tarjeta anterior para que se realice el traspaso de informaci�n y Puntos Cielito a la nueva tarjeta.
+                        </p>
+                        <p class="text-justify">
+                            <strong>13.	�Los Puntos Cielito tienen vigencia?</strong>
+                            <br />
+                            La vigencia de los Puntos Cielito es de 12 meses a partir del mes de acumulaci�n.
+                        </p>
+                        <br />
+                        <center><button type="button" class="btn-close" data-dismiss='modal'>Cerrar</button></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /PREGUNTAS FRECUENTES -->
+
+        <!-- AVISO DE PRIVACIDAD -->
+        <div class="modal face" id="privacidad">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h1 class="modal-title page-header text-center"><strong>AVISO DE PRIVACIDAD</strong></h1>
+                        <br />
+                        <p class="text-justify">
+                            Este Aviso de Privacidad aplica �nicamente al sitio de Internet www.cielitodecorazon.mx, el cual contiene la informaci�n relativa al programa Cielito de Coraz�n,
+                            propiedad de RC OPERADORA DE CAFETERIAS S.A. DE C.V. (CIELITO QUERIDO CAF�) y operado por OPERADORA ROFERI S.A. DE C.V. (BLUE PURE LOYALTY). Al formar parte del
+                            programa Cielito de Coraz�n, Usted acepta autom�ticamente los T�rminos y Condiciones de este Aviso de Privacidad y del manejo de la informaci�n para los prop�sitos
+                            establecidos. OPERADORA ROFERI S.A. DE C.V. (BLUE PURE LOYALTY), con domicilio en Jos� Mar�a Castorena 324 local 109, Colonia Cuajimalpa, Cuajimalpa de Morelos,
+                            05000, M�xico, Distrito Federal, es responsable para efectos de la Ley Federal de Protecci�n de Datos Personales en Posesi�n de Particulares, de conformidad con
+                            lo establecido en el art�culo 17, fracci�n II de la citada Ley, por lo que se le informa que tratar� los datos personales que Usted nos proporcione de forma directa
+                            y/o indirecta por cualquier raz�n y/o circunstancia, a trav�s de cualquier medio y/o forma, con la �nica y exclusiva finalidad de poder prestar los servicios
+                            contratados y/o solicitados por Usted. Por lo anterior, los mismos ser�n tratados bajo los principios de licitud, consentimiento, informaci�n, calidad, finalidad,
+                            lealtad, proporcionalidad y responsabilidad de acuerdo con la mencionada Ley. BLUE PURE LOYALTY podr� recabar datos personales en funci�n del servicio contratado
+                            y/o solicitado por Usted y, de igual forma, dichos datos personales podr�n ser transferidos al propietario del Programa RC OPERADORA DE CAFETERIAS S.A. DE C.V.
+                            (CIELITO QUERIDO CAF�) con el �nico prop�sito de cumplir con los fines se�alados en el presente aviso de privacidad. Los datos personales proporcionados por Usted,
+                            ser�n utilizados para (i) llevar a cabo el proceso y verificaci�n de conflicto de independencia; (ii) integrar su expediente como cliente; (iii) prestar los servicios
+                            que pudieran llegar a ser o hayan sido contratados y/o solicitados; (iv) llevar a cabo la adquisici�n de los derechos o productos relacionados con los mismos; (v)
+                            para la entrega de productos adquiridos y ganados; (vi) alertarlo de promociones e informaci�n actualizada y relevante del programa; (vii) dar respuesta a solicitudes
+                            realizadas por Usted. Los datos personales que nos sean proporcionados, se encontrar�n debidamente protegidos a trav�s de medidas de seguridad tecnol�gicas, f�sicas y
+                            administrativas, previniendo el uso o divulgaci�n indebida de los mismos. Para llevar a cabo las finalidades descritas en el presente aviso de privacidad, utilizaremos:
+                            datos personales de identificaci�n, datos de contacto y domicilio. Usted podr� en cualquier momento, revocar el consentimiento que nos ha otorgado para el tratamiento
+                            de sus datos personales, limitar el uso o divulgaci�n de los mismos, as� como ejercer sus derechos de Acceso, Rectificaci�n, Cancelaci�n y Oposici�n (ARCO) previstos en
+                            la Ley, mediante el env�o de un comunicado por escrito y con acuse de recibo a nuestro domicilio. Dicha solicitud deber� contener por lo menos su nombre completo,
+                            domicilio completo, documentos que acrediten su identidad, se�alando claramente el v�nculo de relaci�n con BLUE PURE LOYALTY y especificando en forma clara y precisa
+                            los datos personales de los que solicita su acceso, rectificaci�n, actualizaci�n o cancelaci�n, los elementos o documentos en donde pueden obrar los datos personales e
+                            indicando las razones por las cuales desea acceder a sus datos personales o, las razones por las que considera que sus datos deben ser actualizados, rectificados o
+                            cancelados. Asimismo, usted deber� considerar que, para ciertos fines, la revocaci�n de su consentimiento implicar� que no le podamos seguir prestando el servicio que
+                            nos solicit�, o la conclusi�n de su relaci�n con nosotros. A partir de la recepci�n de dicha solicitud, se tendr� un plazo de 20 (veinte) d�as h�biles para responder a
+                            su solicitud, sin embargo, dicho plazo podr� ser ampliado por un periodo de tiempo igual, lo que le ser� notificado, por el medio que Usted nos haya indicado para tales
+                            efectos, se�alando las razones de dicha ampliaci�n, de conformidad con el art�culo 32 de la Ley. Los datos de contacto del departamento que dar� tr�mite a las
+                            solicitudes para el ejercicio de los derechos ARCO, as� como atender cualquier duda que pudiera tener respecto al tratamiento de su informaci�n son los siguientes:
+                            Departamento de Atenci�n a Clientes, con domicilio en Jos� Mar�a Castorena 324 local 109, Colonia Cuajimalpa, Cuajimalpa de Morelos, 05000, M�xico, Distrito Federal
+                            y correo electr�nico info@cielitodecorazon.mx Asimismo, le informamos que en t�rminos de la Ley y su Reglamento, a partir del 6 (seis) de enero de 2012 (dos mil doce),
+                            usted puede iniciar el procedimiento de Protecci�n de Derechos ARCO, ante el Instituto Federal de Acceso a la Informaci�n y Protecci�n de Datos Personales (IFAI),
+                            dentro de los 15 (quince) d�as siguientes a la fecha en que BLUE PURE LOYALTY de respuesta a su solicitud y esta no le sea satisfactoria, o bien, si transcurrido el
+                            t�rmino se�alado, BLUE PURE LOYALTY no diera respuesta a su solicitud. El presente aviso de privacidad podr� ser modificado o actualizado unilateralmente, informando
+                            de dichos cambios a trav�s de nuestro sitio web.
+                        </p>
+                        <br />
+                        <center><button type="button" class="btn-close" data-dismiss='modal'>Cerrar</button></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /AVISO DE PRIVACIDAD -->
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+
+theForm.oldSubmit = theForm.submit;
+theForm.submit = WebForm_SaveScrollPositionSubmit;
+
+theForm.oldOnSubmit = theForm.onsubmit;
+theForm.onsubmit = WebForm_SaveScrollPositionOnSubmit;
+//]]>
+</script>
+</form>
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js" type="text/javascript"></script>
+    <!--Google Analytics-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-6153327-54', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1029164455;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+    <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1029164455/?guid=ON&amp;script=0"/>
+        </div>
+    </noscript>
+</body>
+</html>

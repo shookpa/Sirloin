@@ -1,0 +1,1223 @@
+Iniciado el proceso 7 del componente local a las 27/05/2018 17:14:29.13  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 27/05/2018 22:39:48.29  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0362785' AND FACTURA = '0359458'
+INSERT INTO FACT_VIP VALUES(DATE(2018,5,27),'71200860','0362785','0359458','003760',50);
+SELECT * FROM FACT_VIP WHERE ORDEN = '0362786' AND FACTURA = '0359459'
+INSERT INTO FACT_VIP VALUES(DATE(2018,5,27),'71200861','0362786','0359459','058341',50);
+Iniciado el proceso 7 del componente local a las 27/05/2018 23:41:58.85  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0362785' AND FACTURA = '0359458'
+SELECT * FROM FACT_VIP WHERE ORDEN = '0362786' AND FACTURA = '0359459'
+Iniciado el proceso 7 del componente local a las 28/05/2018 18:20:39.75  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 28/05/2018 18:21:12.85  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 28/05/2018 18:21:26.50  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 28/05/2018 19:10:02.37  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 28/05/2018 19:12:40.87  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 28/05/2018 19:13:34.21  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 29/05/2018 17:36:48.73  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 29/05/2018 19:14:26.66  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 29/05/2018 22:24:04.37  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363051' AND FACTURA = '0359723'
+INSERT INTO FACT_VIP VALUES(DATE(2018,5,29),'71200862','0363051','0359723','003851',50);
+Iniciado el proceso 7 del componente local a las 29/05/2018 23:54:41.08  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363051' AND FACTURA = '0359723'
+Iniciado el proceso 7 del componente local a las 30/05/2018  0:00:37.09  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018  8:10:34.70  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018  8:22:11.09  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018 11:24:29.59  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018 12:21:08.05  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018 17:59:03.87  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018 17:59:08.78  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 30/05/2018 20:11:18.98  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,5,30),'71200863','0363206','0359875','003960',50);
+Iniciado el proceso 7 del componente local a las 30/05/2018 20:11:39.13  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 20:11:54.62  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 22:53:34.66  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:15:28.49  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:29:05.60  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:29:15.26  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:30:29.97  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:30:46.00  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:33:28.24  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:33:35.92  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:34:12.78  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:55:16.55  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:59:03.08  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 30/05/2018 23:59:26.89  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363206' AND FACTURA = '0359875'
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:01:27.97  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:01:52.51  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:02:34.55  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:03:36.44  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:05:07.31  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:05:27.01  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:06:11.16  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:06:27.17  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:07:41.67  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:10:06.05  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:20:18.40  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:20:25.45  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:23:21.73  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:33:29.38  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:33:51.48  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:35:24.16  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:41:25.63  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:41:45.93  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:41:50.50  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:42:20.54  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018  0:44:38.98  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018 16:54:57.32  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018 17:16:22.47  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 31/05/2018 20:18:43.20  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363355' AND FACTURA = '0360024'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,5,31),'71200864','0363355','0360024','058498',50);
+Iniciado el proceso 7 del componente local a las 31/05/2018 20:21:19.76  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363355' AND FACTURA = '0360024'
+Iniciado el proceso 7 del componente local a las 03/06/2018 20:03:06.05  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0363943' AND FACTURA = '0360606'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,3),'71200866','0363943','0360606','058853',0);
+SELECT * FROM FACT_VIP WHERE ORDEN = '0364049' AND FACTURA = '0360706'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,3),'71200867','0364049','0360706','007635',50);
+SELECT * FROM FACT_VIP WHERE ORDEN = '0364151' AND FACTURA = '0360806'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,3),'71200868','0364151','0360806','007720',50);
+Iniciado el proceso 7 del componente local a las 04/06/2018 18:30:05.71  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 04/06/2018 18:34:41.01  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 04/06/2018 18:52:05.77  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0364242' AND FACTURA = '0360897'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,4),'71200869','0364242','0360897','007811',50);
+Iniciado el proceso 7 del componente local a las 04/06/2018 18:52:42.04  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0364242' AND FACTURA = '0360897'
+Iniciado el proceso 7 del componente local a las 06/06/2018 19:25:12.68  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 06/06/2018 19:32:28.52  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 12/06/2018 18:43:13.98  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0365534' AND FACTURA = '0362178'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,12),'71200872','0365534','0362178','004607',50);
+Iniciado el proceso 7 del componente local a las 15/06/2018 12:20:33.59  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 14:05:27.98  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 14:05:39.12  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 14:08:27.09  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 15:56:29.13  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:02:30.91  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:02:45.06  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:02:53.38  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:03:01.22  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:03:14.64  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:03:18.18  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:03:22.66  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:03:42.28  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:04:34.19  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:04:40.15  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:05:03.89  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:05:10.13  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:05:49.63  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:05:57.12  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:06:11.86  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:06:18.68  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:06:27.68  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 16:13:26.68  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:18:34.71  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:20:50.37  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:20:56.93  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:21:01.21  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:21:08.88  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:21:13.70  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:21:35.86  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:21:48.79  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:21:59.85  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:02.41  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:08.44  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:16.88  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:24.76  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:39.25  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:45.21  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:22:54.40  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:00.42  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:02.92  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:11.50  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:23.59  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:26.52  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:35.46  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:41.28  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:44.35  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:23:53.64  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:24:02.70  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:24:12.62  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:24:17.54  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:24:25.27  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:24:37.33  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:24:54.35  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:25:00.61  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:25:07.50  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:25:59.51  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:27:24.49  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:27:54.11  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:13.08  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:17.54  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:21.58  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:25.05  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:28.06  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:30.99  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:34.19  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:37.29  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:47.14  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:28:50.04  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:01.89  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:07.51  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:20.54  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:35.23  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:42.61  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:47.10  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:55.04  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:29:58.46  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:01.42  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:06.73  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:10.24  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:19.10  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:22.27  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:25.60  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:30.10  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:38.05  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:42.81  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:30:45.88  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:31:07.35  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:31:14.84  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:31:35.29  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:31:40.61  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:38:01.80  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:40:16.47  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:40:28.00  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:40:31.20  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:40:41.61  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:44:09.90  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:44:41.00  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:44:51.57  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:44:55.51  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:45:03.97  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:48:12.03  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:48:20.73  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:48:26.32  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:48:31.21  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:51:15.37  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:53:12.44  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:53:16.73  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:53:36.52  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:58:42.38  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:58:46.67  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:58:49.51  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:59:07.54  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:59:20.46  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:59:35.34  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 17:59:49.13  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:00:28.37  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:01:01.97  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:01:08.96  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:01:20.36  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:01:42.53  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:02:36.40  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:02:48.64  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:02:55.34  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:04:14.60  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:04:27.35  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:05:10.17  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:05:14.32  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:06:22.80  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:07:05.97  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:07:28.29  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:07:33.10  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:07:37.62  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:09:36.09  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:09:47.19  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:12:14.02  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:12:40.23  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:12:58.30  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:13:14.21  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:13:32.13  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:13:35.36  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:13:39.12  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:13:42.30  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:13:49.04  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:14:17.82  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:14:21.79  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:14:25.81  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:14:29.95  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:14:50.21  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:14:56.04  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:15:02.32  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:15:08.37  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 19/06/2018 18:15:46.11  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 21/06/2018 19:56:30.73  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367086' AND FACTURA = '0363712'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,21),'71200875','0367086','0363712','005193',50);
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367087' AND FACTURA = '0363713'
+Datos obtenidos desde la tabla FACTURA2T: INSERT INTO FACT_VIP VALUES(DATE(2018,6,21),'71200876','0367087','0363713','005194',50);
+Iniciado el proceso 7 del componente local a las 21/06/2018 19:57:34.36  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367086' AND FACTURA = '0363712'
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367087' AND FACTURA = '0363713'
+Iniciado el proceso 7 del componente local a las 21/06/2018 19:59:05.65  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367086' AND FACTURA = '0363712'
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367087' AND FACTURA = '0363713'
+Iniciado el proceso 7 del componente local a las 21/06/2018 19:59:40.99  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367086' AND FACTURA = '0363712'
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367087' AND FACTURA = '0363713'
+Iniciado el proceso 7 del componente local a las 21/06/2018 19:59:44.94  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367086' AND FACTURA = '0363712'
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367087' AND FACTURA = '0363713'
+Iniciado el proceso 7 del componente local a las 21/06/2018 23:50:20.75  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367086' AND FACTURA = '0363712'
+SELECT * FROM FACT_VIP WHERE ORDEN = '0367087' AND FACTURA = '0363713'
+Iniciado el proceso 7 del componente local a las 22/06/2018 11:08:07.92  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 22/06/2018 11:11:43.11  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 22/06/2018 11:13:21.56  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 22/06/2018 16:57:46.44  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 22/06/2018 17:01:05.07  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 22/06/2018 17:25:07.26  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )
+Iniciado el proceso 7 del componente local a las 22/06/2018 17:25:59.52  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 7
+---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )

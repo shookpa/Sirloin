@@ -1,0 +1,29 @@
+
+html,body{
+	font-family:Arial,Verdana;
+	/*background: url(../../../wallpapers/desk.jpg) no-repeat center center fixed;
+	height:100%;
+	width:100%;*/
+	background-image: url(../../../wallpapers/desk.jpg);
+	 background-size: 50% auto;
+	/* background-size:100% 50%; 
+	-webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;*/
+	/*background-image: url(../../../wallpapers/desk.jpg);
+	background-color: transparent;
+    background-repeat: no-repeat;
+   	background-size: cover;
+    background-position: 50% 50%; */
+}
+#loading{
+	width:200px;
+	margin:150px auto;
+	text-align:center;
+}
+
+#loading p{
+	font-size:0.9em;
+	color:#555;
+}

@@ -1,0 +1,291 @@
+/**
+ * Este archivo contiene las funciones javascript que realiza cualquier usuario, regustrarse, olvidar password, actualizar datos
+ */
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget) {	
+	console.debug("---------------------ENTRO A:",eventTarget);
+	 switch(eventTarget) {
+		    case "Login_BtnRecover":
+			     //ENTRO A RECUPERAR EL PASSWORD
+		         if (! $('#Login_RequiredFieldValidator1').is(":visible") && !$('#Login_RegularExpressionValidator1').is(":visible"))
+		         {
+			         console.debug("YA PASÓ LAS VALIDACIONES PARA RECUPERAR LA CONTRASEÑA");
+// 			         console.debug($("#Login_TbxEmail").val());
+			         recoverPassword();
+		         }         
+		        break;
+		    case "Login_Login_BtnSignIn":
+		    	  //ENTRO A HACER LOGIN
+		    	console.debug("ENTRO A HACER LOGIN");
+		    	  if (! $('#Login_Login_UserNameRequired').is(":visible") 
+			    	  && !$('#Login_Login_RegularExpressionValidator1').is(":visible")
+			    	  && !$('#Login_Login_PasswordRequired').is(":visible"))
+		         {
+			         console.debug("YA PASÓ LAS VALIDACIONES PARA HACER LOGIN");
+			         clientLogin(); 
+		         }   
+		        break;
+		    case "Register_BtnSave":
+		    	  //ENTRO A REGISTRARSE COMO USUARIO
+		    	  if (! $('#Register_RequiredFieldValidator1').is(":visible") 
+				      && !$('#Register_RegularExpressionValidator4').is(":visible")
+				      && !$('#Register_RequiredFieldValidator2').is(":visible")
+				      && !$('#Register_RegularExpressionValidator2').is(":visible")
+				      && !$('#Register_RequiredFieldValidator3').is(":visible")
+				      && !$('#Register_RegularExpressionValidator7').is(":visible")
+				      && !$('#Register_RegularExpressionValidator8').is(":visible")
+				      && !$('#Register_RequiredFieldValidator11').is(":visible")
+				      && !$('#Register_RequiredFieldValidator13').is(":visible")
+				      && !$('#Register_RequiredFieldValidator22').is(":visible")
+				      && !$('#Register_RequiredFieldValidator14').is(":visible")
+				      && !$('#Register_RegularExpressionValidator3').is(":visible")
+				      && !$('#Register_RequiredFieldValidator4').is(":visible")
+				      && !$('#Register_RequiredFieldValidator5').is(":visible")
+				      && !$('#Register_CompareValidator1').is(":visible")
+				      && !$('#Register_RequiredFieldValidator6').is(":visible")
+				      && !$('#Register_RegularExpressionValidator1').is(":visible")
+				      && !$('#Register_RequiredFieldValidator8').is(":visible")
+				      && !$('#Register_RegularExpressionValidator5').is(":visible")
+				      && !$('#Register_RequiredFieldValidator9').is(":visible")
+				      && !$('#Register_RegularExpressionValidator6').is(":visible")
+				      && !$('#Register_RequiredFieldValidator10').is(":visible")
+				      && !$('#Register_CompareValidator2').is(":visible")
+				      && !$('#Register_CustomValidator1').is(":visible")
+				      && !$('#Register_CustomValidator2').is(":visible")				     
+				      )
+		         {
+			         console.debug("YA PASÓ LAS VALIDACIONES PARA EL REGISTRO");
+			     	clientRegister();
+		         } 		    
+		    	
+		        break;		  
+		    case "Register_BtnUpdate":
+		    		
+		    	  //ENTRO A MODIFICAR SUS DATOS PERSONALES
+		    	  if (! $('#Register_RequiredFieldValidator1').is(":visible") 
+				      && !$('#Register_RegularExpressionValidator4').is(":visible")
+				      && !$('#Register_RequiredFieldValidator2').is(":visible")
+				      && !$('#Register_RegularExpressionValidator2').is(":visible")
+				      && !$('#Register_RequiredFieldValidator3').is(":visible")
+				      && !$('#Register_RegularExpressionValidator7').is(":visible")
+				      && !$('#Register_RegularExpressionValidator8').is(":visible")
+				      && !$('#Register_RequiredFieldValidator11').is(":visible")
+				      && !$('#Register_RequiredFieldValidator13').is(":visible")
+				      && !$('#Register_RequiredFieldValidator22').is(":visible")
+				      && !$('#Register_RequiredFieldValidator14').is(":visible")
+				      && !$('#Register_RegularExpressionValidator3').is(":visible")
+				      && !$('#Register_RequiredFieldValidator4').is(":visible")
+				      && !$('#Register_RequiredFieldValidator5').is(":visible")
+				      && !$('#Register_CompareValidator1').is(":visible")
+				      && !$('#Register_RequiredFieldValidator6').is(":visible")
+				      && !$('#Register_RegularExpressionValidator1').is(":visible")
+				      && !$('#Register_RequiredFieldValidator8').is(":visible")
+				      && !$('#Register_RegularExpressionValidator5').is(":visible")
+				      && !$('#Register_RequiredFieldValidator9').is(":visible")
+				      && !$('#Register_RegularExpressionValidator6').is(":visible")
+				      && !$('#Register_RequiredFieldValidator10').is(":visible")
+				      && !$('#Register_CompareValidator2').is(":visible")
+				      && !$('#Register_CustomValidator1').is(":visible")
+				      && !$('#Register_CustomValidator2').is(":visible")				     
+				      )
+		         {
+			         console.debug("YA PASÓ LAS VALIDACIONES PARA EL REGISTRO");
+			     	clientUpdate();
+		         } 		    
+		    	
+		        break;		
+		}		
+	 return false;
+}
+function aceptaRegistroExitoso()
+{
+	$('#ModalRegistrySuccess').modal('toggle');
+	 $('html, body')['delay'](400)['animate']({
+         scrollTop: $('.anchor')['offset']()['top']
+     }, 2000)
+}
+function recoverPassword() {
+	var progress = $(".loading-progress").progressTimer({
+		  timeLimit: 10,
+		  onFinish: function () {
+		 	// alert('completed!');
+		}
+		});
+	$.ajax({
+		url: "php/forgetPassword.php",
+		type: "POST",
+// 		contentType: "application/json; charset=utf-8",
+		dataType: "JSON",
+		data: {store_data: [{email: $('#Login_TbxEmail').val()
+			}]}, //body
+		success: function (resultado) {
+			console.debug('ajax1 success', resultado);
+			if(resultado.success)
+			{				
+				//se le asigno un password temporal
+				alert(resultado.mensaje);			
+				
+			}			
+			else
+				alert(resultado.mensaje);
+			
+		
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+        	console.log(xhr);
+        	alert("Verificar informacion ingresada");
+        }
+	}).error(function(){
+		  progress.progressTimer('error', {
+			  errorText:'ERROR!',
+			  onFinish:function(){
+			    alert('There was an error processing your information!');
+			  }
+			});
+			}).done(function(){
+			  progress.progressTimer('complete');
+			});
+;
+
+	return false;
+}
+function clientLogin() {
+
+	$.ajax({
+		url: "php/loginValidate.php",
+		type: "POST",
+// 		contentType: "application/json; charset=utf-8",
+		dataType: "JSON",
+		data: {store_data: [{username: $('#Login_Login_UserName').val(),			
+			password: $('#Login_Login_Password').val()
+			}]}, //body
+		success: function (resultado) {
+			console.debug('ajax1 success', resultado);
+			if(resultado.success)
+			{				
+				sessionStorage.setItem ( "iduser", resultado.iduser );
+				sessionStorage.setItem ( "tipoUser", resultado.tipoUser );
+				sessionStorage.setItem ( "userName", resultado.userName );
+				
+				sessionStorage.setItem ( "logueado", true );
+				//dependiendo del tipo de usuario se ira a determinado home
+				if(resultado.tipoUser=="2")
+					location.replace("estado_cuenta.php");
+				else
+					location.replace("home_admin.php");
+			}			
+			else
+				$('#ModalLoginError').modal('toggle');
+			
+		
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+        	console.log(xhr);
+        	alert("Verificar informacion ingresada");
+        }
+	});
+
+	return false;
+}
+
+
+function clientRegister() {
+
+	$.ajax({
+		url: "php/saveFormUserRegistry.php",
+		type: "POST",
+// 		contentType: "application/json; charset=utf-8",
+		dataType: "JSON",
+		data: {store_data: [{user: $('#Register_TbxCardNumber').val(),
+			nombre: $('#Register_TbxName').val(),
+			a_paterno: $('#Register_TbxLastName').val(),
+			a_materno: $('#Register_TbxFirstName').val(),
+			genero: $('#Register_RdoBtnLstGender_F').is(":checked"),
+			dia_nac: $('#Register_ddlDay').val(),
+			mes_nac: $('#Register_ddlMonth').val(),
+			year_nac: $('#Register_ddlAnio').val(),
+			email: $('#Register_TbxEmail').val(),
+			telefono: $('#Register_TbxPhone').val(),
+			cp: $('#Register_TbxPostalCode').val(),
+			password: $('#Register_TbxPassword').val()
+			}]}, //body
+		success: function (resultado) {
+			console.debug('ajax1 success', resultado);
+			if(resultado.success)
+			{				
+				//MOSTRAMOS LA VENTANA DE EXITO DEL REGISTRO:
+				$('#ModalRegistrySuccess').modal('toggle');
+				//BORRAMOS LOS DATOS CAPTURADOS DEL FORMULARIO DE REGISTRO:
+				$('#Register_TbxCardNumber').val('');
+				$('#Register_TbxName').val('');
+				$('#Register_TbxLastName').val('');
+				$('#Register_TbxFirstName').val('');
+				$('#Register_ddlDay').val('-1');
+				$('#Register_ddlMonth').val('-1');
+				$('#Register_ddlAnio').val('-1');
+				$('#Register_TbxEmail').val('');
+				$('#Register_TbxConfirmEmail').val('');
+				$('#Register_TbxPhone').val('');
+				$('#Register_TbxPostalCode').val('');
+				$('#Register_TbxPassword').val('');
+				$('#Register_TbxConfirmPassword').val('');
+				
+			}			
+			else
+				alert(resultado.mensaje);
+			
+		
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+        	console.log(xhr);
+        	alert("Verificar informacion ingresada");
+        }
+	});
+
+	return false;
+}
+function clientUpdate() {
+
+	$.ajax({
+		url: "php/saveFormUserUpdate.php",
+		type: "POST",
+// 		contentType: "application/json; charset=utf-8",
+		dataType: "JSON",
+		data: {store_data: [{user: $('#Register_TbxCardNumber').val(),
+			nombre: $('#Register_TbxName').val(),
+			a_paterno: $('#Register_TbxLastName').val(),
+			a_materno: $('#Register_TbxFirstName').val(),
+			genero: $('#Register_RdoBtnLstGender_F').is(":checked"),
+			dia_nac: $('#Register_ddlDay').val(),
+			mes_nac: $('#Register_ddlMonth').val(),
+			year_nac: $('#Register_ddlAnio').val(),
+			email: $('#Register_TbxEmail').val(),
+			telefono: $('#Register_TbxPhone').val(),
+			cp: $('#Register_TbxPostalCode').val(),
+			password: $('#Register_TbxPassword').val()
+			}]}, //body
+		success: function (resultado) {
+			console.debug('ajax1 success', resultado);
+			if(resultado.success)
+			{				
+				//MOSTRAMOS LA VENTANA DE EXITO DEL REGISTRO:
+				alert(resultado.mensaje);	
+
+				
+			}			
+			else
+				alert(resultado.mensaje);
+			
+		
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+        	console.log(xhr);
+        	alert("Verificar informacion ingresada");
+        }
+	});
+
+	return false;
+}

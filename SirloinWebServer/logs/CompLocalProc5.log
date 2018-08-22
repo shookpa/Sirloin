@@ -1,0 +1,13 @@
+Iniciado el proceso 5 del componente local a las 21/06/2018 23:50:11.67  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 5
+---------- Ejecucion del proceso 5 (Envio de los movimientos de los ultimos dias a la tabla espejo )
+SELECT * FROM MOV_VIP WHERE NUM_VIP = '71200357' AND DOC_VIP = 'F0363620'
+INSERT INTO MOV_VIP VALUES('71200357','LEO A. GALLARDO CORTES             ','F0363620',DATE(2018,6,21),31,'17','Acumula Puntos en Tarjeta VIP ',0);
+SELECT * FROM MOV_VIP WHERE NUM_VIP = '71200836' AND DOC_VIP = 'F0363636'
+INSERT INTO MOV_VIP VALUES('71200836','ROCIO ABREU BALDIZON               ','F0363636',DATE(2018,6,21),41,'17','Acumula Puntos en Tarjeta VIP ',0);
+SELECT * FROM MOV_VIP WHERE NUM_VIP = '71200807' AND DOC_VIP = 'F0363671'
+INSERT INTO MOV_VIP VALUES('71200807','JOSE LINO                          ','F0363671',DATE(2018,6,21),119,'17','Acumula Puntos en Tarjeta VIP ',0);
+SELECT * FROM MOV_VIP WHERE NUM_VIP = '71200876' AND DOC_VIP = 'F0363714'
+INSERT INTO MOV_VIP VALUES('71200876','MOISES U.                          ','F0363714',DATE(2018,6,21),2,'17','Acumula Puntos en Tarjeta VIP ',0);

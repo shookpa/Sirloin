@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <meta charset="utf-8">
+        <title>PROGRAMA DE PUNTOS VIP | SIRLOIN STOCKADE</title>
+        <meta name="description" content="Binz is a responsive creative agency template.">
+		<meta name="keywords" content="portfolio, personal, corporate, business, parallax, creative, agency">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+                
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Google Fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:900">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900">
+        <!-- Owl Carousel CSS -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!-- Magnific-Popup CSS -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+        <!-- Icon Fonts CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/et-line.css">
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/style.min.css">
+        
+    </head>
+    <body>
+        
+        <!-- =====*===== Start Preloader =====*===== -->
+	    <div class="loading">
+			<div class="load-circle"></div>
+		</div>
+		<!-- =====*===== End Preloader =====*===== -->
+        
+        <!-- =====*===== Start Button Top =====*===== -->
+        <div class="button-top" data-scroll-nav="0">
+            <span>
+                <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
+		</div>
+        <!-- =====*===== End Button Top =====*===== -->
+        
+        <!-- =====*===== Start Navbar =====*===== -->
+            <nav class="navbar navbar-expand-md">
+            <div class="container">
+                
+                <!-- Logo and toggle get grouped for better mobile display -->
+                <a class="logo" href="index.html"><span>Programa</span>de<span>Puntos</span>VIP</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-icon-collapse" aria-controls="nav-icon-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+                <!-- Collect the nav links, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="nav-icon-collapse">
+                    
+                    <!-- Links -->
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" data-scroll-nav="0">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="1">Programa de Puntos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="2">¿Cómo funciona?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="3">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="4">Regístrate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="5">Iniciar sesión</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="6">Blog</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-scroll-nav="7">Soporte</a>
+                        </li>
+                    </ul>
+                    
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+        </nav>
+        <!-- =====*====== End Navbar =====*===== -->
+        
+        <!-- =====*===== Start Header Menú Inicio =====*===== -->
+        <section class="header carousel" data-scroll-index="0">
+            <div class="container-fluid">
+                <div class="owl-carousel owl-theme wraper">
+					<div class="item slide-1">
+						<!--<div class="v-middle text-center caption">
+							<h1>Creative Digital Agency</h1>
+                            <p>We do not just write code we create awesome things. Be ready for more ideas.</p>
+                            <a href="#" class="border-button">
+                                <span data-scroll-nav="3">View Work</span>
+                            </a>
+                            <a href="#" class="bg-button">
+                                <span data-scroll-nav="1">Get Started</span>
+                            </a>
+						</div>-->
+					</div>
+                    
+                    <div class="item slide-2">
+						<!--<div class="v-middle text-center caption">
+							<h1>We Make Awesome Themes</h1>
+                            <p>We do not just write code we create awesome things. Be ready for more ideas.</p>
+                            <a href="#" class="border-button">
+                                <span data-scroll-nav="1">Learn More</span>
+                            </a>
+                            <a href="#" class="bg-button">
+                                <span data-scroll-nav="7">Contact Us</span>
+                            </a>
+						</div>-->
+					</div>
+                    
+                    <div class="item slide-3">
+						<!--<div class="v-middle text-center caption">
+							<h1>Best Theme For Startups</h1>
+                            <p>We do not just write code we create awesome things. Be ready for more ideas.</p>
+                            <a href="#" class="border-button">
+                                <span data-scroll-nav="1">Learn More</span>
+                            </a>
+                            <a href="#" class="bg-button">
+                                <span data-scroll-nav="1">Get Started</span>
+                            </a>
+						</div>-->
+					</div>
+				</div>
+            </div>
+        </section>
+        <!-- =====*===== End Header =====*===== -->
+        
+        <!-- =====*===== Start Hero Menú Programa de Puntos =====*===== -->
+        <section class="hero section-padding text-center" data-scroll-index="1">
+            <div class="container">
+                
+                <div class="section-head">
+                    <div class="row">
+                        <div class="col-lg-8 mx-auto">
+                            <h6>Programa de Puntos</h6>
+                            <h3>y sus beneficios</h3>
+                            <p>Porque nos gusta consentir, premiar y distinguir la fidelidad de nuestros clientes más valiosos, creamos un Programa de Puntos a través de una tarjeta de fidelidad para recompensar tu preferencia, que tendrá grandes beneficios para ti. Podrás utilizar y gozar de tu Tarjeta de Programa de Puntos y otros beneficios como descuentos, promociones, etc., exclusivamente en todas las sucursales de Sirloin Stockade de la CDMX.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hero Items -->
+                <div class="row">
+                    <!-- Hero Item -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="hero-item">
+                            <span class="icon icon-layers"></span>
+                            <h5>Acumulación de puntos</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Sit amet commodo magna.</p> -->
+                        </div>
+                    </div>
+                    <!-- Hero Item -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="hero-item">
+                            <span class="icon icon-refresh"></span>
+                            <h5>Canje de puntos</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Sit amet commodo magna.</p> -->
+                        </div>
+                    </div>
+                    <!-- Hero Item -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="hero-item">
+                            <span class="icon icon-gift"></span>
+                            <h5>Promociones especiales</h5>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Sit amet commodo magna.</p> -->
+                        </div>
+                    </div>
+                    <!-- Hero Item -->
+                    <!-- <div class="col-md-6 col-lg-4">
+                        <div class="hero-item">
+                            <span class="icon icon-magnifying-glass"></span>
+                            <h5>SEO Optymized</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Sit amet commodo magna.</p>
+                        </div>
+                    </div> -->
+                    <!-- Hero Item -->
+                    <!-- <div class="col-md-6 col-lg-4">
+                        <div class="hero-item">
+                            <span class="icon icon-chat"></span>
+                            <h5>Technical support</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Sit amet commodo magna.</p>
+                        </div>
+                    </div> -->
+                    <!-- Hero Item -->
+                    <!-- <div class="col-md-6 col-lg-4">
+                        <div class="hero-item">
+                            <span class="icon icon-layers"></span>
+                            <h5>High quality</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Sit amet commodo magna.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- =====*===== End Hero =====*===== -->
+        
+        <!-- =====*===== Start Services =====*===== -->
+        <section class="services section-padding text-center" data-scroll-index="2">
+            <div class="container">
+                <div class="section-head">
+                    <h6>¿Cómo funciona?</h6>
+                    <h3>Disfruta de los beneficios</h3>
+                </div>
+                
+                <!-- Service-Tabs -->
+                <ul class="services-tabs row">
+                    <!-- Service-Tab-1 -->
+                    <li data-class="services-tab-1" class="col-md col-sm-6 active">
+                        <span class="icon icon-wallet"></span>
+                        <h5>Adquierela</h5>
+                    </li>
+                    <!-- Service-Tab-2 -->
+                    <li data-class="services-tab-2" class="col-md col-sm-6">
+                        <span class="icon icon-browser"></span>
+                        <h5>Regístrate</h5>
+                    </li>
+                    <!-- Service-Tab-3 -->
+                    <li data-class="services-tab-3" class="col-md col-sm-6">
+                        <span class="icon icon-happy"></span>
+                        <h5>Utilízala</h5>
+                    </li>
+                    <!-- Service-Tab-4 -->
+                    <!-- <li data-class="services-tab-4" class="col-md col-sm-6">
+                        <span class="icon icon-piechart"></span>
+                        <h5>Marketing</h5>
+                    </li> -->
+                </ul>
+                
+                <!-- Service-Tab-Content -->
+                <div class="services-tab-content">
+                    <!-- Service-Tab-Content-1 -->
+                    <div class="services-tab-1 services-item active">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5 class="item-title">Create Awesome Website With Binz Best Solution for Startup.</h5>
+                            </div>
+                            <div class="col-lg-8">
+                                <h5 class="item-title">Podrás comprar tu tarjeta en cualquier sucursal de Sirloin Stockade de la CDMX.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service-Tab-Content-2 -->
+                    <div class="services-tab-2 services-item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5 class="item-title">Create Awesome Website With Binz Best Solution for Startup.</h5>
+                            </div>
+                            <div class="col-lg-8">
+                                <h5 class="item-title">Realiza la activación de tu tarjeta desde esta página web en la sección <a href="#" class="text-danger" data-scroll-nav="4"><strong>Regístrate</strong></a>.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service-Tab-Content-3 -->
+                    <div class="services-tab-3 services-item">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <h5 class="item-title">Create Awesome Website With Binz Best Solution for Startup.</h5>
+                            </div>
+                            <div class="col-lg-8">
+                                <h5 class="item-title">Utiliza tu tarjeta en cualquiera de las nuestras sucursales en la CDMX y aculuma puntos.</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service-Tab-Content-4 -->
+                    
+                </div>
+            </div>
+        </section>
+        <!-- =====*===== End Services =====*===== -->
+        
+        <!-- =====*===== Start Testimonials =====*===== -->
+        <!-- <section class="testimonials text-center">
+            <div class="container">
+                <div class="section-head">
+                    <h6>Testimonials</h6>
+                    <h3>What Our Clients Say</h3>
+                </div>
+				<div class="row">
+					<div class="col-lg-8 mx-auto">
+                        <div class="says text-center">
+                            <span class="blockquote-icon"><i class="fa fa-quote-right fa-lg" aria-hidden="true"></i></span>
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Vivamus a tellus.</p>
+                                    <h6>Adam Smith <span class="author">Marketing Specialist</span></h6>
+                                </div>
+                                <div class="item">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Vivamus a tellus.</p>
+                                    <h6>Adam Smith <span class="author">Marketing Specialist</span></h6>
+                                </div>
+                                <div class="item">
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Vivamus a tellus.</p>
+                                    <h6>Adam Smith <span class="author">Marketing Specialist</span></h6>
+                                </div>
+                            </div>
+					   </div>
+				    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- =====*===== End Testimonials =====*===== -->
+        
+        <!-- =====*===== Start Promociones =====*===== -->
+        <section class="portfolio text-center" data-scroll-index="3">
+            <div class="container">
+                <div class="section-head">
+                    <h6>Nuestras Promociones</h6>
+                    <h3>Aprovéchalas</h3>
+                </div>
+                
+                <!-- Filter Links -->
+                <div class="filtering">
+                    <span data-filter='*' class="active">Todas</span>
+                    <span data-filter='.cdmx'>CDMX</span>
+                    <span data-filter='.monterrey'>Monterrey</span>
+                    <span data-filter='.slp'>SLP</span>
+                    <span data-filter='.queretaro'>Querétaro</span>
+                </div>
+                    
+                <!-- Gallery -->
+                <div class="gallery">
+                    <div class="row">
+                        <!-- Gallery Item -->
+                        <div class="col-lg-4 col-md-6 item-img slp">
+                            <img src="images/portfolio/promo1-slp.jpg" alt="Image" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info v-middle">
+                                    <h5>SLP</h5>
+                                    <div class="icons">
+                                        <span class="icon link">
+                                            <a href="images/portfolio/promo1-slp.jpg" title="">
+                                                <span class="icon-magnifying-glass"></span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Gallery Item -->
+                        <div class="col-lg-4 col-md-6 item-img cdmx">
+                            <img src="images/portfolio/promo1-cdmx.jpg" alt="Image" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info v-middle">
+                                    <h5>CDMX</h5>
+                                    <div class="icons">
+                                        <span class="icon link">
+                                            <a href="images/portfolio/promo1-cdmx.jpg" title="">
+                                                <span class="icon-magnifying-glass"></span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Gallery Item -->
+                        <div class="col-lg-4 col-md-6 item-img monterrey">
+                            <img src="images/portfolio/promo1-monterrey.jpg" alt="Image" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info v-middle">
+                                    <h5>Monterrey</h5>
+                                    <div class="icons">
+                                        <span class="icon link">
+                                            <a href="images/portfolio/promo1-monterrey.jpg" title="">
+                                                <span class="icon-magnifying-glass"></span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Gallery Item -->
+                        <div class="col-lg-4 col-md-6 item-img slp">
+                            <img src="images/portfolio/promo2-slp.jpg" alt="Image" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info v-middle">
+                                    <h5>SLP</h5>
+                                    <div class="icons">
+                                        <span class="icon link">
+                                            <a href="images/portfolio/promo2-slp.jpg" title="">
+                                                <span class="icon-magnifying-glass"></span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Gallery Item -->
+                        <div class="col-lg-4 col-md-6 item-img queretaro">
+                            <img src="images/portfolio/promo1-queretaro.jpg" alt="Image" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info v-middle">
+                                    <h5>Querétaro</h5>
+                                    <div class="icons">
+                                        <span class="icon link">
+                                            <a href="images/portfolio/promo1-queretaro.jpg" title="">
+                                                <span class="icon-magnifying-glass"></span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Gallery Item -->
+                        <div class="col-lg-4 col-md-6 item-img monterrey">
+                            <img src="images/portfolio/promo2-monterrey.jpg" alt="Image" />
+                            <div class="item-img-overlay">
+                                <div class="overlay-info v-middle">
+                                    <h5>Monterrey</h5>
+                                    <div class="icons">
+                                        <span class="icon link">
+                                            <a href="images/portfolio/promo2-monterrey.jpg" title="">
+                                                <span class="icon-magnifying-glass"></span>
+                                            </a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =====*===== End Promociones =====*===== -->
+        
+        <!-- =====*===== Start Regístrate =====*===== -->
+        <section class="contact section-padding text-center" data-scroll-index="4">
+            <div class="container">
+                <div class="section-head">
+                    <h6>Regístrate</h6>
+                    <h3>Y únete a nuestro Programa de Puntos</h3>
+                    <!-- <p>En Sirloin Stockade estámos comprometidos a servirte, por lo que te pedimos llenes la forma de contacto y envíanos tu duda.</p> -->
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="row">
+					<div class="col-lg-10 col-md-11 mx-auto">
+						 <form class='form' id='contact-form' method='post'><input type='hidden' name='form-name' value='contact-form' />
+                             
+                            <div class="messages"></div>
+
+	                        <div class="controls">
+								<!-- =====*===== Campo Número de tarjeta =====*===== -->
+	                            <div class="row">
+	                                <div class="col-md-3">
+                            			<p align="right">Número de tarjeta: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_num_tarjeta" type="text" maxlength="16" name="num_tarjeta" placeholder="Número de tarjeta *" required data-error="Número de tarjeta is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>
+								<!-- =====*===== Campo Nombre =====*===== -->                                
+                                <div class="row">    
+	                                <div class="col-md-3">
+                            			<p align="right">Nombre: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_nombre" type="text" name="name" placeholder="Nombre *" required data-error="Nombre is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>
+								<!-- =====*===== Campo Apellido paterno =====*===== -->                                
+                                <div class="row">    
+	                                <div class="col-md-3">
+                            			<p align="right">Apellido paterno: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_apellido_paterno" type="text" name="apellido_paterno" placeholder="Apellido paterno *" required data-error="Apellido paterno is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>
+								<!-- =====*===== Campo Apellido materno =====*===== -->                                
+                                <div class="row">    
+	                                <div class="col-md-3">
+                            			<p align="right">Apellido materno: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_apellido_materno" type="text" name="apellido_materno" placeholder="Apellido materno *" required data-error="Apellido materno is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>
+								<!-- =====*===== Campo Genero =====*===== -->                                
+                                <div class="row">    
+	                                <div class="col-md-3">
+                            			<p align="right">Género: <span class="text-danger">*</span></p>
+                                    </div>    
+								<div class="col-md-9">
+                               		<table id="Register_RdoBtnLstGender">
+										<tr>
+										  <td class="alert-light"><input id="Register_RdoBtnLstGender_0" type="radio" name="ctl00$Register$RdoBtnLstGender" value="Femenino" /><label for="Register_RdoBtnLstGender_0">Femenino</label></td>
+                                        </tr>
+                                        <tr>  
+                                          <td class="alert-light"><input id="Register_RdoBtnLstGender_1" type="radio" name="ctl00$Register$RdoBtnLstGender" value="Masculino" /><label for="Register_RdoBtnLstGender_1">Masculino</label></td>
+										</tr>
+									</table>
+                               		<span id="Register_RequiredFieldValidator11" class="error_required" style="display:none;">El género es requerido</span>
+                            	</div>
+								<!-- =====*===== Campo Fecha de nacimiento =====*===== -->                                
+	                                <div class="col-md-3">
+                            			<p align="right">Fecha de nacimiento: <span class="text-danger">*</span></p>
+                                    </div>    
+			                        <div class="row col-md-9">
+                                    <div class="col-xs-3">
+	                   			        <div class=" form-group">
+    	                           			<select name="ctl00$Register$ddlDay" id="Register_ddlDay" class="input-group-addon">
+												<option value="-1">Día</option>
+												<option value="1">1</option>
+												<option value="2">2</option>
+												<option value="3">3</option>
+												<option value="4">4</option>
+												<option value="5">5</option>
+												<option value="6">6</option>
+												<option value="7">7</option>
+												<option value="8">8</option>
+												<option value="9">9</option>
+												<option value="10">10</option>
+												<option value="11">11</option>
+												<option value="12">12</option>
+												<option value="13">13</option>
+												<option value="14">14</option>
+												<option value="15">15</option>
+												<option value="16">16</option>
+												<option value="17">17</option>
+												<option value="18">18</option>
+												<option value="19">19</option>
+												<option value="20">20</option>
+												<option value="21">21</option>
+												<option value="22">22</option>
+												<option value="23">23</option>
+												<option value="24">24</option>
+												<option value="25">25</option>
+												<option value="26">26</option>
+												<option value="27">27</option>
+												<option value="28">28</option>
+												<option value="29">29</option>
+												<option value="30">30</option>
+												<option value="31">31</option>
+											</select>
+                           			  </div>
+                                      </div>
+                                		<span id="Register_RequiredFieldValidator13" class="error_required" style="display:none;">Seleccione su día de nacimiento</span>
+                                		<div class="col-xs-3">
+                                        <div class="form-group">
+                                    		<select name="ctl00$Register$ddlMonth" id="Register_ddlMonth" class="input-group-addon">
+												<option value="-1">Mes</option>
+												<option value="01">Enero</option>
+												<option value="02">Febrero</option>
+												<option value="03">Marzo</option>
+												<option value="04">Abril</option>
+												<option value="05">Mayo</option>
+												<option value="06">Junio</option>
+												<option value="07">Julio</option>
+												<option value="08">Agosto</option>
+												<option value="09">Septiembre</option>
+												<option value="10">Octubre</option>
+												<option value="11">Noviembre</option>
+												<option value="12">Diciembre</option>
+											</select>
+                                		</div>
+                                        </div>
+                                		<span id="Register_RequiredFieldValidator22" class="error_required" style="display:none;">Seleccione su mes de nacimiento</span>
+		                                <div class="col-xs-3">
+                                        <div class=" form-group">
+                                    		<select name="ctl00$Register$ddlAnio" id="Register_ddlAnio" class="input-group-addon">
+												<option value="-1">Año</option>
+												<option value="2005">2005</option>
+												<option value="2004">2004</option>
+												<option value="2003">2003</option>
+												<option value="2002">2002</option>
+												<option value="2001">2001</option>
+												<option value="2000">2000</option>
+												<option value="1999">1999</option>
+												<option value="1998">1998</option>
+												<option value="1997">1997</option>
+												<option value="1996">1996</option>
+												<option value="1995">1995</option>
+												<option value="1994">1994</option>
+												<option value="1993">1993</option>
+												<option value="1992">1992</option>
+												<option value="1991">1991</option>
+												<option value="1990">1990</option>
+												<option value="1989">1989</option>
+												<option value="1988">1988</option>
+												<option value="1987">1987</option>
+												<option value="1986">1986</option>
+												<option value="1985">1985</option>
+												<option value="1984">1984</option>
+												<option value="1983">1983</option>
+												<option value="1982">1982</option>
+												<option value="1981">1981</option>
+												<option value="1980">1980</option>
+												<option value="1979">1979</option>
+												<option value="1978">1978</option>
+												<option value="1977">1977</option>
+												<option value="1976">1976</option>
+												<option value="1975">1975</option>
+												<option value="1974">1974</option>
+												<option value="1973">1973</option>
+												<option value="1972">1972</option>
+												<option value="1971">1971</option>
+												<option value="1970">1970</option>
+												<option value="1969">1969</option>
+												<option value="1968">1968</option>
+												<option value="1967">1967</option>
+												<option value="1966">1966</option>
+												<option value="1965">1965</option>
+												<option value="1964">1964</option>
+												<option value="1963">1963</option>
+												<option value="1962">1962</option>
+												<option value="1961">1961</option>
+												<option value="1960">1960</option>
+												<option value="1959">1959</option>
+												<option value="1958">1958</option>
+												<option value="1957">1957</option>
+												<option value="1956">1956</option>
+												<option value="1955">1955</option>
+												<option value="1954">1954</option>
+												<option value="1953">1953</option>
+												<option value="1952">1952</option>
+												<option value="1951">1951</option>
+												<option value="1950">1950</option>
+												<option value="1949">1949</option>
+												<option value="1948">1948</option>
+												<option value="1947">1947</option>
+												<option value="1946">1946</option>
+												<option value="1945">1945</option>
+												<option value="1944">1944</option>
+												<option value="1943">1943</option>
+												<option value="1942">1942</option>
+												<option value="1941">1941</option>
+												<option value="1940">1940</option>
+												<option value="1939">1939</option>
+												<option value="1938">1938</option>
+												<option value="1937">1937</option>
+												<option value="1936">1936</option>
+												<option value="1935">1935</option>
+												<option value="1934">1934</option>
+												<option value="1933">1933</option>
+												<option value="1932">1932</option>
+												<option value="1931">1931</option>
+												<option value="1930">1930</option>
+												<option value="1929">1929</option>
+												<option value="1928">1928</option>
+												<option value="1927">1927</option>
+                                                <option value="1926">1926</option>
+                                                <option value="1925">1925</option>
+                                                <option value="1924">1924</option>
+                                                <option value="1923">1923</option>
+                                                <option value="1922">1922</option>
+                                                <option value="1921">1921</option>
+                                                <option value="1920">1920</option>
+                                                <option value="1919">1919</option>
+                                                <option value="1918">1918</option>
+                                                <option value="1917">1917</option>
+											</select>
+                      		          </div>
+                                      </div>
+                               		  <span id="Register_RequiredFieldValidator14" class="error_required" style="display:none;">Seleccione su año de nacimiento</span>
+                            </div>
+								<!-- =====*===== Campo Correo electrónico  =====*===== -->
+	                                <div class="col-md-3">
+                            			<p align="right">Correo-e: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_mail" type="text" name="mail" placeholder="Correo-e *" required data-error="Correo-e is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+								<!-- =====*===== Campo confirmación de Correo electrónico  =====*===== -->
+	                                <div class="col-md-3">
+                            			<p align="right">Confirmación de correo-e: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_mail2" type="text" name="mail2" placeholder="Confirmación de correo-e *" required data-error="Correo-e is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+								<!-- =====*===== Campo Número de celular  =====*===== -->                                
+	                                <div class="col-md-3">
+                            			<p align="right">Número de celular: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_celular" type="tel" name="celular" maxlength="16" placeholder="Número a 10 digitos incluyendo clave LADA *" required data-error="Número de celular is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+								<!-- =====*===== Campo Código Postal  =====*===== -->                                
+	                                <div class="col-md-3">
+                            			<p align="right">Código Postal: <span class="text-danger">*</span></p>
+                                    </div>    
+	                                <div class="col-md-9">
+	                                    <div class="form-group">
+	                                        <input id="form_cp" type="text" name="cp" maxlength="5" placeholder="Código Postal *" required data-error="Código Postal is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>                                    
+								<!-- =====*===== Campo Contraseña  =====*===== -->                                             
+ 	                            <div class="col-md-3">
+                            		<p align="right">Contraseña: <span class="text-danger">*</span></p>
+                                </div>    
+                                <div class="col-md-9">
+                                	<input name="ctl00$Register$TbxPassword" type="password" maxlength="30" id="Register_TbxPassword" placeholder="Contraseña *" required data-error="Valid user is required.">
+                                	<span id="Register_RequiredFieldValidator9" class="error_required" style="display:none;">La contraseña es requerida</span>
+                                	<span id="Register_RegularExpressionValidator6" class="error_required" style="display:none;">La contraseña debe ser de mínimo 6 caracteres</span>
+                                    <p align="justify" class="blockquote-footer">La contraseña debe ser mínimo de 6 caracteres, puede incluir mayúsculas, minúsculas, números y caracteres especiales.</p>       
+                            	</div>
+								<!-- =====*===== Campo Confirmación de contraseña  =====*===== -->                                         
+ 	                            <div class="col-md-3">
+                            		<p align="right">Confirmar contraseña: <span class="text-danger">*</span></p>
+                                </div>    
+                                <div class="col-md-9">
+                                	<input name="ctl00$Register$TbxPassword" type="password" maxlength="30" id="Register_TbxPassword" placeholder="Confirmar contraseña *" required data-error="Valid user is required.">
+                                	<span id="Register_RequiredFieldValidator9" class="error_required" style="display:none;">La contraseña es requerida</span>
+                                	<span id="Register_RegularExpressionValidator6" class="error_required" style="display:none;">La contraseña debe ser de mínimo 6 caracteres</span>
+                            	</div>
+								<!-- =====*===== Campos obligatorios  =====*===== -->   
+ 	                            <div class="col-md-3">
+                            		<p align="right"></p>
+                                </div>     	                            
+                                <div class="col-md-9">
+                            		<p><span class="text-danger"><strong>*</strong></span><strong> Campos obligatorios</strong></p>
+                                </div>    
+								<!-- =====*===== Campo Aceptar términos y condiciones  =====*===== -->
+                                <div class="row">
+                                <div class="form-group">
+                                <div class="col-md-12">
+			                        <div class="custom-checkbox">
+                                    <span class="alert-light"><input id="Register_ChkBxAccep" type="checkbox" name="ctl00$Register$ChkBxAccep" /><label for="Register_ChkBxAccep">Acepto los </label></span><a href="#terminos" class="text-danger" data-toggle="modal"> Términos y Condiciones</a>.</span>
+                        			    <span id="Register_CustomValidator1" class="error_required" style="display:none;">Asegurate de Aceptar los Términos y Condiciones</span>
+                        			</div>
+                                 </div>
+                                 <div class="col-md-12">   
+                        			<div class="custom-checkbox">
+                           			  <span class="alert-light"><input id="Register_ChkBxPolices" type="checkbox" name="ctl00$Register$ChkBxPolices" /><label for="Register_ChkBxPolices">Estoy de acuerdo con el </label></span><a href="#privacidad" class="text-danger" data-toggle="modal"> Aviso de Privacidad</a>.
+                            			<span id="Register_CustomValidator2" class="error_required" style="display:none;">Asegurate de Aceptar el Aviso de Privacidad</span>
+                        			</div>
+                    			</div>
+                                </div>
+								</div>
+	                        </div>
+                                                            <div class="row"> 
+                                    <div class="col-md-12">
+	                                    <input type="submit" value="Enviar datos de registro">
+	                               </div>
+                              </div>                                
+	                    </form>
+					</div>
+                </div>
+            </div>
+        </section>
+        <!-- =====*===== End Regístrate =====*===== -->
+        
+        <!-- =====*===== Start Iniciar Sesión =====*===== -->
+        <section class="contact section-padding text-center" data-scroll-index="5">
+            <div class="container">
+                <div class="section-head">
+                    <h6>Iniciar Sesión</h6>
+                    <h3>Revisa tus Puntos</h3>
+                    <!-- <p>En Sirloin Stockade estámos comprometidos a servirte, por lo que te pedimos llenes la forma de contacto y envíanos tu duda.</p> -->
+                </div>
+                
+                <!-- Inicio de sesión Form -->
+                <div class="row">
+					<div class="col-lg-10 col-md-11 mx-auto">
+						 <form class='form' id='contact-form' method='post'><input type='hidden' name='form-name' value='contact-form' />
+                             
+                            <div class="messages"></div>
+
+	                        <div class="controls">
+
+                                <div class="row">    
+                                    <div class="col-md-6">
+	                                    <div class="form-group">
+	                                        <input id="form_user" type="email" name="email" placeholder="Usuario *" required data-error="Valid user is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+	                                <div class="col-md-6">
+	                                    <div class="form-group">
+	                                        <input id="form_password" type="password" name="password" placeholder="Contraseña *" required data-error="Valid password is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>  
+                                <div class="row"> 
+                                    <div class="col-md-12">
+	                                    <input type="submit" value="Iniciar Sesión">
+	                               </div>
+                                   <div class="col-md-12">
+                                   <p><h7 class="item-title"><a href="#" class="text-danger" data-scroll-nav="4"><strong>Recuperar contraseña</strong></a></h7></p>
+                            </div>
+                                </div>
+	                        </div>
+	                    </form>
+					</div>
+                </div>
+            </div>
+        </section>
+        <!-- =====*===== End Iniciar Sesión =====*===== -->
+        
+        <!-- =====*===== Start Soporte =====*===== -->
+        <section class="contact section-padding text-center" data-scroll-index="7">
+            <div class="container">
+                <div class="section-head">
+                    <h6>Soporte</h6>
+                    <h3>Aclara tus dudas</h3>
+                    <p>En Sirloin Stockade estámos comprometidos a servirte, por lo que te pedimos llenes la forma de contacto y envíanos tu duda.</p>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="row">
+					<div class="col-lg-10 col-md-11 mx-auto">
+						 <form class='form' id='contact-form' method='post'><input type='hidden' name='form-name' value='contact-form' />
+                             
+                            <div class="messages"></div>
+
+	                        <div class="controls">
+
+	                            <div class="row">
+	                                <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <input id="form_name" type="text" name="name" placeholder="Nombre *" required data-error="Firstname is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>
+                                <div class="row">    
+                                    <div class="col-md-6">
+	                                    <div class="form-group">
+	                                        <input id="form_email" type="email" name="email" placeholder="Correo-e *" required data-error="Valid email is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+	                                <div class="col-md-6">
+	                                    <div class="form-group">
+	                                        <input id="form_subject" type="tel" name="phone" placeholder="Teléfono *" required data-error="Valid phone is required.">
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                </div>  
+                                <div class="row"> 
+                                    <div class="col-md-12">
+	                                    <div class="form-group">
+	                                        <textarea id="form_message" name="message" placeholder="Mensaje *" rows="4" required data-error="Please, leave us a message."></textarea>
+	                                        <div class="help-block with-errors"></div>
+	                                    </div>
+	                                </div>
+                                    <div class="col-md-12">
+	                                    <input type="submit" value="Enviar mensaje">
+	                               </div>
+                                </div>
+	                        </div>
+	                    </form>
+					</div>
+                </div>
+            </div>
+        </section>
+        <!-- =====*===== End Soporte =====*===== -->
+        
+        <!-- =====*===== Start Footer =====*===== -->
+        <footer class="text-center">
+            <div class="container-fluit">
+                <div class="main-footer">
+                    <!-- Social Icons -->
+                    <div class="social-icons">
+                        <h5>Síguenos</h5>
+                        <a href="#0">
+                            <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                        </a>
+                        <a href="#0">
+                            <span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        </a>
+                        <a href="#0">
+                            <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        </a>
+                        <a href="#0">
+                            <span><i class="fa fa-pinterest" aria-hidden="true"></i></span>
+                        </a>
+                        <a href="#0">
+                            <span><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        </a>  
+                    </div>
+                    <!-- Copyright -->
+                    <div class="copyright">
+                        <span>Powered by MAS-RFID.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- =====*===== End Footer =====*===== -->
+
+
+
+        
+        
+        <!-- jQuery Library -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <!-- Popper JS -->
+        <script src="js/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- ScrollIt JS -->
+        <script src="js/scrollIt.min.js"></script>
+        <!-- Owl Carousel JS -->
+		<script src="js/owl.carousel.min.js"></script>
+        <!-- Magnific-Popup JS -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- isotope.pkgd JS -->
+        <script src="js/isotope.pkgd.min.js"></script>
+        <!-- Validator JS -->
+      	<script src="js/validator.js"></script>
+        <!-- Custom JS -->
+        <script src="js/custom.min.js"></script>
+        
+    </body>
+
+</html>

@@ -1,0 +1,12 @@
+.promo{
+  cursor: pointer;
+    padding: 35px; 
+}
+.promo img{
+    -webkit-transition: all 1.3s;
+    
+}
+.promo:hover img{
+    -webkit-transform: scale(1.1);
+   
+}

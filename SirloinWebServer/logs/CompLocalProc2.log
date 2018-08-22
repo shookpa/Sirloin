@@ -1,0 +1,6 @@
+Iniciado el proceso 2 del componente local a las 21/06/2018 23:50:00.26  
+La ubicacion del dbf original es: C:/Restbar/DBC
+La ubicacion del dbf copia es: C:/SirloinDesarrollo/DBC/Copia
+Ejecutando el proceso: 2
+---------- Ejecutando el proceso 2 (Envio de los registros de cada dia de la tabla original a la tabla espejo)  ---------
+-----------Se sincronizaron 4 tarjetas, de la tabla original a la tabla espejo ---------

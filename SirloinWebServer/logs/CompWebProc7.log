@@ -1,0 +1,1580 @@
+Iniciado el proceso 7 del componente web a las 27/05/2018 17:14:29.14  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=null]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=null]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=null]
+A punto de enviar 3 facturas
+La respuesta es:Se sincronizaron 3 facturas 
+Iniciado el proceso 7 del componente web a las 27/05/2018 22:39:48.30  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=null]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=null]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=null]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=null]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=null]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 27/05/2018 23:41:58.86  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 18:20:39.75  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 18:21:12.85  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 18:21:26.50  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 19:10:02.37  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 19:12:40.87  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 19:12:44.44  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 28/05/2018 19:13:34.22  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 23 00:00:00 CDT 2018, getDescrip()=71200857, getFactura()=0358578, getOrden()=0361884, getNumero()=003416, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 29/05/2018 17:36:48.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 29/05/2018 19:14:26.66  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 29/05/2018 22:24:04.38  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 29/05/2018 23:54:41.08  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018  8:10:34.70  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018  8:22:11.09  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 11:24:29.59  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 12:21:08.05  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 17:59:03.87  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 17:59:08.78  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 20:11:18.98  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 20:11:39.13  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 20:11:54.63  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 22:53:34.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:15:28.49  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:29:05.60  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:29:15.26  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:30:29.97  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:30:46.00  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:33:28.24  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:33:35.93  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:34:12.80  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:55:16.55  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:59:03.10  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 30/05/2018 23:59:26.90  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:01:27.97  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:01:52.51  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:02:34.55  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:03:36.44  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:05:07.31  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:05:27.03  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:06:11.16  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:06:27.17  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:07:41.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:10:06.05  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:20:18.40  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:20:25.45  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:23:21.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:33:29.38  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:33:51.48  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:35:24.16  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:41:25.63  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:41:45.93  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:41:50.50  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:42:20.54  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018  0:44:38.99  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018 16:54:57.34  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018 17:16:22.47  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018 20:18:43.20  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 31/05/2018 20:21:19.76  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200858, getFactura()=0358949, getOrden()=0362258, getNumero()=019978, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat May 26 00:00:00 CDT 2018, getDescrip()=71200859, getFactura()=0359198, getOrden()=0362516, getNumero()=020146, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200860, getFactura()=0359458, getOrden()=0362785, getNumero()=003760, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun May 27 00:00:00 CDT 2018, getDescrip()=71200861, getFactura()=0359459, getOrden()=0362786, getNumero()=058341, getTotalf()=50.0]
+FacturasVip [getFecha()=Tue May 29 00:00:00 CDT 2018, getDescrip()=71200862, getFactura()=0359723, getOrden()=0363051, getNumero()=003851, getTotalf()=50.0]
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu May 31 00:00:00 CDT 2018, getDescrip()=71200864, getFactura()=0360024, getOrden()=0363355, getNumero()=058498, getTotalf()=50.0]
+A punto de enviar 7 facturas
+La respuesta es:Se sincronizaron 7 facturas 
+Iniciado el proceso 7 del componente web a las 03/06/2018 20:03:06.08  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 04/06/2018 18:30:05.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu May 31 00:00:00 CDT 2018, getDescrip()=71200864, getFactura()=0360024, getOrden()=0363355, getNumero()=058498, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200866, getFactura()=0360606, getOrden()=0363943, getNumero()=058853, getTotalf()=0.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200867, getFactura()=0360706, getOrden()=0364049, getNumero()=007635, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200868, getFactura()=0360806, getOrden()=0364151, getNumero()=007720, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 04/06/2018 18:34:41.01  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu May 31 00:00:00 CDT 2018, getDescrip()=71200864, getFactura()=0360024, getOrden()=0363355, getNumero()=058498, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200866, getFactura()=0360606, getOrden()=0363943, getNumero()=058853, getTotalf()=0.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200867, getFactura()=0360706, getOrden()=0364049, getNumero()=007635, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200868, getFactura()=0360806, getOrden()=0364151, getNumero()=007720, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 04/06/2018 18:52:05.78  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu May 31 00:00:00 CDT 2018, getDescrip()=71200864, getFactura()=0360024, getOrden()=0363355, getNumero()=058498, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200866, getFactura()=0360606, getOrden()=0363943, getNumero()=058853, getTotalf()=0.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200867, getFactura()=0360706, getOrden()=0364049, getNumero()=007635, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200868, getFactura()=0360806, getOrden()=0364151, getNumero()=007720, getTotalf()=50.0]
+A punto de enviar 5 facturas
+La respuesta es:Se sincronizaron 5 facturas 
+Iniciado el proceso 7 del componente web a las 04/06/2018 18:52:42.04  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Wed May 30 00:00:00 CDT 2018, getDescrip()=71200863, getFactura()=0359875, getOrden()=0363206, getNumero()=003960, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu May 31 00:00:00 CDT 2018, getDescrip()=71200864, getFactura()=0360024, getOrden()=0363355, getNumero()=058498, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200866, getFactura()=0360606, getOrden()=0363943, getNumero()=058853, getTotalf()=0.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200867, getFactura()=0360706, getOrden()=0364049, getNumero()=007635, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200868, getFactura()=0360806, getOrden()=0364151, getNumero()=007720, getTotalf()=50.0]
+FacturasVip [getFecha()=Mon Jun 04 00:00:00 CDT 2018, getDescrip()=71200869, getFactura()=0360897, getOrden()=0364242, getNumero()=007811, getTotalf()=50.0]
+A punto de enviar 6 facturas
+La respuesta es:Se sincronizaron 6 facturas 
+Iniciado el proceso 7 del componente web a las 06/06/2018 19:25:12.69  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200866, getFactura()=0360606, getOrden()=0363943, getNumero()=058853, getTotalf()=0.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200867, getFactura()=0360706, getOrden()=0364049, getNumero()=007635, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200868, getFactura()=0360806, getOrden()=0364151, getNumero()=007720, getTotalf()=50.0]
+FacturasVip [getFecha()=Mon Jun 04 00:00:00 CDT 2018, getDescrip()=71200869, getFactura()=0360897, getOrden()=0364242, getNumero()=007811, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 06/06/2018 19:32:28.52  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200866, getFactura()=0360606, getOrden()=0363943, getNumero()=058853, getTotalf()=0.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200867, getFactura()=0360706, getOrden()=0364049, getNumero()=007635, getTotalf()=50.0]
+FacturasVip [getFecha()=Sun Jun 03 00:00:00 CDT 2018, getDescrip()=71200868, getFactura()=0360806, getOrden()=0364151, getNumero()=007720, getTotalf()=50.0]
+FacturasVip [getFecha()=Mon Jun 04 00:00:00 CDT 2018, getDescrip()=71200869, getFactura()=0360897, getOrden()=0364242, getNumero()=007811, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 12/06/2018 18:43:23.48  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Tue Jun 12 00:00:00 CDT 2018, getDescrip()=71200872, getFactura()=0362178, getOrden()=0365534, getNumero()=004607, getTotalf()=50.0]
+A punto de enviar 1 facturas
+La respuesta es:Se sincronizaron 1 facturas 
+Iniciado el proceso 7 del componente web a las 15/06/2018 12:20:43.79  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Tue Jun 12 00:00:00 CDT 2018, getDescrip()=71200872, getFactura()=0362178, getOrden()=0365534, getNumero()=004607, getTotalf()=50.0]
+A punto de enviar 1 facturas
+La respuesta es:Se sincronizaron 1 facturas 
+Iniciado el proceso 7 del componente web a las 19/06/2018 14:05:33.79  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 14:05:38.72  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 14:05:46.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 14:08:35.15  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 15:56:35.11  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 15:56:38.35  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:02:39.23  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:02:53.42  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:03:03.35  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:03:09.68  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:03:22.55  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:03:25.76  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:03:30.30  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:03:50.41  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:04:43.08  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:04:48.49  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:05:11.83  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:05:17.65  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:05:57.85  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:06:05.34  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:06:20.42  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:06:25.07  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:06:35.73  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 16:13:34.78  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:18:42.24  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:20:58.65  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:21:04.44  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:21:09.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:21:16.42  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:21:21.46  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:21:44.50  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:21:56.10  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:06.23  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:09.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:16.20  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:24.64  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:32.33  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:47.68  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:22:53.03  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:02.17  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:07.96  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:19.13  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:31.28  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:35.18  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:43.98  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:23:49.35  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:24:01.72  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:24:09.64  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:24:20.17  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:24:26.33  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:24:33.14  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:24:45.63  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:25:02.07  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:25:08.89  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:25:16.80  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:26:07.39  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:27:32.77  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:02.93  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:21.93  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:24.86  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:28.65  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:31.68  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:33.00  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:34.62  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:36.04  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:37.73  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:40.79  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:43.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:44.83  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:54.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:28:57.98  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:08.38  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:09.66  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:13.44  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:28.30  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:43.42  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:49.01  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:50.68  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:29:56.46  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:01.46  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:02.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:05.09  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:06.45  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:08.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:10.28  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:13.50  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:16.93  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:25.76  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:29.11  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:30.55  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:32.27  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:37.15  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:44.34  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:49.16  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:50.80  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:30:54.31  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:31:16.29  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:31:22.50  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:31:43.04  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:31:48.10  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:38:11.52  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:40:23.48  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:40:26.30  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:40:34.71  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:40:39.34  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:40:49.25  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:44:16.96  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:44:49.74  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:44:59.02  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:45:01.96  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:45:11.86  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:48:19.62  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:48:28.27  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:48:34.01  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:48:39.11  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:51:22.69  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:53:19.32  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:53:21.50  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:53:23.22  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:53:44.40  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:58:51.15  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:58:54.16  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:58:57.36  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:59:15.89  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:59:29.02  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:59:43.31  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 17:59:57.46  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:00:37.32  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:01:10.92  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:01:15.46  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:01:28.07  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:01:50.61  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:02:46.10  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:02:56.32  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:03:03.04  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:04:21.68  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:04:35.21  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:05:18.31  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:05:21.95  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:06:31.12  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:07:15.09  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:07:36.92  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:07:40.58  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:07:45.54  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:09:44.15  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:09:54.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:12:20.01  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:12:21.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:12:49.09  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:06.89  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:21.65  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:38.51  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:40.34  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:42.91  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:45.86  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:50.38  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:13:56.90  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:14:25.31  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:14:29.17  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:14:31.99  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:14:34.05  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:14:36.36  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:14:57.87  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:15:02.67  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:15:04.38  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:15:10.15  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:15:16.14  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 19/06/2018 18:15:53.61  
+La url del servicio web es: http://sirloin.vip.soft-webcosmos.com.mx/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+Iniciado el proceso 7 del componente web a las 21/06/2018  3:35:24.68  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200873, getFactura()=0362762, getOrden()=0366128, getNumero()=020430, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200874, getFactura()=0362915, getOrden()=0366281, getNumero()=020527, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 21/06/2018 19:56:42.32  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200873, getFactura()=0362762, getOrden()=0366128, getNumero()=020430, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200874, getFactura()=0362915, getOrden()=0366281, getNumero()=020527, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 21/06/2018 19:57:42.82  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200873, getFactura()=0362762, getOrden()=0366128, getNumero()=020430, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200874, getFactura()=0362915, getOrden()=0366281, getNumero()=020527, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 21/06/2018 19:59:13.11  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200873, getFactura()=0362762, getOrden()=0366128, getNumero()=020430, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200874, getFactura()=0362915, getOrden()=0366281, getNumero()=020527, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 21/06/2018 19:59:48.46  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200873, getFactura()=0362762, getOrden()=0366128, getNumero()=020430, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200874, getFactura()=0362915, getOrden()=0366281, getNumero()=020527, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 21/06/2018 19:59:52.39  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200873, getFactura()=0362762, getOrden()=0366128, getNumero()=020430, getTotalf()=50.0]
+FacturasVip [getFecha()=Sat Jun 16 00:00:00 CDT 2018, getDescrip()=71200874, getFactura()=0362915, getOrden()=0366281, getNumero()=020527, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 4 facturas
+La respuesta es:Se sincronizaron 4 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018  3:05:29.30  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018  3:35:24.03  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 11:08:15.89  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 11:11:50.67  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 11:13:30.09  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 16:57:54.90  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 17:01:12.77  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 17:25:15.41  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 
+Iniciado el proceso 7 del componente web a las 22/06/2018 17:26:07.35  
+La url del servicio web es: http://www.programadepuntos-vip.com/php/WS_SirloinClients.php
+La ubicacion del dbf es: C:/SirloinDesarrollo/DBC/Copia
+---------- Subiendo las facturas de los ultimos dias ----------------------------------
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200875, getFactura()=0363712, getOrden()=0367086, getNumero()=005193, getTotalf()=50.0]
+FacturasVip [getFecha()=Thu Jun 21 00:00:00 CDT 2018, getDescrip()=71200876, getFactura()=0363713, getOrden()=0367087, getNumero()=005194, getTotalf()=50.0]
+A punto de enviar 2 facturas
+La respuesta es:Se sincronizaron 2 facturas 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="adodb-compress-bzip2.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-compress-gzip.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-cryptsession.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-encrypt-mcrypt.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-encrypt-md5.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-encrypt-ordcrypt.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-encrypt-secret.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-encrypt-sha1.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-sess.txt" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-session-clob.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-session.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-sessions.mysql.sql" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-sessions.oracle.clob.sql" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="adodb-sessions.oracle.sql" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="crypt.inc.php" local="128256472800000000" remote="128455161000000000" testing="0" />
+<file name="session_schema.xml" local="128256472800000000" remote="128455161000000000" testing="0" />
+</dwsync>
