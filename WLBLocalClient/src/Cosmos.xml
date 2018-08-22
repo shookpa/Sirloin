@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project default="create_run_jar" name="Create Runnable Jar for Project SirloinWebServiceClient with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="/home/jcenteno/Personales/cosmos/Mike/sirloin/Entregables/Sirloin_v9.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="com.realtoscana.WS_SirloinClients.impl.Principal"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ axis.jar commons-discovery-0.2.jar jaxrpc.jar saaj.jar javax.wsdl_1.6.2.v201012040545.jar org.apache.commons.logging_1.1.1.v201101211721.jar activation.jar dbfdriver.jar javax.mail.jar rt.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="/home/jcenteno/WS/Cosmos/SirloinWebServiceClient/bin"/>
+            <zipfileset dir="/home/jcenteno/SW/eclipse/plugins/org.apache.axis_1.4.0.v201005080400/lib" includes="axis.jar"/>
+            <zipfileset dir="/home/jcenteno/SW/eclipse/plugins/org.apache.commons.discovery_0.2.0.v201004190315/lib" includes="commons-discovery-0.2.jar"/>
+            <zipfileset dir="/home/jcenteno/SW/eclipse/plugins/javax.xml.rpc_1.1.0.v201209140446/lib" includes="jaxrpc.jar"/>
+            <zipfileset dir="/home/jcenteno/SW/eclipse/plugins/javax.xml.soap_1.2.0.v201005080501/lib" includes="saaj.jar"/>
+            <zipfileset dir="/home/jcenteno/SW/eclipse/plugins" includes="javax.wsdl_1.6.2.v201012040545.jar"/>
+            <zipfileset dir="/home/jcenteno/SW/eclipse/plugins" includes="org.apache.commons.logging_1.1.1.v201101211721.jar"/>
+            <zipfileset dir="/home/jcenteno/WS/Cosmos/SirloinWebServiceClient/lib" includes="activation.jar"/>
+            <zipfileset dir="/home/jcenteno/WS/Cosmos/SirloinWebServiceClient/lib" includes="dbfdriver.jar"/>
+            <zipfileset dir="/home/jcenteno/WS/Cosmos/SirloinWebServiceClient/lib" includes="javax.mail.jar"/>
+            <zipfileset dir="/home/jcenteno/WS/Cosmos/SirloinWebServiceClient/lib" includes="rt.jar"/>
+        </jar>
+    </target>
+</project>
