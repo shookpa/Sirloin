@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<definitions xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://realtoscana.com/WS_SirloinClients" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://realtoscana.com/WS_SirloinClients">
+<types>
+<xsd:schema targetNamespace="http://realtoscana.com/WS_SirloinClients"
+>
+ <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+ <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+ <xsd:complexType name="clientesVip">
+  <xsd:sequence>
+   <xsd:element name="num_vip" type="xsd:integer"/>
+   <xsd:element name="nom_vip" type="xsd:string"/>
+   <xsd:element name="tel_vip" type="xsd:string"/>
+   <xsd:element name="ema_vip" type="xsd:string"/>
+   <xsd:element name="fec_vip" type="xsd:date"/>
+   <xsd:element name="sal_vip" type="xsd:decimal"/>
+   <xsd:element name="fuc_vip" type="xsd:date"/>
+   <xsd:element name="muc_vip" type="xsd:decimal"/>
+   <xsd:element name="fup_vip" type="xsd:date"/>
+   <xsd:element name="mup_vip" type="xsd:decimal"/>
+   <xsd:element name="tnr_vip" type="xsd:integer"/>
+   <xsd:element name="tmr_vip" type="xsd:decimal"/>
+   <xsd:element name="tct_vip" type="xsd:decimal"/>
+   <xsd:element name="pto_vip" type="xsd:decimal"/>
+   <xsd:element name="pva_vip" type="xsd:decimal"/>
+  </xsd:sequence>
+ </xsd:complexType>
+ <xsd:complexType name="accountWS">
+  <xsd:sequence>
+   <xsd:element name="usuario" type="xsd:string"/>
+   <xsd:element name="password" type="xsd:string"/>
+  </xsd:sequence>
+ </xsd:complexType>
+ <xsd:complexType name="listaClientesVIP">
+  <xsd:complexContent>
+   <xsd:restriction base="SOAP-ENC:Array">
+    <xsd:attribute ref="SOAP-ENC:arrayType" wsdl:arrayType="tns:clientesVip[]"/>
+   </xsd:restriction>
+  </xsd:complexContent>
+ </xsd:complexType>
+</xsd:schema>
+</types>
+<message name="listarClientesRequest">
+  <part name="cuenta" type="tns:accountWS" /></message>
+<message name="listarClientesResponse">
+  <part name="return" type="tns:listaClientesVIP" /></message>
+<message name="listarClientesDelDiaRequest">
+  <part name="cuenta" type="tns:accountWS" /></message>
+<message name="listarClientesDelDiaResponse">
+  <part name="return" type="tns:listaClientesVIP" /></message>
+<message name="agregarClientesRequest">
+  <part name="cuenta" type="tns:accountWS" />
+  <part name="listaClientes" type="tns:listaClientesVIP" /></message>
+<message name="agregarClientesResponse">
+  <part name="status" type="xsd:boolean" />
+  <part name="mensaje" type="xsd:string" /></message>
+<portType name="WS_SirloinClientsPortType">
+  <operation name="listarClientes">
+    <documentation>Lista total de Clientes VIP </documentation>
+    <input message="tns:listarClientesRequest"/>
+    <output message="tns:listarClientesResponse"/>
+  </operation>
+  <operation name="listarClientesDelDia">
+    <documentation>Lista de Clientes agregados en el dia</documentation>
+    <input message="tns:listarClientesDelDiaRequest"/>
+    <output message="tns:listarClientesDelDiaResponse"/>
+  </operation>
+  <operation name="agregarClientes">
+    <documentation>Agregar nuevos clientes VIP</documentation>
+    <input message="tns:agregarClientesRequest"/>
+    <output message="tns:agregarClientesResponse"/>
+  </operation>
+</portType>
+<binding name="WS_SirloinClientsBinding" type="tns:WS_SirloinClientsPortType">
+  <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+  <operation name="listarClientes">
+    <soap:operation soapAction="http://realtoscana.com/php/WS_SirloinClients.php/listarClientes" style="rpc"/>
+    <input><soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+  <operation name="listarClientesDelDia">
+    <soap:operation soapAction="http://realtoscana.com/php/WS_SirloinClients.php/listarClientesDelDia" style="rpc"/>
+    <input><soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+  <operation name="agregarClientes">
+    <soap:operation soapAction="http://realtoscana.com/php/WS_SirloinClients.php/agregarClientes" style="rpc"/>
+    <input><soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></input>
+    <output><soap:body use="encoded" namespace="" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"/></output>
+  </operation>
+</binding>
+<service name="WS_SirloinClients">
+  <port name="WS_SirloinClientsPort" binding="tns:WS_SirloinClientsBinding">
+    <soap:address location="http://realtoscana.com/php/WS_SirloinClients.php"/>
+  </port>
+</service>
+</definitions>
