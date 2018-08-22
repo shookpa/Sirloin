@@ -226,7 +226,20 @@ public class Principal2 {
 					if (!hayRegs) {
 						stmtCopy.execute(sqlInsert);
 					} else
-						stmtCopy.execute(sqlUpdate);
+					{	
+						//Solo debe hacer el update en la tabla espejo en el caso de que haya diferencia en los puntos y así aseguramos de que no cambie la fecha y hora que capto del web server:
+						String pto_actual= rsCopy2.getString("PTO_VIP").trim();
+						if (!pto_actual.equalsIgnoreCase(Pto_vip)) {
+							if (Double.parseDouble(pto_actual) != Double.parseDouble(Pto_vip)) {
+								System.out.println(
+										"Si encontro saldo diferente por lo que va actualizar la tarjeta, "
+												+ Num_vip + ", saldo tabla espejo: " + pto_actual
+												+ ", saldo tabla restbar:" + Pto_vip
+												);
+								stmtCopy.execute(sqlUpdate);
+							}
+						}
+					}	
 					cont++;
 				}
 				System.out.println("-----------Se sincronizaron " + cont
