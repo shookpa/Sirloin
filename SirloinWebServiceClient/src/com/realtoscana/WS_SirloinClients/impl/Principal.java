@@ -715,7 +715,8 @@ public class Principal {
 
 				System.out.println(
 						"---------- Subiendo las facturas de los ultimos dias ----------------------------------");
-				sql = "SELECT  FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACT_VIP WHERE (DATE() - FECHA <= 5 AND NOT EMPTY(FECHA) = .T. ) ";
+				//AHORA SUBIMOS TODAS, ANTES SOLO ERAN LAS DE LOS ULTIMOS 5 DIAS CON EL FILTRO:  WHERE (DATE() - FECHA <= 5 AND NOT EMPTY(FECHA) = .T. )
+				sql = "SELECT  FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACT_VIP ";
 				rs = stmt.executeQuery(sql);
 				contador = 0;
 				while (rs.next()) {
