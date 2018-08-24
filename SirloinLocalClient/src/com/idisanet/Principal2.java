@@ -17,7 +17,7 @@ import java.util.Properties;
 public class Principal2 {
 	static String pathDBFRestbar;
 	static String pathDBFCopy;
-	static String codigoFacturaVIP;
+	static String codigosFacturaVIP;
 
 	public Principal2() {
 	}
@@ -32,7 +32,7 @@ public class Principal2 {
 
 			pathDBFRestbar = prop.getProperty("pathDBFOriginal");
 			pathDBFCopy = prop.getProperty("pathDBF");
-			codigoFacturaVIP = prop.getProperty("codigoFacturaVIP");
+			codigosFacturaVIP = prop.getProperty("codigoFacturaVIP");
 			System.out.println("La ubicacion del dbf original es: " + pathDBFRestbar);
 			System.out.println("La ubicacion del dbf copia es: " + pathDBFCopy);
 		} catch (IOException io) {
@@ -399,7 +399,7 @@ public class Principal2 {
 				System.out.println(
 						"---------- Ejecucion del proceso 6 (Envio de todas las facturas con movimiento de venta de tarjetas, solo se usa sincronizacion inicial )");
 				//Si no hay registros, hay que subir todos los registros de la tabla original
-				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2 WHERE CODIGO= '"+codigoFacturaVIP+"'";
+				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2 WHERE CODIGO IN ("+codigosFacturaVIP+")";
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				while (rsRestbar.next()) {
 					String fecha = rsRestbar.getString("FECHA");
@@ -429,8 +429,10 @@ public class Principal2 {
 				System.out.println(
 						"---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )");
 				//PRIMERO SOBRE LA TABLA DEFINITIVA
-				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2 WHERE CODIGO= '"+codigoFacturaVIP+"' AND FECHA = DATE()";
+				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2 WHERE CODIGO IN ("+codigosFacturaVIP+") ";
+				System.out.println(sql);
 				rsRestbar = stmtRestbar.executeQuery(sql);
+				
 				while (rsRestbar.next()) {
 					String fecha = rsRestbar.getString("FECHA");
 					String descrip = rsRestbar.getString("DESCRIP").trim();					
@@ -460,12 +462,18 @@ public class Principal2 {
 						String sqlInsert = "INSERT INTO FACT_VIP VALUES(" + fecha_vip + "," + descrip_vip + "," + orden_vip + ","
 								+ factura_vip + "," + numero_vip + "," + totalf_vip + ");";
 						System.out.println("Datos obtenidos desde la tabla FACTURA2: "+sqlInsert);
-						stmtCopy.execute(sqlInsert);
-						
+						stmtCopy.execute(sqlInsert);						
 					}
+					else
+					{
+						String sqlUpdate= "UPDATE FACT_VIP SET DESCRIP ="+ descrip_vip + " WHERE  ORDEN = " + orden_vip + " AND FACTURA = "+factura_vip+";";
+						System.out.println("Datos ACTUALIZADOS desde la tabla FACTURA2: "+sqlUpdate+ ", con fecha: "+fecha_vip);
+						stmtCopy.execute(sqlUpdate);
+					}
+					
 				}
 				//LUEGO SOBRE LA TABLA TEMPORAL
-				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2T WHERE CODIGO= '"+codigoFacturaVIP+"' AND FECHA = DATE()";
+				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2T WHERE CODIGO IN ("+codigosFacturaVIP+") ";
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				while (rsRestbar.next()) {
 					String fecha = rsRestbar.getString("FECHA");
@@ -498,6 +506,12 @@ public class Principal2 {
 						System.out.println("Datos obtenidos desde la tabla FACTURA2T: "+sqlInsert);
 						stmtCopy.execute(sqlInsert);
 						
+					}
+					else
+					{
+						String sqlUpdate= "UPDATE FACT_VIP SET DESCRIP ="+ descrip_vip + " WHERE  ORDEN = " + orden_vip + " AND FACTURA = "+factura_vip+";";
+						System.out.println("Datos ACTUALIZADOS desde la tabla FACTURA2: "+sqlUpdate);
+						stmtCopy.execute(sqlUpdate);
 					}
 				}
 				break;
