@@ -14,7 +14,12 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Properties;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 public class Principal2 {
+	final static Logger log = Logger.getLogger(Principal2.class);
+
 	static String pathDBFRestbar;
 	static String pathDBFCopy;
 	static String codigosFacturaVIP;
@@ -23,6 +28,9 @@ public class Principal2 {
 	}
 
 	public static void initialize() {
+//		BasicConfigurator.configure();
+		String log4jConfPath = "resources/log4j.properties";
+		PropertyConfigurator.configure(log4jConfPath);
 		Properties prop = new Properties();
 		InputStream input = null;
 
@@ -33,8 +41,11 @@ public class Principal2 {
 			pathDBFRestbar = prop.getProperty("pathDBFOriginal");
 			pathDBFCopy = prop.getProperty("pathDBF");
 			codigosFacturaVIP = prop.getProperty("codigoFacturaVIP");
-			System.out.println("La ubicacion del dbf original es: " + pathDBFRestbar);
-			System.out.println("La ubicacion del dbf copia es: " + pathDBFCopy);
+			log.info("Inicializando la clase Principal");
+			
+			log.info("La ubicacion del dbf original es: " + pathDBFRestbar);
+			log.info("La ubicacion del dbf copia es: " + pathDBFCopy);
+			
 		} catch (IOException io) {
 			io.printStackTrace();
 
@@ -75,8 +86,7 @@ public class Principal2 {
 //			connStringCopy="jdbc:dbf:"+pathDBFCopy;
 			connCopy = DriverManager.getConnection(connStringCopy);
 			stmtCopy = connCopy.createStatement();
-			int proceso = Integer.parseInt(args[0]);
-			System.out.println("Ejecutando el proceso: "+ proceso);
+			int proceso = Integer.parseInt(args[0]);			
 			DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 			DateFormat dateFormat2 = new SimpleDateFormat("yyyy,M,d");
 			DateFormat dateTimeFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -86,8 +96,8 @@ public class Principal2 {
 			int cont;
 			switch (proceso) {
 			case 1:
-				System.out.println(
-						"---------- Ejecutando el proceso 1 (Envio de las tarjetas actuales a la tabla copia, solo se usa sincronizacion inicial )");
+				
+				log.info(" Ejecutando el proceso 1 (Envio de las tarjetas actuales a la tabla copia, solo se usa sincronizacion inicial )");
 				sql = "SELECT NUM_VIP, NOM_VIP, TEL_VIP, EMA_VIP, FEC_VIP, SAL_VIP, FUC_VIP, MUC_VIP, FUP_VIP, MUP_VIP, TNR_VIP, TMR_VIP, TCT_VIP, PTO_VIP, PVA_VIP FROM CLI_VIP";
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				cont = 0;
@@ -151,21 +161,21 @@ public class Principal2 {
 						hayRegs = true;
 					}
 					if (!hayRegs) {
-						System.out.println(sqlInsert);
+						log.info(sqlInsert);
 						stmtCopy.execute(sqlInsert);
 					} else
 						stmtCopy.execute(sqlUpdate);
 					cont++;
 				}
-				System.out.println("-----------Se sincronizaron " + cont
+				log.info("-----------Se sincronizaron " + cont
 						+ " tarjetas, de la tabla original a la tabla espejo ---------");
 				
 				break;
 
 			case 2:
-				System.out.println(
-						"---------- Ejecutando el proceso 2 (Envio de los registros de cada dia de la tabla original a la tabla espejo)  ---------");
+				log.info("--PROC.2-- Ejecutando el proceso 2 (Envio de los registros de cada dia de la tabla original a la tabla espejo)");
 				sql = "SELECT NUM_VIP, NOM_VIP, TEL_VIP, EMA_VIP, FEC_VIP, SAL_VIP, FUC_VIP, MUC_VIP, FUP_VIP, MUP_VIP, TNR_VIP, TMR_VIP, TCT_VIP, PTO_VIP, PVA_VIP FROM CLI_VIP  WHERE fec_vip = DATE() OR fuc_vip = DATE() OR fup_vip = DATE() ";
+				log.info("--PROC.2-- Query extraccion: "+sql);
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				cont = 0;
 				while (rsRestbar.next()) {
@@ -209,6 +219,8 @@ public class Principal2 {
 					String Pto_vip = pto != null ? pto : "0";
 					String Pva_vip = pva != null ? pva : "0";
 					String sqlBusq = "SELECT * FROM CLI_VIP WHERE NUM_VIP = " + Num_vip;
+					log.info("--PROC.2-- Buscando registros en cli_vip espejo del num_vip: "+Num_vip);
+					log.info("--PROC.2-- Query busqueda: "+sqlBusq);
 					String sqlInsert = "INSERT INTO CLI_VIP VALUES(" + Num_vip + "," + Nom_vip + "," + Tel_vip + ","
 							+ Ema_vip + ", " + Fec_vip + "," + Sal_vip + "," + Fuc_vip + "," + Muc_vip + "," + Fup_vip
 							+ "," + Mup_vip + "," + Tnr_vip + "," + Tmr_vip + "," + Tct_vip + "," + Pto_vip + ","
@@ -224,35 +236,40 @@ public class Principal2 {
 						hayRegs = true;
 					}
 					if (!hayRegs) {
+						log.info("--PROC.2-- Query insercion:"+sqlInsert);
 						stmtCopy.execute(sqlInsert);
 					} else
 					{	
-						//Solo debe hacer el update en la tabla espejo en el caso de que haya diferencia en los puntos y así aseguramos de que no cambie la fecha y hora que capto del web server:
-						String pto_actual= rsCopy2.getString("PTO_VIP").trim();
-						if (!pto_actual.equalsIgnoreCase(Pto_vip)) {
-							if (Double.parseDouble(pto_actual) != Double.parseDouble(Pto_vip)) {
-								System.out.println(
-										"Si encontro saldo diferente por lo que va actualizar la tarjeta, "
-												+ Num_vip + ", saldo tabla espejo: " + pto_actual
-												+ ", saldo tabla restbar:" + Pto_vip
-												);
-								stmtCopy.execute(sqlUpdate);
+						rsCopy2 = stmtCopy.executeQuery(sqlBusq);
+						if (rsCopy2.next()) {
+							//Solo debe hacer el update en la tabla espejo en el caso de que haya diferencia en los puntos y así aseguramos de que no cambie la fecha y hora que capto del web server:
+							String pto_actual= rsCopy2.getString("PTO_VIP").trim();
+							String fuc_actual= rsCopy2.getString("FUC_VIP").trim();
+							String fup_actual= rsCopy2.getString("FUP_VIP").trim();
+							log.info("--PROC.2-- Verificando el num_vip: "+Num_vip+", saldo tabla espejo: " + pto_actual + ", saldo tabla restbar:" + Pto_vip+", FUC tabla espejo: " + fuc_actual + ", saldo tabla restbar:" + Fuc_vip+", FUP tabla espejo: " + fup_actual + ", FUP tabla restbar:" + Fup_vip);
+							if (!pto_actual.equalsIgnoreCase(Pto_vip)) {
+								if (Double.parseDouble(pto_actual) != Double.parseDouble(Pto_vip)) {
+									log.info("--PROC.2-- SI encontro saldo diferente por lo que va actualizar la tarjeta: "	+ Num_vip + ", saldo tabla espejo: " + pto_actual + ", saldo tabla restbar:" + Pto_vip);
+									log.info("--PROC.2-- Query actualizacion:"+sqlUpdate);
+									stmtCopy.execute(sqlUpdate);
+								}
+								else
+									log.info("--PROC.2-- NO encontro saldo diferente en la tarjeta "	+ Num_vip + ", saldo tabla espejo: " + pto_actual + ", saldo tabla restbar:" + Pto_vip);
 							}
 						}
 					}	
 					cont++;
 				}
-				System.out.println("-----------Se sincronizaron " + cont
-						+ " tarjetas, de la tabla original a la tabla espejo ---------");
+				log.info("--PROC.2-- Se sincronizaron " + cont + " tarjetas, de la tabla original a la tabla espejo");
 				
 				
 				
 				break;
 
 			case 3:
-				System.out.println(
-						"---------- Ejecutando el proceso 3 (Sincronizacion entre la tabla espejo a la tabla original, usando el timestamp)");
+				log.info("--PROC.3-- Ejecutando el proceso 3 (Sincronizacion entre la tabla espejo a la tabla original, usando el timestamp)");
 				sql = "SELECT CLI_VIP.NUM_VIP, NOM_VIP, TEL_VIP, EMA_VIP, FEC_VIP, SAL_VIP, FUC_VIP, MUC_VIP, FUP_VIP, MUP_VIP, TNR_VIP, TMR_VIP, TCT_VIP, PTO_VIP, PVA_VIP, LAST_UPDATED_TIME FROM CLI_VIP INNER JOIN CLI_VIP_BIT ON CLI_VIP_BIT.NUM_VIP = CLI_VIP.NUM_VIP   ";
+				log.info("--PROC.3-- Query extraccion: "+sql);
 				ResultSet rsCopy = stmtCopy.executeQuery(sql);
 				cont = 0;
 				while (rsCopy.next()) {
@@ -293,6 +310,8 @@ public class Principal2 {
 					String Pto_vip = pto != null ? pto : "0";
 					String Pva_vip = pva != null ? pva : "0";
 					String sqlBusq = "SELECT * FROM CLI_VIP WHERE NUM_VIP = " + Num_vip;
+					log.info("--PROC.3-- Buscando registros en cli_vip de restbar del num_vip: "+Num_vip);
+					log.info("--PROC.3-- Query busqueda: "+sqlBusq);
 					String sqlInsert = "INSERT INTO CLI_VIP VALUES(" + Num_vip + "," + Nom_vip + "," + Tel_vip + ","
 							+ Ema_vip + ", " + Fec_vip + "," + Sal_vip + "," + Fuc_vip + "," + Muc_vip + "," + Fup_vip
 							+ "," + Mup_vip + "," + Tnr_vip + "," + Tmr_vip + "," + Tct_vip + "," + Pto_vip + ","
@@ -308,20 +327,31 @@ public class Principal2 {
 						hayRegs = true;
 					}
 					if (!hayRegs) {
+						log.info("--PROC.3-- Query insercion:"+sqlInsert);
 						stmtRestbar.execute(sqlInsert);
 					} else
-						stmtRestbar.execute(sqlUpdate);
+					{
+						rsRestbar = stmtCopy.executeQuery(sqlBusq);
+						if (rsRestbar.next()) {
+							String pto_actual= rsRestbar.getString("PTO_VIP").trim();
+							String fuc_actual= rsRestbar.getString("FUC_VIP").trim();
+							String fup_actual= rsRestbar.getString("FUP_VIP").trim();
+							log.info("--PROC.3-- Verificando el num_vip: "+Num_vip+", saldo tabla RESTBAR: " + pto_actual + ", saldo tabla ESPEJO:" + Pto_vip+", FUC tabla RESTBAR: " + fuc_actual + ", saldo tabla ESPEJO:" + Fuc_vip+", FUP tabla RESTBAR: " + fup_actual + ", FUP tabla ESPEJO:" + Fup_vip);
+							log.info("--PROC.3-- Query actualizacion:"+sqlUpdate);
+							stmtRestbar.execute(sqlUpdate);
+						}	
+						
+					}
 					cont++;
 				}
-				System.out.println("-----------Se sincronizaron " + cont
-						+ " tarjetas, de la tabla espejo a la tabla original ---------");
+				log.info("--PROC.3-- Se sincronizaron " + cont + " tarjetas, de la tabla espejo a la tabla original");
 
 				break;
 			case 4:
-				System.out.println(
-						"---------- Ejecucion del proceso 4 (Envio de los movimientos actuales a la tabla copia, solo se usa sincronizacion inicial )");
+				log.info("--PROC.4-- Ejecucion del proceso 4 (Envio de los movimientos actuales a la tabla copia, solo se usa sincronizacion inicial )");
 				//Si no hay registros, hay que subir todos los registros de la tabla original
 				sql = "SELECT NUM_VIP, NOM_VIP, DOC_VIP, FEC_VIP, MON_VIP, CAJ_VIP, DET_VIP, PTO_VIP FROM MOV_VIP";
+				log.info("--PROC.4-- Query extraccion: "+sql);
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				while (rsRestbar.next()) {
 					String num = rsRestbar.getString("NUM_VIP");
@@ -346,14 +376,14 @@ public class Principal2 {
 					String pto_vip = pto != null ?  pto : "0";
 					String sqlInsert = "INSERT INTO MOV_VIP VALUES(" + num_vip + "," + nom_vip + "," + doc_vip + ","
 							+ fec_vip + "," + mon_vip + "," + caj_vip + "," +  det_vip + "," + pto_vip + ");";
-					System.out.println(sqlInsert);
+					log.info("--PROC.4-- Query insercion: "+sqlInsert);
 					stmtCopy.execute(sqlInsert);
 				}
 				break;
 			case 5:
-				System.out.println(
-						"---------- Ejecucion del proceso 5 (Envio de los movimientos de los ultimos dias a la tabla espejo )");
+				log.info("--PROC.5-- Ejecucion del proceso 5 (Envio de los movimientos de los ultimos dias a la tabla espejo)");
 				sql = "SELECT NUM_VIP, NOM_VIP, DOC_VIP, FEC_VIP, MON_VIP, CAJ_VIP, DET_VIP, PTO_VIP FROM MOV_VIP WHERE fec_vip = DATE()";
+				log.info("--PROC.5-- Query extraccion: "+sql);
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				while (rsRestbar.next()) {
 					String num = rsRestbar.getString("NUM_VIP");
@@ -379,7 +409,7 @@ public class Principal2 {
 					
 					//Hay que verificar si se tiene que hacer insert o no hacer nada
 					String sqlBusq = "SELECT * FROM MOV_VIP WHERE NUM_VIP = " + num_vip + " AND DOC_VIP = "+doc_vip ;
-					System.out.println(sqlBusq);
+					log.info("--PROC.5-- Query busqueda: "+sqlBusq);
 					ResultSet rsCopy2 = stmtCopy.executeQuery(sqlBusq);
 					boolean hayRegs = false;
 					while (rsCopy2.next()) {
@@ -389,15 +419,14 @@ public class Principal2 {
 						String sqlInsert = "INSERT INTO MOV_VIP VALUES(" + num_vip + "," + nom_vip + "," + doc_vip + ","
 								+ fec_vip + "," + mon_vip + "," + caj_vip + "," +  det_vip + "," + pto_vip + ");";
 						stmtCopy.execute(sqlInsert);
-						System.out.println(sqlInsert);
+						log.info("--PROC.5-- Query insercion: "+sqlInsert);
 
 					}
 					
 				}
 				break;
 			case 6:
-				System.out.println(
-						"---------- Ejecucion del proceso 6 (Envio de todas las facturas con movimiento de venta de tarjetas, solo se usa sincronizacion inicial )");
+				log.info("Ejecucion del proceso 6 (Envio de todas las facturas con movimiento de venta de tarjetas, solo se usa sincronizacion inicial )");
 				//Si no hay registros, hay que subir todos los registros de la tabla original
 				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2 WHERE CODIGO IN ("+codigosFacturaVIP+")";
 				rsRestbar = stmtRestbar.executeQuery(sql);
@@ -421,16 +450,15 @@ public class Principal2 {
 					String totalf_vip = totalf != null ? totalf : "0";
 					String sqlInsert = "INSERT INTO FACT_VIP VALUES(" + fecha_vip + "," + descrip_vip + "," + orden_vip + ","
 							+ factura_vip + "," + numero_vip+ "," + totalf_vip + ");";
-					System.out.println(sqlInsert);
+					log.info(sqlInsert);
 					stmtCopy.execute(sqlInsert);
 				}
 				break;	
 			case 7:
-				System.out.println(
-						"---------- Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )");
+				log.info("Ejecucion del proceso 7 (Envio de las facturas con movimiento de venta de tarjetas de los ultimos dias a la tabla espejo )");
 				//PRIMERO SOBRE LA TABLA DEFINITIVA
 				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2 WHERE CODIGO IN ("+codigosFacturaVIP+") ";
-				System.out.println(sql);
+				log.info("--PROC.7-- Query extraccion: "+sql);
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				
 				while (rsRestbar.next()) {
@@ -452,7 +480,7 @@ public class Principal2 {
 					String totalf_vip = totalf != null ? totalf : "0";
 					//Hay que verificar si se tiene que hacer insert o no hacer nada
 					String sqlBusq = "SELECT * FROM FACT_VIP WHERE ORDEN = " + orden_vip + " AND FACTURA = "+factura_vip ;
-					System.out.println(sqlBusq);
+					log.info("--PROC.7-- Query busqueda: "+sqlBusq);
 					ResultSet rsCopy2 = stmtCopy.executeQuery(sqlBusq);
 					boolean hayRegs = false;
 					while (rsCopy2.next()) {
@@ -461,19 +489,20 @@ public class Principal2 {
 					if (!hayRegs) {
 						String sqlInsert = "INSERT INTO FACT_VIP VALUES(" + fecha_vip + "," + descrip_vip + "," + orden_vip + ","
 								+ factura_vip + "," + numero_vip + "," + totalf_vip + ");";
-						System.out.println("Datos obtenidos desde la tabla FACTURA2: "+sqlInsert);
+						log.info("--PROC.7-- Query insercion: "+sqlInsert);
 						stmtCopy.execute(sqlInsert);						
 					}
 					else
 					{
 						String sqlUpdate= "UPDATE FACT_VIP SET DESCRIP ="+ descrip_vip + " WHERE  ORDEN = " + orden_vip + " AND FACTURA = "+factura_vip+";";
-						System.out.println("Datos ACTUALIZADOS desde la tabla FACTURA2: "+sqlUpdate+ ", con fecha: "+fecha_vip);
+						log.info("--PROC.7-- Query actualizacion: "+sqlUpdate);
 						stmtCopy.execute(sqlUpdate);
 					}
 					
 				}
 				//LUEGO SOBRE LA TABLA TEMPORAL
 				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACTURA2T WHERE CODIGO IN ("+codigosFacturaVIP+") ";
+				log.info("--PROC.7-- Query extraccion: "+sql);
 				rsRestbar = stmtRestbar.executeQuery(sql);
 				while (rsRestbar.next()) {
 					String fecha = rsRestbar.getString("FECHA");
@@ -494,7 +523,7 @@ public class Principal2 {
 					String totalf_vip = totalf != null ? totalf : "0";
 					//Hay que verificar si se tiene que hacer insert o no hacer nada
 					String sqlBusq = "SELECT * FROM FACT_VIP WHERE ORDEN = " + orden_vip + " AND FACTURA = "+factura_vip ;
-					System.out.println(sqlBusq);
+					log.info("--PROC.7-- Query busqueda: "+sqlBusq);
 					ResultSet rsCopy2 = stmtCopy.executeQuery(sqlBusq);
 					boolean hayRegs = false;
 					while (rsCopy2.next()) {
@@ -503,20 +532,20 @@ public class Principal2 {
 					if (!hayRegs) {
 						String sqlInsert = "INSERT INTO FACT_VIP VALUES(" + fecha_vip + "," + descrip_vip + "," + orden_vip + ","
 								+ factura_vip + "," + numero_vip + "," + totalf_vip + ");";
-						System.out.println("Datos obtenidos desde la tabla FACTURA2T: "+sqlInsert);
+						log.info("--PROC.7-- Query insercion: "+sqlInsert);
 						stmtCopy.execute(sqlInsert);
 						
 					}
 					else
 					{
 						String sqlUpdate= "UPDATE FACT_VIP SET DESCRIP ="+ descrip_vip + " WHERE  ORDEN = " + orden_vip + " AND FACTURA = "+factura_vip+";";
-						System.out.println("Datos ACTUALIZADOS desde la tabla FACTURA2: "+sqlUpdate);
+						log.info("--PROC.7-- Query actualizacion: "+sqlUpdate);
 						stmtCopy.execute(sqlUpdate);
 					}
 				}
 				break;
 			default:
-				System.out.println("El argumento proporcionado es incorrecto");
+				log.error("El argumento proporcionado es incorrecto");
 			}
 
 		} catch (ClassNotFoundException e) {
