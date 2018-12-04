@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.rmi.RemoteException;
 import java.sql.Connection;
-import java.sql.DriverManager;
+import java.sql.DriverManager; 
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
@@ -24,7 +24,9 @@ import javax.xml.rpc.holders.BooleanHolder;
 import javax.xml.rpc.holders.StringHolder;
 
 import org.apache.axis.AxisFault;
-
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.apache.commons.lang3.exception.ExceptionUtils;
 import com.realtoscana.WS_SirloinClients.AccountWS;
 import com.realtoscana.WS_SirloinClients.ClientesVip;
 import com.realtoscana.WS_SirloinClients.FacturasVip;
@@ -32,6 +34,8 @@ import com.realtoscana.WS_SirloinClients.MovimientosVip;
 import com.realtoscana.WS_SirloinClients.WS_SirloinClientsBindingStub;
 
 public class Principal {
+	final static Logger log = Logger.getLogger(Principal.class);
+
 	static String urlService;
 	static String pathDBF;
 	static String userService;
@@ -43,6 +47,8 @@ public class Principal {
 	 * componente
 	 */
 	public static void initialize() {
+		String log4jConfPath = "resources/log4j.properties";
+		PropertyConfigurator.configure(log4jConfPath);
 		Properties prop = new Properties();
 		InputStream input = null;
 
@@ -58,9 +64,9 @@ public class Principal {
 			pwdService = prop.getProperty("pwdService");
 			cuenta.setUsuario(userService);
 			cuenta.setPassword(pwdService);
-
-			System.out.println("La url del servicio web es: " + urlService);
-			System.out.println("La ubicacion del dbf es: " + pathDBF);
+			log.info("Inicializando la clase Principal");
+			log.info("La url del servicio web es: " + urlService);
+			log.info("La ubicacion del dbf es: " + pathDBF);
 
 		} catch (IOException io) {
 			io.printStackTrace();
@@ -129,8 +135,8 @@ public class Principal {
 			switch (proceso) {
 			case 1:
 				ClientesVip[] clientesdelDia;
-				System.out.println(
-						"---------- Ejecutando el proceso 1 (Envio de los registros de clientes de cada sucursal.)");
+				log.info(
+						" Ejecutando el proceso 1 (Envio de los registros de clientes de cada sucursal.)");
 				sql = "SELECT NUM_VIP FROM CLI_VIP WHERE NUM_VIP<>'0000000*' AND LEN(ALLTRIM(NUM_VIP))=8  ";
 				rs = stmt.executeQuery(sql);
 				contador = 0;
@@ -144,7 +150,7 @@ public class Principal {
 				while (rs.next()) {
 					clientesdelDia[cont] = new ClientesVip();
 					String num = rs.getString("NUM_VIP").trim();
-					// System.out.println("veamos el num:"+num);
+					// log.info("veamos el num:"+num);
 					clientesdelDia[cont].setNum_vip(
 							num != null && !num.startsWith("0000000") ? BigInteger.valueOf(Long.valueOf(num)) : null);
 					cont++;
@@ -164,10 +170,10 @@ public class Principal {
 						if (!hayRegs) // SOLO EN EL CASO DE QUE NO EXISTA EL
 										// REGISTRO DEBE DE INSERTAR:
 						{
-							// System.out.println(sqlInsert);
+							// log.info(sqlInsert);
 							stmt.execute(sqlInsert);
 						} else {
-							// System.out.println(sqlUpdate);
+							// log.info(sqlUpdate);
 							stmt.execute(sqlUpdate);
 						}
 					}
@@ -218,20 +224,20 @@ public class Principal {
 					clientesdelDia[cont].setPto_vip(pto != null ? BigDecimal.valueOf(Double.parseDouble(pto)) : null);
 					clientesdelDia[cont].setPva_vip(pva != null ? BigDecimal.valueOf(Double.parseDouble(pva)) : null);
 					clientesdelDia[cont].setDatetime_vip(lut != null ? lut : null);
-//					System.out.println(clientesdelDia[cont]);
+//					log.info(clientesdelDia[cont]);
 					cont++;
 				}
 				try {
 					if (clientesdelDia.length > 0) {
 						ClientesVip[][] cliVip = chunkCliArray(clientesdelDia, 1000);
 						for (ClientesVip[] cliVips : cliVip) {
-							System.out.println("A punto de enviar " + cliVips.length + " clientes");
+							log.info("A punto de enviar " + cliVips.length + " clientes");
 							String resp = ws.agregarClientes(cuenta, cliVips);
-							System.out.println("La respuesta es:" + resp);
+							log.info("La respuesta es:" + resp);
 						}
-//						System.out.println("A punto de enviar " + clientesdelDia.length + " clientes");
+//						log.info("A punto de enviar " + clientesdelDia.length + " clientes");
 //						String resp = ws.agregarClientes(cuenta, clientesdelDia);
-//						System.out.println("La respuesta es:" + resp);
+//						log.info("La respuesta es:" + resp);
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
@@ -240,11 +246,11 @@ public class Principal {
 
 				break;
 			case 2:
-
+				log.info("--PROC.2-- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)");
 				ClientesVip[] clientesDelDia;
 				try {
 					clientesDelDia = ws.listarClientesDelDia(cuenta);
-					System.out.println("Encontro: "+clientesDelDia.length+ " tarjetas con saldos recientes");
+					log.info("--PROC.2-- Consultando el servicio web, encontro: "+clientesDelDia.length+ " tarjetas con modificaciones recientes");
 					for (ClientesVip clientesVip : clientesDelDia) {
 
 						String Num_vip = clientesVip.getNum_vip() != null ? "'" + clientesVip.getNum_vip() + "'" : "0";
@@ -281,6 +287,8 @@ public class Principal {
 								+ Tnr_vip + ",TMR_VIP=" + Tmr_vip + ",TCT_VIP=" + Tct_vip + ",PTO_VIP=" + Pto_vip
 								+ ",PVA_VIP=" + Pva_vip + " WHERE NUM_VIP = " + Num_vip;
 						rs = stmt.executeQuery(sqlBusq);
+						log.info("--PROC.2-- Buscando registros en cli_vip espejo del num_vip: "+Num_vip);
+						log.info("--PROC.2-- Query busqueda: "+sqlBusq);
 						boolean hayRegs = false;
 						while (rs.next()) {
 							hayRegs = true;
@@ -288,24 +296,26 @@ public class Principal {
 						if (!hayRegs) // SOLO EN EL CASO DE QUE NO EXISTA EL
 										// REGISTRO DEBE DE INSERTAR:
 						{
-							System.out.println(sql);
+							log.info("--PROC.2-- Query insercion:"+sql);
+							
 							stmt.execute(sql);
 							// DEBE PONER LA FECHA Y HORA DEL SISTEMA WEB EN LA
 							// TABLA DE CLI_VIP_BIT
 							String sqlUpdateBit = "UPDATE CLI_VIP_BIT SET last_updated_time = " + date_time
 									+ " WHERE NUM_VIP = " + Num_vip;
-							System.out.println(
-									"Actualiza la fecha y hora de la tabla local conforme al web: " + sqlUpdateBit);
+							log.info("--PROC.2-- Query actualizacion:"+ sqlUpdateBit);
 							stmt.execute(sqlUpdateBit);
 						} else {
 							rs = stmt.executeQuery(sqlBusq);
 							// VERIFICA SI HAY CAMBIO EN EL SALDO:
 							if (rs.next()) {
-								// System.out.println("Estamos en la busqueda de
+								// log.info("Estamos en la busqueda de
 								// saldo, del cliente"+ Num_vip);
 							
 								
 								String pto_actual= rs.getString("PTO_VIP").trim();
+								String fuc_actual= rs.getString("FUC_VIP").trim();
+								String fup_actual= rs.getString("FUP_VIP").trim();
 
 								if (!pto_actual.equalsIgnoreCase(Pto_vip)) {
 									if (Double.parseDouble(pto_actual) != Double.parseDouble(Pto_vip)) {
@@ -318,23 +328,33 @@ public class Principal {
 										Date datetimeLocal = dateTimeFormat.parse(datetimeLocalStr);
 										if (datetimeLocal.after(date_timeWeb))
 										{	//En el caso de que en la tabla local haya una hora y fecha mas reciente, que solo imprima los logs:
-											System.out.println(
+											log.info(
 													"Hubo un movimiento mas reciente en esta sucursal, del cliente "
-															+ Num_vip + ", saldo local: " + pto_actual
+															+ Num_vip 
 															+ ", saldo web:" + Pto_vip
-															+ ", datetimeLocal:" + datetimeLocal
-															+ ", date_timeWeb:" + date_timeWeb+ ". Por lo tanto, no debe hacer nada");
+															+ ", saldo local: " + pto_actual
+															+ ", FUC web:" + Fuc_vip
+															+ ", FUC local:" + fuc_actual
+															+ ", FUP web:" + Fup_vip
+															+ ", FUP local:" + fup_actual
+															+ ", date_timeWeb:" + date_timeWeb
+															+ ", datetimeLocal:" + datetimeLocal + ". Por lo tanto, no debe hacer nada");
 											
 										}
 										else
 										{
-											System.out.println(
-													"Si encontro saldo diferente por lo que va actualizar el cliente, "
-															+ Num_vip + ", saldo local: " + pto_actual
+											log.info(
+													"Si encontro saldo diferente mas reciente en el web por lo que va actualizar el cliente: "
+															+ Num_vip 
 															+ ", saldo web:" + Pto_vip
-															+ ", datetimeLocal:" + datetimeLocal
-															+ ", date_timeWeb:" + date_timeWeb);
-											stmt.execute(sqlUpdate);
+															+ ", saldo local: " + pto_actual
+															+ ", FUC web:" + Fuc_vip
+															+ ", FUC local:" + fuc_actual
+															+ ", FUP web:" + Fup_vip
+															+ ", FUP local:" + fup_actual
+															+ ", date_timeWeb:" + date_timeWeb
+															+ ", datetimeLocal:" + datetimeLocal);
+											stmt.execute("--PROC.2-- Query actualizacion:"+sqlUpdate);
 											
 											
 											
@@ -343,9 +363,7 @@ public class Principal {
 											// CLI_VIP_BIT
 											String sqlUpdateBit = "UPDATE CLI_VIP_BIT SET last_updated_time = " + date_time
 													+ " WHERE NUM_VIP = " + Num_vip;
-											System.out
-													.println("Actualiza la fecha y hora de la tabla local conforme al web: "
-															+ sqlUpdateBit);
+											log.info("--PROC.2-- Query actualizacion:"+sqlUpdateBit);
 											stmt.execute(sqlUpdateBit);
 										}
 									}
@@ -359,22 +377,13 @@ public class Principal {
 					e.printStackTrace();
 				}
 
-				// System.out.println("---------- Ejecutando el proceso 2
-				// (Sincronizar esta sucursal con los valores de este dia.)");
-				// sql = "SELECT CLI_VIP.NUM_VIP, NOM_VIP, TEL_VIP, EMA_VIP,
-				// FEC_VIP, SAL_VIP, FUC_VIP, MUC_VIP, FUP_VIP, MUP_VIP,
-				// TNR_VIP, TMR_VIP, TCT_VIP, PTO_VIP, PVA_VIP,
-				// LAST_UPDATED_TIME FROM CLI_VIP INNER JOIN CLI_VIP_BIT ON
-				// CLI_VIP_BIT.NUM_VIP = CLI_VIP.NUM_VIP WHERE fec_vip = DATE()
-				// OR fuc_vip = DATE() OR fup_vip = DATE()";
-				System.out.println(
-						"---------- Ejecutando el proceso 2 (Sincronizar esta sucursal con los valores de los ultimos 2 dias.)");
+				
 				sql = "SELECT CLI_VIP.NUM_VIP, NOM_VIP, TEL_VIP, EMA_VIP, FEC_VIP, SAL_VIP, FUC_VIP, MUC_VIP, FUP_VIP, MUP_VIP, TNR_VIP, TMR_VIP, TCT_VIP, PTO_VIP, PVA_VIP, LAST_UPDATED_TIME FROM CLI_VIP INNER JOIN CLI_VIP_BIT ON CLI_VIP_BIT.NUM_VIP = CLI_VIP.NUM_VIP  WHERE (DATE() - fec_vip <= 2 AND NOT EMPTY(fec_vip) = .T.   ) OR (DATE() - fuc_vip <=2 AND NOT EMPTY(fuc_vip) = .T.) OR (DATE() - fup_vip <= 2 AND NOT EMPTY(fup_vip) = .T.) AND LEN(ALLTRIM(CLI_VIP.NUM_VIP))=8";
 				rs = stmt.executeQuery(sql);
+				
+				log.info("--PROC.2-- Query extraccion: "+sql);
 				contador = 0;
-				while (rs.next()) {
-					// System.out.println("Calculando el numero de registros
-					// con: " + contador);
+				while (rs.next()) {					
 					contador++;
 				}
 				ClientesVip[] clientesdelDiaSucursal = new ClientesVip[contador];
@@ -425,26 +434,25 @@ public class Principal {
 					clientesdelDiaSucursal[cont]
 							.setPva_vip(pva != null ? BigDecimal.valueOf(Double.parseDouble(pva)) : null);
 					clientesdelDiaSucursal[cont].setDatetime_vip(lut != null ? lut : null);
-					System.out.println("Veamos los datos por enviar"+clientesdelDiaSucursal[cont].getNum_vip()+"-"+clientesdelDiaSucursal[cont].getNom_vip()+"-"+clientesdelDiaSucursal[cont].getPto_vip()+"-"+clientesdelDiaSucursal[cont].getDatetime_vip());
+					log.info("--PROC.2-- Por enviar al WS:"+clientesdelDiaSucursal[cont].getNum_vip()+"-"+clientesdelDiaSucursal[cont].getNom_vip()+"-"+clientesdelDiaSucursal[cont].getPto_vip()+"-"+clientesdelDiaSucursal[cont].getDatetime_vip());
 					cont++;
 				}
 				try {
 					if (clientesdelDiaSucursal.length > 0) {
-						System.out.println("A punto de enviar " + clientesdelDiaSucursal.length + " clientes");
+						log.info("--PROC.2-- A punto de enviar " + clientesdelDiaSucursal.length + " clientes");
 						String resp = ws.agregarClientes(cuenta, clientesdelDiaSucursal);
-						System.out.println("La respuesta es:" + resp);
+						log.info("--PROC.2-- La respuesta del WS es:" + resp);
 					}
-				} catch (RemoteException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
+				} catch (RemoteException e) {					
+					log.error(ExceptionUtils.getStackTrace (e));					
 				}
 
 				break;
 			case 3:
 				ClientesVip[] clientesTodos;
 				try {
-					System.out.println(
-							"---------- Ejecutando el proceso 3 (Agregar todos los clientes del repositorio central en esta sucursal.)");
+					log.info(
+							"--PROC.3-- Ejecutando el proceso 3 (Agregar todos los clientes del repositorio central en esta sucursal.)");
 					clientesTodos = ws.listarClientes(cuenta);
 					for (ClientesVip clientesVip : clientesTodos) {
 
@@ -481,6 +489,8 @@ public class Principal {
 								+ Tnr_vip + ",TMR_VIP=" + Tmr_vip + ",TCT_VIP=" + Tct_vip + ",PTO_VIP=" + Pto_vip
 								+ ",PVA_VIP=" + Pva_vip + " WHERE NUM_VIP = " + Num_vip;
 						rs = stmt.executeQuery(sqlBusq);
+						log.info("--PROC.3-- Buscando registros en cli_vip espejo del num_vip: "+Num_vip);
+						log.info("--PROC.3-- Query busqueda: "+sqlBusq);
 						// rs.last();
 						int cuantos = 0;
 						while (rs.next()) {
@@ -490,35 +500,35 @@ public class Principal {
 						// rs.beforeFirst();
 						boolean hayRegs = false;
 						if (cuantos >= 1) {
-							// System.out.println("SI hay registros de:
+							// log.info("SI hay registros de:
 							// "+Num_vip);
 							hayRegs = true;
 						} else {
-							// System.out.println("NO hay registros de:
+							// log.info("NO hay registros de:
 							// "+Num_vip);
 							hayRegs = false;
 						}
 						if (!hayRegs) // SOLO EN EL CASO DE QUE NO EXISTA EL
 										// REGISTRO DEBE DE INSERTAR:
 						{
-							// System.out.println(sql);
+
+							log.info("--PROC.3-- Query insercion:"+sql);
 							stmt.execute(sql);
 							// DEBE PONER LA FECHA Y HORA DEL SISTEMA WEB EN LA
 							// TABLA DE CLI_VIP_BIT
 							String sqlUpdateBit = "UPDATE CLI_VIP_BIT SET last_updated_time = " + date_time
 									+ " WHERE NUM_VIP = " + Num_vip;
-							System.out.println(
-									"Actualiza la fecha y hora de la tabla local conforme al web: " + sqlUpdateBit);
+							log.info("--PROC.3-- Query actualizacion:"+ sqlUpdateBit);
 							stmt.execute(sqlUpdateBit);
 						} else {
-							// System.out.println(sqlUpdate);
+							// log.info(sqlUpdate);
+							log.info("--PROC.3-- Query actualizacion:"+ sqlUpdate);
 							stmt.execute(sqlUpdate);
 							// DEBE PONER LA FECHA Y HORA DEL SISTEMA WEB EN LA
 							// TABLA DE CLI_VIP_BIT
 							String sqlUpdateBit = "UPDATE CLI_VIP_BIT SET last_updated_time = " + date_time
 									+ " WHERE NUM_VIP = " + Num_vip;
-							System.out.println(
-									"Actualiza la fecha y hora de la tabla local conforme al web: " + sqlUpdateBit);
+							log.info("--PROC.3-- Query actualizacion:"+ sqlUpdateBit);
 							stmt.execute(sqlUpdateBit);
 						}
 
@@ -534,14 +544,13 @@ public class Principal {
 				 * COMIENZO DEL REGISTRO DE MOVIMIENTOS COMPLETOS DE LA SUCURSAL
 				 */
 
-				System.out.println(
-						"---------- Subiendo todos los movimientos de la sucursal ----------------------------------");
+				log.info(
+						" Subiendo todos los movimientos de la sucursal ");
 				sql = "SELECT NUM_VIP, DOC_VIP, FEC_VIP, MON_VIP, CAJ_VIP, DET_VIP, PTO_VIP  FROM  MOV_VIP WHERE NUM_VIP <>'        ' AND LEN(ALLTRIM(NUM_VIP))=8";
 				rs = stmt.executeQuery(sql);
+				log.info("--PROC.4-- Query extraccion:"+ sql);
 				contador = 0;
 				while (rs.next()) {
-					// System.out.println("Calculando el numero de registros
-					// con: " + contador);
 					contador++;
 				}
 				MovimientosVip[] movimientosSucursal = new MovimientosVip[contador];
@@ -568,16 +577,16 @@ public class Principal {
 							.setMon_vip(mon != null ? BigDecimal.valueOf(Double.parseDouble(mon)) : null);
 					movimientosSucursal[cont]
 							.setPto_vip(pto != null ? BigDecimal.valueOf(Double.parseDouble(pto)) : null);
-					System.out.println(movimientosSucursal[cont]);
+					log.info("--PROC.4-- Movimiento:"+movimientosSucursal[cont]);
 					cont++;
 				}
 				try {
 					if (movimientosSucursal.length > 0) {
 						MovimientosVip[][] movDiv = chunkArray(movimientosSucursal, 1000);
 						for (MovimientosVip[] movimientosVips : movDiv) {
-							System.out.println("A punto de enviar " + movimientosVips.length + " movimientos");
+							log.info("--PROC.4-- A punto de enviar " + movimientosVips.length + " movimientos");
 							String resp = ws.agregarMovimientos(cuenta, movimientosVips);
-							System.out.println("La respuesta es:" + resp);
+							log.info("--PROC.4-- La respuesta es:" + resp);
 						}
 
 					}
@@ -596,14 +605,14 @@ public class Principal {
 				 * COMIENZO DEL REGISTRO DE MOVIMIENTOS
 				 */
 
-				System.out.println(
-						"---------- Subiendo los movimientos de los ultimos dias ----------------------------------");
+				log.info(
+						"--PROC.5-- Subiendo los movimientos de los ultimos dias ");
 				sql = "SELECT NUM_VIP,  DOC_VIP, FEC_VIP, MON_VIP, CAJ_VIP, DET_VIP, PTO_VIP FROM MOV_VIP  WHERE (DATE() - fec_vip <= 5 AND NOT EMPTY(fec_vip) = .T. ) AND LEN(ALLTRIM(NUM_VIP))=8";
 				rs = stmt.executeQuery(sql);
+				log.info("--PROC.5-- Query extraccion:"+ sql);
 				contador = 0;
 				while (rs.next()) {
-					// System.out.println("Calculando el numero de registros
-					// con: " + contador);
+			
 					contador++;
 				}
 				MovimientosVip[] movimientosDiaSucursal = new MovimientosVip[contador];
@@ -630,14 +639,14 @@ public class Principal {
 							.setMon_vip(mon != null ? BigDecimal.valueOf(Double.parseDouble(mon)) : null);
 					movimientosDiaSucursal[cont]
 							.setPto_vip(pto != null ? BigDecimal.valueOf(Double.parseDouble(pto)) : null);
-
+					log.info("--PROC.5-- Movimiento:"+movimientosDiaSucursal[cont]);
 					cont++;
 				}
 				try {
 					if (movimientosDiaSucursal.length > 0) {
-						System.out.println("A punto de enviar " + movimientosDiaSucursal.length + " movimientos");
+						log.info("--PROC.5-- A punto de enviar " + movimientosDiaSucursal.length + " movimientos");
 						String resp = ws.agregarMovimientos(cuenta, movimientosDiaSucursal);
-						System.out.println("La respuesta es:" + resp);
+						log.info("--PROC.5-- La respuesta es:" + resp);
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
@@ -653,13 +662,14 @@ public class Principal {
 				 * COMIENZO DEL REGISTRO DE FACTURAS COMPLETAS DE LA SUCURSAL
 				 */
 
-				System.out.println(
-						"---------- Subiendo todas las facturas de ventas de tarjetas de la sucursal ----------------------------------");
+				log.info(
+						"--PROC.6-- Subiendo todas las facturas de ventas de tarjetas de la sucursal ");
 				sql = "SELECT FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACT_VIP";
 				rs = stmt.executeQuery(sql);
+				log.info("--PROC.6-- Query extraccion:"+ sql);
 				contador = 0;
 				while (rs.next()) {
-					// System.out.println("Calculando el numero de registros
+					// log.info("Calculando el numero de registros
 					// con: " + contador);
 					contador++;
 				}
@@ -685,16 +695,16 @@ public class Principal {
 					facturasVip[cont].setTotalf(totalf != null ? BigDecimal.valueOf(Double.parseDouble(totalf)) : null); 
 				
 					
-					System.out.println(facturasVip[cont]);
+					log.info("--PROC.6-- Factur:"+facturasVip[cont]);
 					cont++;
 				}
 				try {
 					if (facturasVip.length > 0) {
 						FacturasVip[][] factDiv = chunkFactArray(facturasVip, 1000);
 						for (FacturasVip[] facturasVips : factDiv) {
-							System.out.println("A punto de enviar " + facturasVips.length + " facturas de tarjetas VIP");
+							log.info("--PROC.6-- A punto de enviar " + facturasVips.length + " facturas de tarjetas VIP");
 							String resp = ws.agregarFacturasVIP(cuenta, facturasVips);
-							System.out.println("La respuesta es:" + resp);
+							log.info("--PROC.6-- La respuesta es:" + resp);
 						}
 
 					}
@@ -713,14 +723,15 @@ public class Principal {
 				 * COMIENZO DEL REGISTRO DE FACTURAS
 				 */
 
-				System.out.println(
-						"---------- Subiendo las facturas de los ultimos dias ----------------------------------");
+				log.info(
+						"--PROC.7-- Subiendo las facturas de los ultimos dias");
 				//AHORA SUBIMOS TODAS, ANTES SOLO ERAN LAS DE LOS ULTIMOS 5 DIAS CON EL FILTRO:  WHERE (DATE() - FECHA <= 5 AND NOT EMPTY(FECHA) = .T. )
 				sql = "SELECT  FECHA, DESCRIP, ORDEN, FACTURA, NUMERO, TOTALF FROM FACT_VIP ";
 				rs = stmt.executeQuery(sql);
+				log.info("--PROC.7-- Query extraccion:"+ sql);
 				contador = 0;
 				while (rs.next()) {
-					// System.out.println("Calculando el numero de registros
+					// log.info("Calculando el numero de registros
 					// con: " + contador);
 					contador++;
 				}
@@ -745,16 +756,16 @@ public class Principal {
 					facturasDiaSucursal[cont].setNumero(numero != null ? numero : null);
 					facturasDiaSucursal[cont].setTotalf(totalf != null ? BigDecimal.valueOf(Double.parseDouble(totalf)) : null); 
 
-				
+					log.info("--PROC.7-- Factura:"+facturasDiaSucursal[cont]);
 					
-					System.out.println(facturasDiaSucursal[cont]);
+					
 					cont++;
 				}
 				try {
 					if (facturasDiaSucursal.length > 0) {
-						System.out.println("A punto de enviar " + facturasDiaSucursal.length + " facturas");
+						log.info("--PROC.7-- A punto de enviar " + facturasDiaSucursal.length + " facturas");
 						String resp = ws.agregarFacturasVIP(cuenta, facturasDiaSucursal);
-						System.out.println("La respuesta es:" + resp);
+						log.info("--PROC.7-- La respuesta es:" + resp);
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
@@ -766,7 +777,7 @@ public class Principal {
 				 */
 				break;	
 			default:
-				System.out.println("El argumento proporcionado es incorrecto");
+				log.error("El argumento proporcionado es incorrecto");
 				break;
 			}
 			stmt.close();
@@ -813,6 +824,7 @@ public class Principal {
 
 		return output;
 	}
+
 	public static FacturasVip[][] chunkFactArray(FacturasVip[] array, int chunkSize) {
 		int numOfChunks = (int) Math.ceil((double) array.length / chunkSize);
 		FacturasVip[][] output = new FacturasVip[numOfChunks][];
