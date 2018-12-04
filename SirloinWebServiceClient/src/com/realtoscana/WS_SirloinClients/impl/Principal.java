@@ -47,13 +47,14 @@ public class Principal {
 	 * componente
 	 */
 	public static void initialize() {
-		String log4jConfPath = "resources/log4j.properties";
+		String log4jConfPath = "resources/log4jWeb.properties";
 		PropertyConfigurator.configure(log4jConfPath);
+		log.info("Inicializando la clase Principal");
 		Properties prop = new Properties();
 		InputStream input = null;
 
 		try {
-
+			
 			input = new FileInputStream("config.properties");
 			prop.load(input);
 
@@ -64,7 +65,7 @@ public class Principal {
 			pwdService = prop.getProperty("pwdService");
 			cuenta.setUsuario(userService);
 			cuenta.setPassword(pwdService);
-			log.info("Inicializando la clase Principal");
+			
 			log.info("La url del servicio web es: " + urlService);
 			log.info("La ubicacion del dbf es: " + pathDBF);
 

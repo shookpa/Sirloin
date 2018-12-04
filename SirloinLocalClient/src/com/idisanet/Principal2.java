@@ -29,7 +29,7 @@ public class Principal2 {
 
 	public static void initialize() {
 //		BasicConfigurator.configure();
-		String log4jConfPath = "resources/log4j.properties";
+		String log4jConfPath = "resources/log4jLocal.properties";
 		PropertyConfigurator.configure(log4jConfPath);
 		Properties prop = new Properties();
 		InputStream input = null;
