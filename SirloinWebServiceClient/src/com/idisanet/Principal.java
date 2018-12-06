@@ -1,4 +1,4 @@
-package com.realtoscana.WS_SirloinClients.impl;
+package com.idisanet;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -24,6 +24,7 @@ import javax.xml.rpc.holders.BooleanHolder;
 import javax.xml.rpc.holders.StringHolder;
 
 import org.apache.axis.AxisFault;
+import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.commons.lang3.exception.ExceptionUtils;
@@ -70,13 +71,13 @@ public class Principal {
 			log.info("La ubicacion del dbf es: " + pathDBF);
 
 		} catch (IOException io) {
-			io.printStackTrace();
+			log.error(ExceptionUtils.getStackTrace (io));
 		} finally {
 			if (input != null) {
 				try {
 					input.close();
 				} catch (IOException e) {
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 			}
 
@@ -118,7 +119,7 @@ public class Principal {
 				ws = new WS_SirloinClientsBindingStub(new URL(urlService), null);
 			} catch (Exception e1) {
 				// TODO Auto-generated catch block
-				e1.printStackTrace();
+				log.error(ExceptionUtils.getStackTrace (e1));
 			}
 			ResultSet rs;
 			ResultSet rs2;
@@ -242,7 +243,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				break;
@@ -355,7 +356,8 @@ public class Principal {
 															+ ", FUP local:" + fup_actual
 															+ ", date_timeWeb:" + date_timeWeb
 															+ ", datetimeLocal:" + datetimeLocal);
-											stmt.execute("--PROC.2-- Query actualizacion:"+sqlUpdate);
+											log.info("--PROC.2-- Query actualizacion:"+sqlUpdate);
+											stmt.execute(sqlUpdate);
 											
 											
 											
@@ -375,7 +377,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				
@@ -536,7 +538,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				break;
@@ -593,7 +595,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				/*
@@ -651,7 +653,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				/*
@@ -711,7 +713,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				/*
@@ -770,7 +772,7 @@ public class Principal {
 					}
 				} catch (RemoteException e) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
+					log.error(ExceptionUtils.getStackTrace (e));
 				}
 
 				/*
@@ -785,13 +787,13 @@ public class Principal {
 			conn.close();
 		} catch (ClassNotFoundException | SQLException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error(ExceptionUtils.getStackTrace (e));
 		} catch (NumberFormatException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error(ExceptionUtils.getStackTrace (e));
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			log.error(ExceptionUtils.getStackTrace (e));
 		}
 	}
 
